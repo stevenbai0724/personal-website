@@ -1,6 +1,6 @@
 import React from 'react'
 import line from '../images/line.png'
-import mental from '../images/mental.PNG'
+import mental from '../images/mhh.png'
 
 // https://mentalhealthhacks.devpost.com/
 const FirstHackathon = () =>{
@@ -21,7 +21,7 @@ const FirstHackathon = () =>{
             <br></br>
             <br></br>
         
-            <br></br>
+            <br></br>   
 
         </div>
     )
