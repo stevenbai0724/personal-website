@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import LinkBar from './components/LinkBar';
 import Blogs from './pages/Blogs';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
-
+import FirstHackathon from './pages/FirstHackathon';
 
 const App = () =>{
   return (
@@ -21,6 +21,8 @@ const App = () =>{
     <Route exact path="/personal-website"><Home />  </Route>
     <Route exact path="/Projects"> <Projects/></Route>  
     <Route exact path="/Blogs" component={Blogs}><Blogs /></Route>
+    <Route exact path="/FirstHackathon"><FirstHackathon/></Route>
+
 
     </Switch>
     </div>

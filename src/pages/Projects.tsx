@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+
 
 const Projects = () =>{ 
     return(
@@ -6,6 +8,8 @@ const Projects = () =>{
             <h1 style = {h1Style}>More projects coming soon! </h1>
             <a href = "https://devpost.com/stevenbai0724"><h2 style = {h2Style}>Devpost</h2></a>
             <a href = "https://dmoj.ca/user/stevenbai0724"><h2 style = {h2Style}>DMOJ</h2></a>
+
+
             <br></br>
             <br></br>
             <br></br>
@@ -16,9 +20,7 @@ const Projects = () =>{
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+    
             
 
 
@@ -39,14 +41,14 @@ const h3Style: React.CSSProperties = {
     textAlign: 'left',
     fontWeight: 'normal',
     fontSize: '20px',
-    marginLeft: '28%',
-    marginRight: '27%',
+    lineHeight: '2',
+    
 }
 const imgStyle: React.CSSProperties = {
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    width: '50%',
+    width: '100%',
    
 }
 
