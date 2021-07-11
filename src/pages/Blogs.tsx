@@ -16,7 +16,7 @@ const Blogs = () =>{
 
            
             <h3 style = {h3StyleLeft}>My first hackathon experience</h3>
-            <h3 style = {h3StyleRight}> July 9 2021 | 4 min </h3>
+            <h3 style = {h3StyleRight}> July 9 2021 | 3 min </h3>
           
             
            
