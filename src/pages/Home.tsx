@@ -10,7 +10,7 @@ const Home = () =>{
             
             <img style = {imgStyle} src={line} alt="line"></img>
 
-            <h3 style = {h3Style}>Hello! My name is Steven and I am going into Grade 12. I am currently a frontend web development intern for a start up company called iContribute. I enjoy problem solving and I compete in math and programming contests. </h3>
+            <h3 style = {h3Style}>Hello! My name is Steven and I am going into Grade 12. I am currently a frontend web development intern for a start up company called <a href = "https://icontribute.community/#/">iContribute</a>. I enjoy problem solving and I compete in math and programming contests. </h3>
             
             <h3 style = {h3Style}>Some of my hobbies include piano and competitive swimming. I play video games too but I'm terrible. </h3>
 
@@ -23,7 +23,7 @@ const Home = () =>{
             <br></br>
             <br></br>
             <br></br>
-            
+
         
             <br></br>
 
