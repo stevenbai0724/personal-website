@@ -14,11 +14,20 @@ const Blogs = () =>{
             
             <Link to="/FirstHackathon" style = {linkStyle}>
 
-            <h3 style = {h3Style}>My first hackathon experience</h3>
-          
-            <h4 style = {h4Style}>July 9 2021</h4>
            
+            <h3 style = {h3StyleLeft}>My first hackathon experience</h3>
+            <h3 style = {h3StyleRight}> July 9 2021 | 4 min </h3>
+          
+            
+           
+            
             </Link>
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
@@ -43,17 +52,19 @@ const h2Style: React.CSSProperties = {
     fontWeight: 'normal',
     fontSize: '25px',
 }
-const h3Style: React.CSSProperties = {
+const h3StyleLeft: React.CSSProperties = {
     textAlign: 'left',
     fontWeight: 'normal',
-    fontSize: '22px',
-    lineHeight: '0.5',
+    fontSize: '20px',
+    float: 'left',
+
 }
-const h4Style: React.CSSProperties = {
-    textAlign: 'left',
+const h3StyleRight: React.CSSProperties = {
+    textAlign: 'right',
     fontWeight: 'normal',
-    fontSize: '18px',
-    lineHeight: '0.5',
+    fontSize: '20px',
+    float: 'right',  
+
 }
 const imgStyle: React.CSSProperties = {
     display: 'block',
@@ -64,6 +75,8 @@ const imgStyle: React.CSSProperties = {
 }
 const linkStyle: React.CSSProperties = {
     color : '#38FC94',
+    
+
 }
 
 export default Blogs;

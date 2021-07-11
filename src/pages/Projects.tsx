@@ -5,11 +5,15 @@ import {Link} from 'react-router-dom'
 const Projects = () =>{ 
     return(
         <div>
-            <h1 style = {h1Style}>More projects coming soon! </h1>
+            <h1 style = {h1Style}>Project page under construction </h1>
             <a href = "https://devpost.com/stevenbai0724"><h2 style = {h2Style}>Devpost</h2></a>
             <a href = "https://dmoj.ca/user/stevenbai0724"><h2 style = {h2Style}>DMOJ</h2></a>
 
 
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
