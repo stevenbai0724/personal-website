@@ -15,8 +15,8 @@ const Blogs = () =>{
             <Link to="/FirstHackathon" style = {linkStyle}>
 
            
-            <h3 style = {h3StyleLeft}>My first hackathon experience</h3>
-            <h3 style = {h3StyleRight}> July 9 2021 | 3 min </h3>
+            <h3 style = {h3StyleLeft}>My first hackathon experience - July 9 2021 | 3 min</h3>
+        
           
             
            
@@ -57,13 +57,6 @@ const h3StyleLeft: React.CSSProperties = {
     fontWeight: 'normal',
     fontSize: '20px',
     float: 'left',
-
-}
-const h3StyleRight: React.CSSProperties = {
-    textAlign: 'right',
-    fontWeight: 'normal',
-    fontSize: '20px',
-    float: 'right',  
 
 }
 const imgStyle: React.CSSProperties = {
