@@ -8,7 +8,7 @@ const Projects = () =>{
             <h1 style = {h1Style}>Project page under construction </h1>
             <a href = "https://devpost.com/stevenbai0724"><h2 style = {h2Style}>Devpost</h2></a>
             <a href = "https://dmoj.ca/user/stevenbai0724"><h2 style = {h2Style}>DMOJ</h2></a>
-
+            <a href = "https://github.com/stevenbai0724"><h2 style = {h2Style}> GitHub</h2></a>
 
             <br></br>
             <br></br>

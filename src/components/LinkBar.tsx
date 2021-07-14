@@ -20,7 +20,7 @@ const LinkBar = () =>{
             <li>
                 <a href = "mailto:stevenbai0724@gmail.com"> <img src = {gmail}></img></a>
             </li>
-
+           
         </ul>
     )
 }

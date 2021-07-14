@@ -15,7 +15,7 @@ const Blogs = () =>{
             <Link to="/FirstHackathon" style = {linkStyle}>
 
            
-            <h3 style = {h3StyleLeft}>My first hackathon experience - July 9 2021 | 3 min</h3>
+            <h3 style = {h3StyleLeft}>My first hackathon experience - July 9 2021 | 4 min</h3>
         
           
             
