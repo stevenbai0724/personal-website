@@ -12,7 +12,7 @@ const FirstHackathon = () =>{
             <h2 style = {h2Style}>July 9th, 2021 | 4 min read </h2>
             
             <img style = {imgStyle} src={line} alt="line"></img>
-            <a href="https://mentalhealthhacks.devpost.com/"><img style = {imgStyle} src={mental} alt="mental"></img></a>
+            <a target="_blank" href="https://mentalhealthhacks.devpost.com/"><img style = {imgStyle} src={mental} alt="mental"></img></a>
 
             <h3 style = {h3Style}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During my grade 11 online school year, I was getting really bored of school and I had some time on my hands so I joined a hackathon which spanned from May 21- May 23, 2021. My friend Luke and I are both looking to apply to Computer Science for university and we were inspired to start building projects to improve our application. As a result, we took the leap of faith and decided to join an online hackathon together (Mental Health Hacks) as complete beginners. </h3>
 
@@ -26,8 +26,8 @@ const FirstHackathon = () =>{
         
             <br></br>   
 
-            <a href = "https://mentalhealthhacks.devpost.com/" style={aStyle}> <h3 style = {h3Style}>Mental Health Hacks</h3></a>
-            <a href = "https://devpost.com/software/easy-peacy" style={aStyle}> <h3 style = {h3Style}>Easy Peacy</h3></a>
+            <a target="_blank" href = "https://mentalhealthhacks.devpost.com/" style={aStyle}> <h3 style = {h3Style}>Mental Health Hacks</h3></a>
+            <a target="_blank"href = "https://devpost.com/software/easy-peacy" style={aStyle}> <h3 style = {h3Style}>Easy Peacy</h3></a>
 
         </div>
     )

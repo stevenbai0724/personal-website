@@ -26,12 +26,14 @@ const App = () =>{
 
     </Switch>
     </div>
+
+    <div>
     <LinkBar></LinkBar>
+    </div>
 
     <br></br>
     <br></br>
     
-
     </header>
 
 
