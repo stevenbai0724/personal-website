@@ -49,7 +49,7 @@ const imgStyle: React.CSSProperties = {
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    width: '100%',
+    width: "100%",
    
 }
 const aStyle: React.CSSProperties = {
