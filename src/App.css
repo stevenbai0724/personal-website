@@ -20,10 +20,10 @@
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1300px) {
   .App-header {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
 
   }
 }

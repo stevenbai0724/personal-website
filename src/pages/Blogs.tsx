@@ -1,16 +1,34 @@
 import React from 'react';
 import line from '../images/line.png'
 import {Link} from 'react-router-dom'
+import { makeStyles} from "@material-ui/core";
+
+const useStyles = makeStyles((theme) =>  ({
+
+    
+    img: {
+        width: "100%",
+    },
+  
+
+    '@media only screen and (max-width: 900px)': {
+    
+        img: {
+            width: "100%",
+        },
+    }
+      
 
 
+}));
 const Blogs = () =>{ 
+    const classes = useStyles();
     return(
         <div>
-            
             <h1 style = {h1Style}>Blogs</h1>
             
             <h2 style = {h2Style}>Interesting stories and experiences worth sharing </h2>
-            <img style = {imgStyle} src={line} alt="line"></img>
+            <img className = {classes.img} src={line} alt="line"></img>
             
             <Link to="/FirstHackathon" style = {linkStyle}>
 
@@ -18,6 +36,16 @@ const Blogs = () =>{
             <h3 style = {h3StyleLeft}>My first hackathon experience - July 9 2021 | 4 min</h3>
         
           
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
