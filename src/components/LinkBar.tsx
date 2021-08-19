@@ -1,11 +1,6 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import Home from '../pages/Home'
-import Projects from '../pages/Projects'
-import './LinkBar.css';
-import github from '../images/github.png'
-import linkedin from '../images/linkedin.png'
-import gmail from '../images/gmail.png'
+
+import './Bar.css';
+
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaEnvelope} from 'react-icons/fa'
@@ -14,8 +9,8 @@ import { FaEnvelope} from 'react-icons/fa'
 const LinkBar = () =>{
     return(
 
-        <div className = "LinkBar">
-        <ul >
+        
+        <ul className = "link">
             <li >
                <a target="_blank" href = "https://github.com/stevenbai0724"> <FaGithub/> </a>
             </li>
@@ -28,7 +23,7 @@ const LinkBar = () =>{
            
         </ul>
 
-        </div>
+        
    
     )
 }

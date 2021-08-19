@@ -5,12 +5,22 @@ import { makeStyles} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) =>  ({
 
-    
     img: {
         width: "100%",
         display: "flex",
     },
-  
+    h1: {
+
+    },
+    h2: {
+
+    },
+    h3: {
+
+    },
+    a: {
+
+    },
 
     '@media only screen and (max-width: 900px)': {
     
@@ -18,8 +28,7 @@ const useStyles = makeStyles((theme) =>  ({
             width: "100%",
         },
     }
-      
-
+    
 
 }));
 
@@ -67,13 +76,6 @@ const h3Style: React.CSSProperties = {
     fontSize: '20px',
     lineHeight: '1.5',
     
-}
-const imgStyle: React.CSSProperties = {
-    display: 'block',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    width: "100%",
-   
 }
 const aStyle: React.CSSProperties = {
     color: 'white',

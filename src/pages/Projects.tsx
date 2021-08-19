@@ -13,6 +13,7 @@ import exLink from '../images/exLink.png'
 import reactLogo from '../images/reactLogo.png'
 import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
+import line from '../images/line.png'
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -71,6 +72,10 @@ const useStyles = makeStyles((theme) =>  ({
         height: "100%",
         fontSize: "20px",
     },
+    img: {
+        width: "100%",
+        borderRadius: "10px",
+    },
 
     '@media only screen and (max-width: 900px)': {
         paper:{
@@ -87,13 +92,14 @@ const Projects = () =>{
 
     return(
         <div >
+           
             <h1 style = {h1Style}>Projects</h1>
 
             <h2 style = {h2Style}>In progress and completed projects</h2>
 
-      
             <br></br>
-
+            
+            <div>
             <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
                 <Grid item>
              
@@ -186,7 +192,7 @@ const Projects = () =>{
 
             </Grid>
 
-
+            </div>
      
 
             

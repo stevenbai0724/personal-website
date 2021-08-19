@@ -22,8 +22,8 @@
 
 @media only screen and (max-width: 1300px) {
   .App-header {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
 
   }
 }

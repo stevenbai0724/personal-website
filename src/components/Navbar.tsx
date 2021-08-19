@@ -1,27 +1,48 @@
-import React from 'react'
+import {useState} from 'react'
 import {Link} from 'react-router-dom'
-import Home from '../pages/Home'
-import Projects from '../pages/Projects'
-import './Navbar.css';
+import { makeStyles} from "@material-ui/core";
+
+import './Bar.css';
+import React from 'react';
+import { classicNameResolver } from 'typescript';
+
+const useStyles = makeStyles((theme) =>  ({
+
+    li: {
+        '&:active' : {
+            backgroundColor: "red",
+        }
+    },
+
+    
+
+}));
 
 const Navbar = () =>{
+
+    const classes = useStyles();
     return(
 
-        <ul >
-
-            <li >
+        
+        <ul className = "nav">
+        
+            <li 
+                
+            >
                 <Link to="/">Home</Link>
             </li>
             <li >
                 <Link to="/Projects">Projects</Link>
             </li>
-            <li>
+            <li >
                 <Link to="/Blogs">Blogs</Link>
             </li>
 
         </ul>
     )
 }
+
+
 
 
 
