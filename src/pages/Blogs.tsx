@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme) =>  ({
     btnBase: {
         width: "150px",
         height: "150px",
-        backgroundCllor: "blue",
     },
     grid: {
         width: "100%",
@@ -56,13 +55,17 @@ const useStyles = makeStyles((theme) =>  ({
             width: "100%",
         },
         h2: {
-            fontSize: '20px',
+            fontSize: '16px',
         },
         h3: {
-            fontSize: '18px',
+            fontSize: '14px',
         },
         smallGrid:{
-            width: '200px'
+            width: '130px'
+        },
+        btnBase: {
+            width: "125px",
+            height: "125px",
         },
     }
       
@@ -93,7 +96,7 @@ const Blogs = () =>{
                 <Grid item className = {classes.smallGrid} >
                     
                     
-                    <h2 className = {classes.h2}>My first hackathon experience</h2>
+                    <h2 className = {classes.h2}>First hackathon experience</h2>
                     <h3 className = {classes.h3}>July 9 | 4 min read</h3>
 
 
