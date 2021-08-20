@@ -8,7 +8,7 @@ import mental from '../images/mhh2.png'
 
 const useStyles = makeStyles((theme) =>  ({
 
-    
+    //PC
     img: {
         width: "100%",
         borderRadius: "10px",
@@ -42,8 +42,16 @@ const useStyles = makeStyles((theme) =>  ({
         fontSize: '25px',
         color: 'black',
         textAlign: "left",
-        lineHeight: '0.5',
+      
     },
+    h2Right: {
+        fontWeight: 'bold',
+        fontSize: '25px',
+        color: 'black',
+        textAlign: "right",
+      
+    },
+
     h3: {
         color: 'black',
         fontWeight: 'normal',
@@ -65,7 +73,7 @@ const useStyles = makeStyles((theme) =>  ({
 
  
     },
-    
+    //Phone
     '@media only screen and (max-width: 600px)': {
     
         img: {
@@ -73,6 +81,10 @@ const useStyles = makeStyles((theme) =>  ({
         },
         h2: {
             fontSize: '18px',
+        },
+        h2Right: {
+            fontSize: '18px',
+          
         },
         h3: {
             fontSize: '14px',
@@ -85,14 +97,43 @@ const useStyles = makeStyles((theme) =>  ({
             width: "125px",
             height: "125px",
         },
+        div: {
+        
+           width: "150px",
+    
+     
+        },
+    },
+    //Small phone
+    '@media only screen and (max-width: 350px)': {
+        div: {
+        
+            width: "120px",
+         },
+         btnBase: {
+            width: "100px",
+            height: "100px",
+        },
+        h2: {
+            fontSize: '15px',
+        },
+        h2Right: {
+            fontSize: '15px',
+          
+        },
+        h3: {
+            fontSize: '12px',
+        },
+        h3Right: {
+            fontSize: '12px',
+        },
     }
       
-
-
 }));
 const Blogs = () =>{ 
     const classes = useStyles();
     return(
+
         <div>
             <h1 className = {classes.h1}>Blogs</h1>
             
@@ -137,7 +178,7 @@ const Blogs = () =>{
                     
                 <div className = {classes.div}>
 
-                <h2 className = {classes.h2}>My Programming Journey</h2>
+                <h2 className = {classes.h2Right}>My Programming Journey</h2>
                 <h3 className = {classes.h3Right}>coming soon!</h3>
 
                 </div>
