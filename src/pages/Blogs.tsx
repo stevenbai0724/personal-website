@@ -77,6 +77,9 @@ const useStyles = makeStyles((theme) =>  ({
         h3: {
             fontSize: '14px',
         },
+        h3Right: {
+            fontSize: '14px',
+        },
 
         btnBase: {
             width: "125px",
