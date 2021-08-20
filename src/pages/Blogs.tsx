@@ -21,6 +21,8 @@ const useStyles = makeStyles((theme) =>  ({
         width: "100%",
         backgroundColor: "#38FC94",
         borderRadius: "10px",
+        marginTop: "20px",
+
         '&:hover' : {
           
             transform: "scale(1.01)",
@@ -36,17 +38,32 @@ const useStyles = makeStyles((theme) =>  ({
         color: 'white',
     },
     h2: {
-        fontWeight: 'normal',
+        fontWeight: 'bold',
         fontSize: '25px',
         color: 'black',
+        textAlign: "left",
+        lineHeight: '0.5',
     },
     h3: {
         color: 'black',
         fontWeight: 'normal',
         fontSize: '20px',
+        textAlign: "left",
     },
-    smallGrid:{
+    h3Right: {
+        color: 'black',
+        fontWeight: 'normal',
+        fontSize: '20px',
+        textAlign: "right",
+    },
+    div: {
         
+        justifyContent: "center",
+        flexDirection: "column",
+        display: "flex",
+
+
+ 
     },
     
     '@media only screen and (max-width: 600px)': {
@@ -55,14 +72,12 @@ const useStyles = makeStyles((theme) =>  ({
             width: "100%",
         },
         h2: {
-            fontSize: '15px',
+            fontSize: '18px',
         },
         h3: {
             fontSize: '14px',
         },
-        smallGrid:{
-            width: '130px'
-        },
+
         btnBase: {
             width: "125px",
             height: "125px",
@@ -81,12 +96,11 @@ const Blogs = () =>{
             <h2 className = {classes.h2Title}>Interesting stories and experiences worth sharing </h2>
             <img className = {classes.img} src={line} alt="line"></img>
             
-            <br></br>
-            <br></br>
+
 
 
             <Link to="/FirstHackathon" style = {linkStyle}>
-            <Grid container direction = "row" className = {classes.grid} spacing = {2}>
+            <Grid container direction = "row" className = {classes.grid} spacing = {2} >
                
                 <Grid item>
                     
@@ -94,22 +108,49 @@ const Blogs = () =>{
 
                 </Grid>
 
-                <Grid item className = {classes.smallGrid} >
                     
-                    
-                    <h2 className = {classes.h2}>First hackathon experience</h2>
-                    <h3 className = {classes.h3}>July 9 | 4 min read</h3>
+                    <div className = {classes.div}>
+                        <h2 className = {classes.h2}>First hackathon experience</h2>
 
+                        <h3 className = {classes.h3}>July 9 | 4 min read</h3>
+                    </div>
+
+            
+                
+
+            </Grid>
+            </Link>
+            
+            <Link to="/ProgrammingJourney" style = {linkStyle}>
+            <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2}>
+               
+
+                <Grid item>
+                    
+                    <ButtonBase className = {classes.btnBase}><img src = {mental} alt = "MLH" className = {classes.img}></img></ButtonBase>
 
                 </Grid>
+              
+                    
+                <div className = {classes.div}>
+
+                <h2 className = {classes.h2}>My Programming Journey</h2>
+                <h3 className = {classes.h3Right}>coming soon!</h3>
+
+                </div>
+               
+
+           
+
+                
 
                 
 
             </Grid>
             </Link>
             
-            
-            <br></br>
+
+
             <br></br>
             <br></br>
             <br></br>
