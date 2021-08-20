@@ -6,16 +6,9 @@ import { makeStyles} from "@material-ui/core";
 const useStyles = makeStyles((theme) =>  ({
 
     
-    img: {
-        display: 'block',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        width: '100%',
-    },
     h1: {
-        textAlign: "center",
+        textAlign: 'center',
     },
-
     h2: {
         textAlign: 'center',
         fontWeight: 'normal',
@@ -27,17 +20,33 @@ const useStyles = makeStyles((theme) =>  ({
         fontSize: '20px',
         lineHeight: '1.5',
     },
-
-    
-    '@media only screen and (max-width: 600px)': {
-    
-        img: {
-            width: "100%",
-        },
-
-    }
+    h2Right: {
+        textAlign: 'center',
+        fontWeight: 'normal',
+        fontSize: '25px',
+    },
+    h3Right: {
+        textAlign: 'left',
+        fontWeight: 'normal',
+        fontSize: '20px',
+        lineHeight: '1.5',
+    },
+    h4Right:{
+        textAlign: 'left',
+        fontWeight: 'normal',
+        fontSize: '17px',
+        lineHeight: '1.5',
+    },
+    img: {
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        width: '100%',
+    },
+    a: {
+        color: 'white',
+    },
       
-
 
 }));
 const ProgrammingJourney = () =>{

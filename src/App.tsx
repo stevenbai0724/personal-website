@@ -8,6 +8,8 @@ import Blogs from './pages/Blogs';
 import {HashRouter as Router, Route, Switch, Link} from 'react-router-dom'
 import FirstHackathon from './pages/FirstHackathon';
 import ProgrammingJourney from './pages/ProgrammingJourney';
+import Timeline from './pages/Timeline';
+
 const App = () =>{
   return (
   <Router>
@@ -24,7 +26,7 @@ const App = () =>{
     <Route exact path="/Blogs" component={Blogs}><Blogs /></Route>
     <Route exact path="/FirstHackathon"component={FirstHackathon}></Route>
     <Route exact path="/ProgrammingJourney" component={ProgrammingJourney}></Route>
-
+    <Route exact path="/Timeline" component={Timeline}></Route>
     </Switch>
   
 

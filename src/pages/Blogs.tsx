@@ -4,8 +4,7 @@ import {Link} from 'react-router-dom'
 import { makeStyles} from "@material-ui/core";
 import {Grid, Paper, ButtonBase} from '@material-ui/core/';
 import mental from '../images/mhh2.png'
-
-
+import timeline from '../images/timeline.png'
 const useStyles = makeStyles((theme) =>  ({
 
     //PC
@@ -165,33 +164,48 @@ const Blogs = () =>{
             </Grid>
             </Link>
             
-            <Link to="/ProgrammingJourney" style = {linkStyle}>
+            <Link to="/Timeline" style = {linkStyle}>
             <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2}>
                
-
                 <Grid item>
                     
-                    <ButtonBase className = {classes.btnBase}><img src = {mental} alt = "MLH" className = {classes.img}></img></ButtonBase>
+                    <ButtonBase className = {classes.btnBase}><img src = {timeline} alt = "line" className = {classes.img}></img></ButtonBase>
 
                 </Grid>
               
                     
                 <div className = {classes.div}>
 
-                <h2 className = {classes.h2Right}>My Programming Journey</h2>
-                <h3 className = {classes.h3Right}>coming soon!</h3>
+                <h2 className = {classes.h2Right}>Programming Timeline</h2>
+                <h3 className = {classes.h3Right}>2019 - present</h3>
 
                 </div>
+
+            </Grid>
+            </Link>
+
+            <Link to="/ProgrammingJourney" style = {linkStyle}>
+            <Grid container direction = "row" className = {classes.grid} spacing = {2} >
                
+                <Grid item>
+                    
+                    <ButtonBase className = {classes.btnBase}><img alt = "img" className = {classes.img}></img></ButtonBase>
 
-           
+                </Grid>
 
-                
+                    
+                    <div className = {classes.div}>
+                        <h2 className = {classes.h2}>My Programming Journey</h2>
 
+                        <h3 className = {classes.h3}>coming soon!</h3>
+                    </div>
+
+            
                 
 
             </Grid>
             </Link>
+            
             
 
 

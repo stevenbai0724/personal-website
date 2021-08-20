@@ -171,7 +171,7 @@ const Projects = () =>{
 
                     <ButtonBase style ={image}><img src = {reactLogo} alt = "IC" style = {image}></img></ButtonBase>
 
-                    <h3 style = {h3Style}>Using the technologies I learned from my internship, I built a personal website and hosted it here on GitHub Pages. Here on my personal website you can find a short bio of and some projects and blogs. </h3>
+                    <h3 style = {h3Style}>Using the technologies I learned from my internship, I built a personal website and hosted it here on GitHub Pages. Here on my personal website you can find a short bio of me and some projects and blogs. </h3>
                     <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript</ButtonBase>, <ButtonBase className = {classes.btnBase}> React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://stevenbai0724.github.io/personal-website"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Home Page</ButtonBase></a></Paper>
