@@ -7,7 +7,7 @@ import twitch from '../images/twitch.png'
 const FirstHackathon = () =>{
     return(
         <div>
-            <h1 style = {h1Style}>My first hackathon experience</h1>
+            <h1 style = {h1Style}>First hackathon experience</h1>
 
             <h2 style = {h2Style}>July 9th, 2021 | 4 min read </h2>
             

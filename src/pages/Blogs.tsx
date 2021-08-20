@@ -49,13 +49,13 @@ const useStyles = makeStyles((theme) =>  ({
         
     },
     
-    '@media only screen and (max-width: 900px)': {
+    '@media only screen and (max-width: 600px)': {
     
         img: {
             width: "100%",
         },
         h2: {
-            fontSize: '16px',
+            fontSize: '15px',
         },
         h3: {
             fontSize: '14px',
@@ -81,7 +81,8 @@ const Blogs = () =>{
             <h2 className = {classes.h2Title}>Interesting stories and experiences worth sharing </h2>
             <img className = {classes.img} src={line} alt="line"></img>
             
-       
+            <br></br>
+            <br></br>
 
 
             <Link to="/FirstHackathon" style = {linkStyle}>
