@@ -39,6 +39,10 @@ const useStyles = makeStyles((theme) =>  ({
         alignItems: "center",
         justifyContent: "space-between",
     },
+    divFill: {
+        height: 'calc(100vh - 500px)',
+        
+    },
 
 
     '@media only screen and (max-width: 500px)': {
@@ -100,12 +104,10 @@ const Home = () =>{
             <h3 className = {classes.h3}>I created this website to organize my projects and work experiences, especially in the programming field. This site is still under early stages of development and I am constantly making updates to it.</h3>
             <br></br>
             
+            <div className = {classes.divFill}>
             <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+
+            </div>
 
         
             <br></br>

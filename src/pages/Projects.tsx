@@ -79,6 +79,10 @@ const useStyles = makeStyles((theme) =>  ({
         width: "100%",
         borderRadius: "10px",
     },
+    divFill: {
+        height: 'calc(100vh - 500px)',
+        
+    },
 
     '@media only screen and (max-width: 900px)': {
         paper:{
@@ -199,20 +203,10 @@ const Projects = () =>{
      
 
             
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <div className = {classes.divFill}>
+                <br></br>
+            </div>
+
 
 
 

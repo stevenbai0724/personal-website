@@ -1,10 +1,12 @@
 import React from 'react';
 import line from '../images/line.png'
-import {Link} from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 import { makeStyles} from "@material-ui/core";
 import {Grid, Paper, ButtonBase} from '@material-ui/core/';
 import mental from '../images/mhh2.png'
 import timeline from '../images/timeline.png'
+import python from '../images/python.jpg'
+
 const useStyles = makeStyles((theme) =>  ({
 
     //PC
@@ -68,9 +70,13 @@ const useStyles = makeStyles((theme) =>  ({
         justifyContent: "center",
         flexDirection: "column",
         display: "flex",
-
+        padding: 5,
 
  
+    },
+    divFill: {
+        height: 'calc(100vh - 500px)',
+        
     },
     //Phone
     '@media only screen and (max-width: 600px)': {
@@ -103,6 +109,7 @@ const useStyles = makeStyles((theme) =>  ({
      
         },
     },
+
     //Small phone
     '@media only screen and (max-width: 350px)': {
         div: {
@@ -141,31 +148,8 @@ const Blogs = () =>{
             
 
 
-
-            <Link to="/FirstHackathon" style = {linkStyle}>
-            <Grid container direction = "row" className = {classes.grid} spacing = {2} >
-               
-                <Grid item>
-                    
-                    <ButtonBase className = {classes.btnBase}><img src = {mental} alt = "MLH" className = {classes.img}></img></ButtonBase>
-
-                </Grid>
-
-                    
-                    <div className = {classes.div}>
-                        <h2 className = {classes.h2}>First hackathon experience</h2>
-
-                        <h3 className = {classes.h3}>July 9 | 4 min read</h3>
-                    </div>
-
-            
-                
-
-            </Grid>
-            </Link>
-            
-            <Link to="/Timeline" style = {linkStyle}>
-            <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2}>
+            <Link to="/Timeline#top" style = {linkStyle}>
+            <Grid container direction = "row" className = {classes.grid} spacing = {2}>
                
                 <Grid item>
                     
@@ -176,26 +160,48 @@ const Blogs = () =>{
                     
                 <div className = {classes.div}>
 
-                <h2 className = {classes.h2Right}>Programming Timeline</h2>
-                <h3 className = {classes.h3Right}>2019 - present</h3>
+                <h2 className = {classes.h2}>Programming Timeline</h2>
+                <h3 className = {classes.h3}>2019 - present</h3>
 
                 </div>
 
             </Grid>
             </Link>
 
-            <Link to="/ProgrammingJourney" style = {linkStyle}>
-            <Grid container direction = "row" className = {classes.grid} spacing = {2} >
+            <Link to="/FirstHackathon#top" style = {linkStyle}>
+            <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2} >
                
                 <Grid item>
                     
-                    <ButtonBase className = {classes.btnBase}><img alt = "img" className = {classes.img}></img></ButtonBase>
+                    <ButtonBase className = {classes.btnBase}><img src = {mental} alt = "MLH" className = {classes.img}></img></ButtonBase>
 
                 </Grid>
 
                     
                     <div className = {classes.div}>
-                        <h2 className = {classes.h2}>My Programming Journey</h2>
+                        <h2 className = {classes.h2Right}>First hackathon experience</h2>
+
+                        <h3 className = {classes.h3Right}>July 9 | 4 min read</h3>
+                    </div>
+
+            
+                
+
+            </Grid>
+            </Link>
+            
+            <Link to="/ProgrammingJourney#top" style = {linkStyle}>
+            <Grid container direction = "row" className = {classes.grid} spacing = {2} >
+               
+                <Grid item>
+                    
+                    <ButtonBase className = {classes.btnBase}><img src = {python} alt = "img" className = {classes.img}></img></ButtonBase>
+
+                </Grid>
+
+                    
+                    <div className = {classes.div}>
+                        <h2 className = {classes.h2}>How I got started with coding</h2>
 
                         <h3 className = {classes.h3}>coming soon!</h3>
                     </div>
@@ -206,39 +212,11 @@ const Blogs = () =>{
             </Grid>
             </Link>
             
-            
+            <div className = {classes.divFill}>
+                <br></br>
+            </div>
 
 
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-           
-            
-            
-
-            
-            
 
         </div>
     )

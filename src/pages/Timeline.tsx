@@ -54,12 +54,14 @@ const Timeline = () => {
     return (
 
         <div>
-
             <h1 className = {classes.h1}>Programming timeline</h1>
             <h2 className = {classes.h2}>2019 - Present</h2>
             <img className = {classes.img} src={line} alt="line"></img>
 
             <h2 className = {classes.h2Left}>2021</h2>
+
+            <h3 className = {classes.h3Left}>September</h3>
+            <h4 className = {classes.h4Left}>-Started learning <a className={classes.a} target="_blank" href="https://expressjs.com/">Express</a> for backend development  </h4>
 
             <h3 className = {classes.h3Left}>August</h3>
             <h4 className = {classes.h4Left}>-Solved 5 problems on a <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1560/standings/participant/118837552#p118837552">Div. 3 CodeForces Round </a>, (#271st place out of 27251 contestants)</h4>

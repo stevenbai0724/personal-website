@@ -46,6 +46,10 @@ const useStyles = makeStyles((theme) =>  ({
     a: {
         color: 'white',
     },
+    divFill: {
+        height: 'calc(100vh)',
+        
+    },
       
 
 }));
@@ -55,13 +59,20 @@ const ProgrammingJourney = () =>{
     return (
 
     <div>
-        <h1 className = {classes.h1}>My Programming Journey</h1>
+        <h1 className = {classes.h1}>How I got started with coding</h1>
 
         <img className = {classes.img} src={line} alt="line"></img>
 
 
         Coming soon!
+
+            <div className = {classes.divFill}>
+                <br></br>
+            </div>
+
     </div>
+
+
 
 
     )
