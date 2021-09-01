@@ -8,7 +8,7 @@ const FirstHackathon = () =>{
     return(
         <div>
             <h1 style = {h1Style}>First hackathon experience</h1>
-
+            
             <h2 style = {h2Style}>July 9th, 2021 | 4 min read </h2>
             
             <img style = {imgStyle} src={line} alt="line"></img>

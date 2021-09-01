@@ -1,34 +1,15 @@
-import {useState} from 'react'
 import {Link} from 'react-router-dom'
-import { makeStyles} from "@material-ui/core";
-
+import PDF from '../pdf/stevenbairesume.pdf'
 import './Bar.css';
 import React from 'react';
-import { classicNameResolver } from 'typescript';
-
-const useStyles = makeStyles((theme) =>  ({
-
-    li: {
-        '&:active' : {
-            backgroundColor: "red",
-        }
-    },
-
-    
-
-}));
 
 const Navbar = () =>{
-
-    const classes = useStyles();
     return(
 
         
         <ul className = "nav">
         
-            <li 
-                
-            >
+            <li >
                 <Link to="/">Home</Link>
             </li>
             <li >
@@ -36,6 +17,9 @@ const Navbar = () =>{
             </li>
             <li >
                 <Link to="/Blogs">Blogs</Link>
+            </li>
+            <li>
+                <a href = {PDF} target = "_blank">Resume</a>
             </li>
 
         </ul>

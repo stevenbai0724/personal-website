@@ -70,7 +70,7 @@ const Timeline = () => {
             <h4 className = {classes.h4Left}>-Started solving on CodeForces everyday instead of DMOJ </h4>
 
             <h3 className = {classes.h3Left}>June</h3>
-            <h4 className = {classes.h4Left}>-Wrote AP Calc and Mechanics. Failed both.</h4>
+            <h4 className = {classes.h4Left}>-Wrote AP Calc and Mechanics. Did terrible on both.</h4>
             <h4 className = {classes.h4Left}>-Finished grade 11 and took a break from programming</h4>
 
 

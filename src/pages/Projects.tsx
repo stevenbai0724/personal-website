@@ -13,7 +13,7 @@ import exLink from '../images/exLink.png'
 import reactLogo from '../images/reactLogo.png'
 import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
-import line from '../images/line.png'
+
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -46,7 +46,10 @@ const useStyles = makeStyles((theme) =>  ({
         padding: 12,
         margin: "auto",
         width: "350px",
-    
+        '&:hover' : {
+          
+            transform: "scale(1.02)",
+        }
 
     },
     tab: {
@@ -109,7 +112,7 @@ const Projects = () =>{
                             
                         <ButtonBase style ={image}><img src = {CP} alt = "CP" style = {image}></img></ButtonBase>
 
-                        <h3 style = {h3Style}>I particpate in programming contests on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" style = {h3Style}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/BLEACHUGGR" style = {h3Style}>CodeForces</a>. I like to solve programming problems that practice math, logic, algorithms and data structures mainly in C++.</h3>
+                        <h3 style = {h3Style}>I particpate in programming contests on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" style = {h3Style}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/BLEACHUGGR" style = {h3Style}>CodeForces</a>. I solve programming problems using math, logic, algorithms and data structures mainly in C++.</h3>
                         <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> C++</ButtonBase>, <ButtonBase className = {classes.btnBase}> Java</ButtonBase></h2></Paper>
                         <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724"><ButtonBase style = {view} > <FaGithub style = {icon} />View on GitHub</ButtonBase></a> </Paper>
                         <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://dmoj.ca/user/stevenbai0724"><ButtonBase style = {view}> <img src = {DMOJ} alt = "DMOJ" style = {icon}></img>View on DMOJ</ButtonBase></a></Paper>
@@ -151,7 +154,7 @@ const Projects = () =>{
 
                     <ButtonBase style ={image}><img src = {IC} alt = "IC" style = {image}></img></ButtonBase>
 
-                    <h3 style = {h3Style}>I am currently helping with the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
+                    <h3 style = {h3Style}>I am worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
                     <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript</ButtonBase>, <ButtonBase className = {classes.btnBase}> React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://icontribute.community/#/"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Official Website</ButtonBase></a></Paper>
@@ -171,7 +174,7 @@ const Projects = () =>{
 
                     <ButtonBase style ={image}><img src = {reactLogo} alt = "IC" style = {image}></img></ButtonBase>
 
-                    <h3 style = {h3Style}>Using the technologies I learned from my internship, I built a personal website and hosted it here on GitHub Pages. Here on my personal website you can find a short bio of me and some projects and blogs. </h3>
+                    <h3 style = {h3Style}>After learning frontend development at my first internship, I made this website from scracted, hosted with GitHub Pages. Here on my website you can find a short bio of me and some projects and blogs. </h3>
                     <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript</ButtonBase>, <ButtonBase className = {classes.btnBase}> React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://stevenbai0724.github.io/personal-website"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Home Page</ButtonBase></a></Paper>
