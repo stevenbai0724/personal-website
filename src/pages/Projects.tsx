@@ -158,7 +158,7 @@ const Projects = () =>{
 
                     <ButtonBase style ={image}><img src = {IC} alt = "IC" style = {image}></img></ButtonBase>
 
-                    <h3 style = {h3Style}>I am worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
+                    <h3 style = {h3Style}>I worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
                     <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://icontribute.community/#/"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Official Website</ButtonBase></a></Paper>
