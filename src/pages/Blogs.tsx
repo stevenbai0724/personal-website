@@ -5,7 +5,7 @@ import { makeStyles} from "@material-ui/core";
 import {Grid, Paper, ButtonBase} from '@material-ui/core/';
 import mental from '../images/mhh2.png'
 import timeline from '../images/timeline.png'
-import python from '../images/python.jpg'
+import python from '../images/python sqr.jpg'
 
 const useStyles = makeStyles((theme) =>  ({
 
@@ -181,7 +181,7 @@ const Blogs = () =>{
                     <div className = {classes.div}>
                         <h2 className = {classes.h2Right}>First hackathon experience</h2>
 
-                        <h3 className = {classes.h3Right}>July 9 | 4 min read</h3>
+                        <h3 className = {classes.h3Right}>July 2021 | 4 min read</h3>
                     </div>
 
             
@@ -203,7 +203,7 @@ const Blogs = () =>{
                     <div className = {classes.div}>
                         <h2 className = {classes.h2}>How I got started with coding</h2>
 
-                        <h3 className = {classes.h3}>coming soon!</h3>
+                        <h3 className = {classes.h3}>August 2021 | 10 min read</h3>
                     </div>
 
             

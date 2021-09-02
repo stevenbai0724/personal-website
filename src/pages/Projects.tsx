@@ -159,7 +159,7 @@ const Projects = () =>{
                     <ButtonBase style ={image}><img src = {IC} alt = "IC" style = {image}></img></ButtonBase>
 
                     <h3 style = {h3Style}>I am worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
-                    <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript</ButtonBase>, <ButtonBase className = {classes.btnBase}> React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
+                    <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://icontribute.community/#/"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Official Website</ButtonBase></a></Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://www.linkedin.com/company/icontribute/"><ButtonBase style = {view}> <img src = {IN} alt = "in" style = {icon}></img> iContribute's LinkedIn</ButtonBase></a></Paper>
@@ -179,7 +179,7 @@ const Projects = () =>{
                     <ButtonBase style ={image}><img src = {reactLogo} alt = "IC" style = {image}></img></ButtonBase>
 
                     <h3 style = {h3Style}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages. Here on my website you can find a short bio of me and some projects and blogs. </h3>
-                    <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript</ButtonBase>, <ButtonBase className = {classes.btnBase}> React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
+                    <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://stevenbai0724.github.io/personal-website"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Home Page</ButtonBase></a></Paper>
                     <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://www.youtube.com/watch?v=xMNhDf5-hvk"><ButtonBase style = {view}><img src = {YT} alt = "yt" style = {icon}></img> Get started!</ButtonBase></a></Paper>
