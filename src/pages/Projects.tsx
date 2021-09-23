@@ -14,7 +14,6 @@ import reactLogo from '../images/reactLogo.png'
 import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
 
-
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
     return {
