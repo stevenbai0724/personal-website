@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.eb31fc24.chunk.css",
-    "main.js": "/personal-website/static/js/main.2aac297e.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.2aac297e.chunk.js.map",
+    "main.js": "/personal-website/static/js/main.d374625c.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.d374625c.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.8d6ead08.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.8d6ead08.js.map",
-    "static/js/2.318f225d.chunk.js": "/personal-website/static/js/2.318f225d.chunk.js",
-    "static/js/2.318f225d.chunk.js.map": "/personal-website/static/js/2.318f225d.chunk.js.map",
+    "static/js/2.aea4f800.chunk.js": "/personal-website/static/js/2.aea4f800.chunk.js",
+    "static/js/2.aea4f800.chunk.js.map": "/personal-website/static/js/2.aea4f800.chunk.js.map",
     "static/js/3.5b14dfee.chunk.js": "/personal-website/static/js/3.5b14dfee.chunk.js",
     "static/js/3.5b14dfee.chunk.js.map": "/personal-website/static/js/3.5b14dfee.chunk.js.map",
     "index.html": "/personal-website/index.html",
     "static/css/main.eb31fc24.chunk.css.map": "/personal-website/static/css/main.eb31fc24.chunk.css.map",
-    "static/js/2.318f225d.chunk.js.LICENSE.txt": "/personal-website/static/js/2.318f225d.chunk.js.LICENSE.txt",
+    "static/js/2.aea4f800.chunk.js.LICENSE.txt": "/personal-website/static/js/2.aea4f800.chunk.js.LICENSE.txt",
     "static/media/CF.e4bbd78b.png": "/personal-website/static/media/CF.e4bbd78b.png",
     "static/media/CP.5971cbd7.png": "/personal-website/static/media/CP.5971cbd7.png",
     "static/media/DMOJ.620a2bae.png": "/personal-website/static/media/DMOJ.620a2bae.png",
@@ -30,12 +30,13 @@
     "static/media/steven.87596799.png": "/personal-website/static/media/steven.87596799.png",
     "static/media/stevenbairesume.e3a31284.pdf": "/personal-website/static/media/stevenbairesume.e3a31284.pdf",
     "static/media/timeline.40c69340.png": "/personal-website/static/media/timeline.40c69340.png",
+    "static/media/troki.99fdf870.png": "/personal-website/static/media/troki.99fdf870.png",
     "static/media/twitch.a7d6b7e5.png": "/personal-website/static/media/twitch.a7d6b7e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8d6ead08.js",
-    "static/js/2.318f225d.chunk.js",
+    "static/js/2.aea4f800.chunk.js",
     "static/css/main.eb31fc24.chunk.css",
-    "static/js/main.2aac297e.chunk.js"
+    "static/js/main.d374625c.chunk.js"
   ]
 }
