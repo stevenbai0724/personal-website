@@ -13,6 +13,7 @@ import exLink from '../images/exLink.png'
 import reactLogo from '../images/reactLogo.png'
 import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
+import Troki from '../images/troki.png'
 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -41,15 +42,31 @@ function getWindowDimensions() {
 const useStyles = makeStyles((theme) =>  ({
 
     paper: {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
         backgroundColor: "#394680",
         padding: 12,
         margin: "auto",
         width: "350px",
         '&:hover' : {
           
-            transform: "scale(1.02)",
+            transform: "scale(1.01)",
         }
 
+    },
+    textBox: {
+
+        width: "100%",
+        height: 175,
+    },
+    text: {
+        textAlign: 'center',
+        fontWeight: 'normal',
+        fontSize: '15px',
+        lineHeight: '2',
+        color: 'white',
     },
     tab: {
         width: "100%",
@@ -60,19 +77,25 @@ const useStyles = makeStyles((theme) =>  ({
 
     },
     tech: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
         backgroundColor: "#26b410",
         height: "40px",
         width: "100%",
+        color: 'white',
         
     },
     gridContainer: { 
         container: true,
         spacing: 2,
-        
     },
     btnBase: {
         height: "100%",
         fontSize: "20px",
+        color: 'white',
+        paddingLeft: 5,
+      
     },
     img: {
         width: "100%",
@@ -82,6 +105,39 @@ const useStyles = makeStyles((theme) =>  ({
         height: 'calc(100vh - 500px)',
         
     },
+    title: {
+        textAlign: 'center',
+        color: 'white',
+    },
+    subTitle: {
+        textAlign: 'center',
+        fontWeight: 'normal',
+        fontSize: '25px',
+        color: 'white',
+    },
+    image: {
+        width: 128,
+        height: 128,
+        color: "white",
+        display: 'block',
+        margin: 'auto',
+    },
+    view: {
+        marginRight: "auto",
+        marginLeft: "auto",
+        color: "white",
+        display: "flex",
+    },
+    icon: {
+        width: 25,
+        height: 25,
+        color: "white",
+        padding: 5,
+    },
+    link: {
+        textDecoration: "none",
+    },
+
 
     '@media only screen and (max-width: 900px)': {
         paper:{
@@ -99,9 +155,9 @@ const Projects = () =>{
     return(
         <div >
            
-            <h1 style = {h1Style}>Projects</h1>
+            <h1 className = {classes.title}>Projects</h1>
 
-            <h2 style = {h2Style}>In progress and completed projects</h2>
+            <h2 className = {classes.subTitle}>In progress and completed projects</h2>
 
             <br></br>
             
@@ -111,17 +167,19 @@ const Projects = () =>{
              
                     <Paper className = {classes.paper}>
                     
-                        <h2 style = {h2Style}>Competitive Programming</h2>
+                        <h2 className = {classes.subTitle}>Competitive Programming</h2>
                             
-                        <ButtonBase style ={image}><img src = {CP} alt = "CP" style = {image}></img></ButtonBase>
+                        <ButtonBase className = {classes.image}><img src = {CP} alt = "CP" className = {classes.image}></img></ButtonBase>
 
-                        <h3 style = {h3Style}>I particpate in programming contests on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" style = {h3Style}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/BLEACHUGGR" style = {h3Style}>CodeForces</a>. I solve programming problems using math, logic, algorithms and data structures mainly in C++.</h3>
-                        <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> C++</ButtonBase>, <ButtonBase className = {classes.btnBase}> Java</ButtonBase></h2></Paper>
-                        <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724"><ButtonBase style = {view} > <FaGithub style = {icon} />View on GitHub</ButtonBase></a> </Paper>
-                        <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://dmoj.ca/user/stevenbai0724"><ButtonBase style = {view}> <img src = {DMOJ} alt = "DMOJ" style = {icon}></img>View on DMOJ</ButtonBase></a></Paper>
-                        <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://codeforces.com/profile/BLEACHUGGR"><ButtonBase style = {view}> <img src = {CF} alt = "DMOJ" style = {icon}></img>View on CodeForces</ButtonBase></a></Paper>
+                        <div className = {classes.textBox}>
+                        <h3 className = {classes.text}>I particpate in programming contests on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" className = {classes.text}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/BLEACHUGGR" className = {classes.text}>CodeForces</a>. I solve programming problems using math, logic, algorithms and data structures mainly in C++.</h3>
+                        </div>      
+                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> C++</ButtonBase>, <ButtonBase className = {classes.btnBase}>Java</ButtonBase></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/competitive-programming"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View on GitHub</ButtonBase></a> </Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://dmoj.ca/user/stevenbai0724"><ButtonBase className = {classes.view}> <img src = {DMOJ} alt = "DMOJ" className = {classes.icon}></img>View on DMOJ</ButtonBase></a></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://codeforces.com/profile/BLEACHUGGR"><ButtonBase className = {classes.view}> <img src = {CF} alt = "DMOJ" className = {classes.icon}></img>View on CodeForces</ButtonBase></a></Paper>
                                         
-                                        
+
 
                     </Paper>
 
@@ -131,15 +189,16 @@ const Projects = () =>{
                 
                 <Grid item >
                     <Paper className = {classes.paper}>
-                        <h2 style = {h2Style}>Easy Peacy</h2>
+                        <h2 className = {classes.subTitle}>Troki</h2>
 
-                        <ButtonBase style ={image}><img src = {easyPeacy} alt = "EP" style = {image}></img></ButtonBase>
-                        
-                        <h3 style = {h3Style}>Easy Peacy is a 48-hour project for my first hackathon. Easy Peacy is an app that monitors mental health and well being, put together by a Figma mockup and a Java GUI. </h3>
-                        <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Java</ButtonBase></h2></Paper>
-                        <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724/mental_health_hacks"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
-                        <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://devpost.com/software/easy-peacy"><ButtonBase style = {view}> <img src = {devpost} alt = "dev" style = {icon}></img>View on Devpost</ButtonBase></a></Paper>
-                        <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://www.figma.com/proto/eHzgNia0aeGLfMtP8Zgd08/Mental-Health-Hacks-Project?node-id=14%3A14&scaling=scale-down&page-id=0%3A1"><ButtonBase style = {view}> <img src = {figma} alt = "figma" style = {icon}></img>View on Figma</ButtonBase></a></Paper>
+                        <ButtonBase className = {classes.image}><img src = {Troki} alt = "troki" className = {classes.image}></img></ButtonBase>
+                        <div className = {classes.textBox}>
+                        <h3 className = {classes.text}>Troki is a mobile app that connects eagar teen workers with busy adults in need of yard work. We used Google Maps API to gauge distance and maintained job listings on MongoDB. I worked on the frontend and design in React Native and Figma.</h3>
+                        </div>
+                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> React Native</ButtonBase></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.youtube.com/watch?v=U8OCiQpYKeM"><ButtonBase className = {classes.view} > <img src = {YT} alt = "yt" className = {classes.icon}></img>Video pitch</ButtonBase></a> </Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://devpost.com/software/troki"><ButtonBase className = {classes.view}> <img src = {devpost} alt = "dev" className = {classes.icon}></img>View on Devpost</ButtonBase></a></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/Troki-App"><ButtonBase className = {classes.view}> <FaGithub className = {classes.icon}/>View Repository</ButtonBase></a></Paper>
                                          
 
                     </Paper>
@@ -153,15 +212,17 @@ const Projects = () =>{
 
                 <Grid item>
                     <Paper className = {classes.paper}>
-                    <h2 style = {h2Style}>iContribute Webapp</h2>
+                    <h2 className = {classes.subTitle}>iContribute Webapp</h2>
 
-                    <ButtonBase style ={image}><img src = {IC} alt = "IC" style = {image}></img></ButtonBase>
+                    <ButtonBase className = {classes.image}><img src = {IC} alt = "IC" className = {classes.image}></img></ButtonBase>
 
-                    <h3 style = {h3Style}>I worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
-                    <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
-                    <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
-                    <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://icontribute.community/#/"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Official Website</ButtonBase></a></Paper>
-                    <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://www.linkedin.com/company/icontribute/"><ButtonBase style = {view}> <img src = {IN} alt = "in" style = {icon}></img> iContribute's LinkedIn</ButtonBase></a></Paper>
+                    <div className = {classes.textBox}>
+                    <h3 className = {classes.text}>I worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
+                    </div>
+                    <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </Paper>    
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://icontribute.community/#/"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Official Website</ButtonBase></a></Paper>
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.linkedin.com/company/icontribute/"><ButtonBase className = {classes.view}> <img src = {IN} alt = "in" className = {classes.icon}></img> iContribute's LinkedIn</ButtonBase></a></Paper>
                                         
                                         
                                         
@@ -173,15 +234,17 @@ const Projects = () =>{
 
                 <Grid item>
                     <Paper className = {classes.paper}>
-                    <h2 style = {h2Style}>Personal Website</h2>
+                    <h2 className = {classes.subTitle}>Personal Website</h2>
 
-                    <ButtonBase style ={image}><img src = {reactLogo} alt = "IC" style = {image}></img></ButtonBase>
+                    <ButtonBase className = {classes.image}><img src = {reactLogo} alt = "IC" className = {classes.image}></img></ButtonBase>
 
-                    <h3 style = {h3Style}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages. Here on my website you can find a short bio of me and some projects and blogs. </h3>
-                    <Paper className = {classes.tech}><h2 style = {h2Style}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </h2></Paper>    
-                    <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase style = {view} > <FaGithub style = {icon} />View Repository</ButtonBase></a> </Paper>
-                    <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://stevenbai0724.github.io/personal-website"><ButtonBase style = {view}> <img src = {exLink} alt = "in" style = {icon}></img>Home Page</ButtonBase></a></Paper>
-                    <Paper className = {classes.tab}><a target="_blank" style = {link} href = "https://www.youtube.com/watch?v=xMNhDf5-hvk"><ButtonBase style = {view}><img src = {YT} alt = "yt" style = {icon}></img> Get started!</ButtonBase></a></Paper>
+                    <div className = {classes.textBox}>
+                    <h3 className = {classes.text}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages. Here on my website you can find a short bio of me and some projects and blogs. </h3>
+                    </div>
+                    <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </Paper>    
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://stevenbai0724.github.io/personal-website"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Home Page</ButtonBase></a></Paper>
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.youtube.com/watch?v=xMNhDf5-hvk"><ButtonBase className = {classes.view}><img src = {YT} alt = "yt" className = {classes.icon}></img> Get started!</ButtonBase></a></Paper>
                                         
                                         
                                         
@@ -191,9 +254,30 @@ const Projects = () =>{
 
                 </Grid>
 
+            </Grid>
+            <br/>
 
+            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
 
+                <Grid item >
+                    <Paper className = {classes.paper}>
+                        <h2 className = {classes.subTitle}>Easy Peacy</h2>
 
+                        <ButtonBase className = {classes.image}><img src = {easyPeacy} alt = "EP" className = {classes.image}></img></ButtonBase>
+                        <div className = {classes.textBox}>
+                        <h3 className = {classes.text}>Easy Peacy is a 48-hour project for my first ever hackathon. Easy Peacy is mobile app designed by Figma that monitors mental health. I created a Java GUI model of the app as a placeholder.</h3>
+                        </div>
+                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Java</ButtonBase>, <ButtonBase className = {classes.btnBase}> Figma</ButtonBase></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/mental_health_hacks"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://devpost.com/software/easy-peacy"><ButtonBase className = {classes.view}> <img src = {devpost} alt = "dev" className = {classes.icon}></img>View on Devpost</ButtonBase></a></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.figma.com/proto/eHzgNia0aeGLfMtP8Zgd08/Mental-Health-Hacks-Project?node-id=14%3A14&scaling=scale-down&page-id=0%3A1"><ButtonBase className = {classes.view}> <img src = {figma} alt = "figma" className = {classes.icon}></img>View on Figma</ButtonBase></a></Paper>
+                                         
+
+                    </Paper>
+
+                </Grid>
+
+                
 
 
             </Grid>
@@ -201,62 +285,13 @@ const Projects = () =>{
             </div>
      
 
-            
             <div className = {classes.divFill}>
                 <br></br>
             </div>
-
-
-
 
         </div>
     )
 
 }
-const h1Style: React.CSSProperties = {
-    textAlign: 'center',
-    color: 'white',
-}
-const h2Style: React.CSSProperties = {
-    textAlign: 'center',
-    fontWeight: 'normal',
-    fontSize: '25px',
-    color: 'white',
-
-}
-const h3Style: React.CSSProperties = {
-    textAlign: 'center',
-    fontWeight: 'normal',
-    fontSize: '15px',
-    lineHeight: '2',
-    color: 'white',
-    
-}
-const image: React.CSSProperties = {
-    width: 128,
-    height: 128,
-    color: "white",
-    display: 'block',
-    margin: 'auto',
-    
-}
-const view: React.CSSProperties = {
-    marginRight: "auto",
-    marginLeft: "auto",
-    color: "white",
-    display: "flex",
-
-}
-const icon: React.CSSProperties = {
-    width: 25,
-    height: 25,
-    color: "white",
-    padding: 5,
-}
-const link: React.CSSProperties = {
-    textDecoration: "none",
-    
-}
-
 
 export default Projects;

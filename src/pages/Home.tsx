@@ -97,7 +97,7 @@ const Home = () =>{
             
             
             
-            <h3 className = {classes.h3}>Hello! My name is Steven and I am going into Grade 12. I am currently open to internship opportunities for the 2021 fall and winter terms. I am highly motivated and interested in working on full stack development. I enjoy problem solving and I compete in math and programming contests. </h3>
+            <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I am currently open to internship opportunities for the 2021 fall and winter terms. I am highly motivated and interested in working on full stack development. I enjoy problem solving and I compete in math and programming contests. </h3>
             
             <h3 className = {classes.h3}>Some of my interests include poker and competitive swimming. I play video games too but I'm terrible. </h3>
 
