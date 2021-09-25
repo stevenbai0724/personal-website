@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) =>  ({
     textBox: {
 
         width: "100%",
-        height: 175,
+        height: 200,
     },
     text: {
         textAlign: 'center',
