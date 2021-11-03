@@ -59,7 +59,7 @@ const Timeline = () => {
             <img className = {classes.img} src={line} alt="line"></img>
 
             <h2 className = {classes.h2Left}>2021</h2>
-
+            
             <h3 className = {classes.h3Left}>October</h3>
             <h4 className = {classes.h4Left}>-500 DMOJ problems solved</h4>
 

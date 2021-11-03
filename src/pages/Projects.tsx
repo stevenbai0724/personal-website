@@ -14,7 +14,7 @@ import reactLogo from '../images/reactLogo.png'
 import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
 import Troki from '../images/troki.png'
-
+import DMOJSTATS from '../images/dmojstats.png'
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
     return {
@@ -186,7 +186,32 @@ const Projects = () =>{
 
                 </Grid>   
 
+                <Grid item >
+                    <Paper className = {classes.paper}>
+                        <h2 className = {classes.subTitle}>DMOJSTATS</h2>
+
+                        <ButtonBase className = {classes.image}><img src = {DMOJSTATS} alt = "dmoj stats" className = {classes.image}></img></ButtonBase>
+                        <div className = {classes.textBox}>
+                        <h3 className = {classes.text}>DMOJSTATS is my first full stack web application. Using the API from dmoj.ca, DMOJSTATS displays detailed user profile info from a search field, including performance and percentile stats from rated contests. Deployment under progress.</h3>
+                        </div>
+                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> React.js, </ButtonBase><ButtonBase className = {classes.btnBase}> Express.js</ButtonBase></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/dmojstats"><ButtonBase className = {classes.view}> <FaGithub className = {classes.icon}/>View Repository</ButtonBase></a></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://docs.dmoj.ca/#/site/api"><ButtonBase className = {classes.view}> <img src = {DMOJ} alt = "DMOJ" className = {classes.icon}></img>API Documentation</ButtonBase></a></Paper>
+                        
+                                         
+
+                    </Paper>
+
+                </Grid>
+
                 
+
+
+            </Grid>
+            <br></br>   
+
+            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
+
                 <Grid item >
                     <Paper className = {classes.paper}>
                         <h2 className = {classes.subTitle}>Troki</h2>
@@ -204,11 +229,6 @@ const Projects = () =>{
                     </Paper>
 
                 </Grid>
-
-            </Grid>
-            <br></br>   
-
-            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
 
                 <Grid item>
                     <Paper className = {classes.paper}>
@@ -232,6 +252,13 @@ const Projects = () =>{
 
                 </Grid>
 
+
+
+            </Grid>
+            <br/>
+
+            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
+
                 <Grid item>
                     <Paper className = {classes.paper}>
                     <h2 className = {classes.subTitle}>Personal Website</h2>
@@ -253,11 +280,6 @@ const Projects = () =>{
                     </Paper>
 
                 </Grid>
-
-            </Grid>
-            <br/>
-
-            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
 
                 <Grid item >
                     <Paper className = {classes.paper}>
