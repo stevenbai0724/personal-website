@@ -86,7 +86,7 @@ const Home = () =>{
             <h1 className = {classes.h1}>Steven Bai</h1>
 
 
-            <h2 className = {classes.h2}>High School Student | Developer | Competitive Programmer </h2>
+            <h2 className = {classes.h2}>Developer | Competitive Programmer </h2>
 
 
             </div>
@@ -97,11 +97,11 @@ const Home = () =>{
             
             
             
-            <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I am currently open to internship opportunities for the 2021 fall and winter terms. I am highly motivated and interested in working on full stack development. I enjoy problem solving and I compete in math and programming contests. </h3>
+            <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I am currently open to internship opportunities for web developement. I am highly motivated and I'm currently working on full stack web app projects. I love problem solving and I compete in math and programming contests. </h3>
             
-            <h3 className = {classes.h3}>Some of my interests include poker and competitive swimming. I play video games too but I'm terrible. </h3>
+            <h3 className = {classes.h3}>Some of my hobbies include swimming, online poker and playing the piano. I'm also the worst at every video game that I play. </h3>
 
-            <h3 className = {classes.h3}>I created this website to organize my projects and work experiences, especially in the programming field. This site is still under early stages of development and I am constantly making updates to it.</h3>
+            <h3 className = {classes.h3}>I created this website to organize my projects and experiences. This site is still under early stages of development and I am constantly making updates to it.</h3>
             <br></br>
             
             <div className = {classes.divFill}>
