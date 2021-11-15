@@ -61,6 +61,11 @@ const useStyles = makeStyles((theme) =>  ({
         width: "100%",
         height: 200,
     },
+    hyperlink : {
+        color : '#38fc94',
+        fontSize: '15px',
+
+    },
     text: {
         textAlign: 'center',
         fontWeight: 'normal',
@@ -133,6 +138,7 @@ const useStyles = makeStyles((theme) =>  ({
         height: 25,
         color: "white",
         padding: 5,
+        borderRadius: 50,
     },
     link: {
         textDecoration: "none",
@@ -172,7 +178,7 @@ const Projects = () =>{
                         <ButtonBase className = {classes.image}><img src = {CP} alt = "CP" className = {classes.image}></img></ButtonBase>
 
                         <div className = {classes.textBox}>
-                        <h3 className = {classes.text}>I particpate in programming contests on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" className = {classes.text}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/BLEACHUGGR" className = {classes.text}>CodeForces</a>. I solve programming problems using math, logic, algorithms and data structures mainly in C++.</h3>
+                        <h3 className = {classes.text}> I implement data structures and algorithms in C++ to solve problems with math and logic. I particpated in 30+ contests and solved 1000+ algorithmic problems on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" className = {classes.hyperlink}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/BLEACHUGGR" className = {classes.hyperlink}>CodeForces</a>.</h3>
                         </div>      
                         <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> C++</ButtonBase>, <ButtonBase className = {classes.btnBase}>Java</ButtonBase></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/competitive-programming"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View on GitHub</ButtonBase></a> </Paper>
@@ -188,13 +194,14 @@ const Projects = () =>{
 
                 <Grid item >
                     <Paper className = {classes.paper}>
-                        <h2 className = {classes.subTitle}>DMOJSTATS</h2>
+                        <h2 className = {classes.subTitle}>dmojstats</h2>
 
                         <ButtonBase className = {classes.image}><img src = {DMOJSTATS} alt = "dmoj stats" className = {classes.image}></img></ButtonBase>
                         <div className = {classes.textBox}>
-                        <h3 className = {classes.text}>DMOJSTATS is my first full stack web application. Using the API from dmoj.ca, DMOJSTATS displays detailed user profile info from a search field, including performance and percentile stats from rated contests. Deployment under progress.</h3>
+                        <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://dmojstats.herokuapp.com/dmojstats">dmojstats</a> is my first full stack web application. Using the <a target="_blank" className = {classes.hyperlink} href = "https://docs.dmoj.ca/#/site/api">API</a> from dmoj.ca, dmojstats displays detailed user profile info from a search field, including performance and percentile stats from rated contests for 100 000+ developers.</h3>
                         </div>
-                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> React.js, </ButtonBase><ButtonBase className = {classes.btnBase}> Express.js</ButtonBase></Paper>
+                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> React.js </ButtonBase>,<ButtonBase className = {classes.btnBase}> Express.js</ButtonBase></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://dmojstats.herokuapp.com/"><ButtonBase className = {classes.view}><img src = {DMOJSTATS} alt = "DMOJ" className = {classes.icon}></img>dmojstats</ButtonBase></a></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/dmojstats"><ButtonBase className = {classes.view}> <FaGithub className = {classes.icon}/>View Repository</ButtonBase></a></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://docs.dmoj.ca/#/site/api"><ButtonBase className = {classes.view}> <img src = {DMOJ} alt = "DMOJ" className = {classes.icon}></img>API Documentation</ButtonBase></a></Paper>
                         
@@ -203,8 +210,6 @@ const Projects = () =>{
                     </Paper>
 
                 </Grid>
-
-                
 
 
             </Grid>
@@ -218,7 +223,7 @@ const Projects = () =>{
 
                         <ButtonBase className = {classes.image}><img src = {Troki} alt = "troki" className = {classes.image}></img></ButtonBase>
                         <div className = {classes.textBox}>
-                        <h3 className = {classes.text}>Troki is a mobile app that connects eagar teen workers with busy adults in need of yard work. We used Google Maps API to gauge distance and maintained job listings on MongoDB. I worked on the frontend and design in React Native and Figma.</h3>
+                        <h3 className = {classes.text}>Troki is a mobile app that connects eagar teen workers with busy adults in need of yard work. We used <a target="_blank" className = {classes.hyperlink} href = "https://developers.google.com/maps/documentation">Google Maps API</a> to gauge distance and maintained job listings on MongoDB. I worked on the frontend and design in React Native and Figma.</h3>
                         </div>
                         <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> React Native</ButtonBase></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.youtube.com/watch?v=U8OCiQpYKeM"><ButtonBase className = {classes.view} > <img src = {YT} alt = "yt" className = {classes.icon}></img>Video pitch</ButtonBase></a> </Paper>
@@ -237,7 +242,7 @@ const Projects = () =>{
                     <ButtonBase className = {classes.image}><img src = {IC} alt = "IC" className = {classes.image}></img></ButtonBase>
 
                     <div className = {classes.textBox}>
-                    <h3 className = {classes.text}>I worked on the frontend of a webapp for organizations to post volunteer opportunities to recruit high school students. The iContribute mobile app currently has 500+ users!</h3>
+                    <h3 className = {classes.text}>I converted mockups of pages and components into the frontend of a web app for organizations to recruit high school volunteers. The iContribute mobile app currently has 500+ users!</h3>
                     </div>
                     <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </Paper>    
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>

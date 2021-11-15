@@ -60,19 +60,23 @@ const Timeline = () => {
 
             <h2 className = {classes.h2Left}>2021</h2>
             
+            <h3 className = {classes.h3Left}>November</h3>
+            <h4 className = {classes.h4Left}>-Finished and deployed my first full stack web application, <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">dmojstats</a></h4>
+
             <h3 className = {classes.h3Left}>October</h3>
+            <h4 className = {classes.h4Left}>-Began work on a solo full stack project</h4>
             <h4 className = {classes.h4Left}>-500 DMOJ problems solved</h4>
 
             <h3 className = {classes.h3Left}>September</h3>
             <h4 className = {classes.h4Left}>-Started learning <a className={classes.a} target="_blank" href="https://expressjs.com/">Express</a> for backend development  </h4>
-            <h4 className = {classes.h4Left}>-Built first react native mobile app called <a className={classes.a} target="_blank" href="https://devpost.com/software/troki">Troki</a> for Hack the North 2021</h4>
+            <h4 className = {classes.h4Left}>-Built<a className={classes.a} target="_blank" href="https://devpost.com/software/troki"> Troki</a>, my first React Native mobile app, for Hack the North 2021</h4>
 
             <h3 className = {classes.h3Left}>August</h3>
-            <h4 className = {classes.h4Left}>-Solved 5 problems on a <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1560/standings/participant/118837552#p118837552">Div. 3 CodeForces Round </a>, (#271st place out of 27251 contestants)</h4>
+            <h4 className = {classes.h4Left}>-Solved 5 problems on a <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1560/standings/participant/118837552#p118837552">Div. 3 CodeForces Round</a>, (#271st place out of 27251 contestants)</h4>
             <h4 className = {classes.h4Left}>-Became CodeForces specialist (aqua, Elo&ge;1400)  </h4>
 
             <h3 className = {classes.h3Left}>July</h3>
-            <h4 className = {classes.h4Left}>-Launched <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/personal-website">personal website</a>, made with a react app from knowledge I learned at my internship</h4>
+            <h4 className = {classes.h4Left}>-Launched <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/personal-website">personal website</a>, made with a Typescript React which I learned at my internship</h4>
             <h4 className = {classes.h4Left}>-Started solving on CodeForces everyday instead of DMOJ </h4>
 
             <h3 className = {classes.h3Left}>June</h3>
