@@ -198,7 +198,7 @@ const Projects = () =>{
 
                         <ButtonBase className = {classes.image}><img src = {DMOJSTATS} alt = "dmoj stats" className = {classes.image}></img></ButtonBase>
                         <div className = {classes.textBox}>
-                        <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://dmojstats.herokuapp.com/dmojstats">dmojstats</a> is my first full stack web application. Using the <a target="_blank" className = {classes.hyperlink} href = "https://docs.dmoj.ca/#/site/api">API</a> from dmoj.ca, dmojstats displays detailed user profile info from a search field, including performance and percentile stats from rated contests for 100 000+ developers.</h3>
+                        <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://dmojstats.herokuapp.com">dmojstats</a> is my first full stack web application. Using the <a target="_blank" className = {classes.hyperlink} href = "https://docs.dmoj.ca/#/site/api">API</a> from dmoj.ca, dmojstats displays detailed user profile info from a search field, including performance and percentile stats from rated contests for 100 000+ developers.</h3>
                         </div>
                         <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> React.js </ButtonBase>,<ButtonBase className = {classes.btnBase}> Express.js</ButtonBase></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://dmojstats.herokuapp.com/"><ButtonBase className = {classes.view}><img src = {DMOJSTATS} alt = "DMOJ" className = {classes.icon}></img>dmojstats</ButtonBase></a></Paper>
@@ -247,7 +247,7 @@ const Projects = () =>{
                     <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </Paper>    
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://icontribute.community/#/"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Official Website</ButtonBase></a></Paper>
-                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.linkedin.com/company/icontribute/"><ButtonBase className = {classes.view}> <img src = {IN} alt = "in" className = {classes.icon}></img> iContribute's LinkedIn</ButtonBase></a></Paper>
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.linkedin.com/company/icontribute/"><ButtonBase className = {classes.view}> <img src = {IN} alt = "in" className = {classes.icon}></img>LinkedIn</ButtonBase></a></Paper>
                                         
                                         
                                         
@@ -271,11 +271,11 @@ const Projects = () =>{
                     <ButtonBase className = {classes.image}><img src = {reactLogo} alt = "IC" className = {classes.image}></img></ButtonBase>
 
                     <div className = {classes.textBox}>
-                    <h3 className = {classes.text}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages. Here on my website you can find a short bio of me and some projects and blogs. </h3>
+                    <h3 className = {classes.text}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages with a custom domain. Here on my website you can find a short bio of me and some projects and blogs. </h3>
                     </div>
                     <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </Paper>    
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
-                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://stevenbai0724.github.io/personal-website"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Home Page</ButtonBase></a></Paper>
+                    <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://stevenbai.ca/"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Home Page</ButtonBase></a></Paper>
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.youtube.com/watch?v=xMNhDf5-hvk"><ButtonBase className = {classes.view}><img src = {YT} alt = "yt" className = {classes.icon}></img> Get started!</ButtonBase></a></Paper>
                                         
                                         

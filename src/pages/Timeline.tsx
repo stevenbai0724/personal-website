@@ -73,10 +73,10 @@ const Timeline = () => {
 
             <h3 className = {classes.h3Left}>August</h3>
             <h4 className = {classes.h4Left}>-Solved 5 problems on a <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1560/standings/participant/118837552#p118837552">Div. 3 CodeForces Round</a>, (#271st place out of 27251 contestants)</h4>
-            <h4 className = {classes.h4Left}>-Became CodeForces specialist (aqua, Elo&ge;1400)  </h4>
+            <h4 className = {classes.h4Left}>-Became a CodeForces specialist (aqua, Elo&ge;1400)  </h4>
 
             <h3 className = {classes.h3Left}>July</h3>
-            <h4 className = {classes.h4Left}>-Launched <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/personal-website">personal website</a>, made with a Typescript React which I learned at my internship</h4>
+            <h4 className = {classes.h4Left}>-Launched <a className={classes.a} target="_blank" href="https://stevenbai.ca/">personal website</a>, made with a Typescript react app which I learned at my internship</h4>
             <h4 className = {classes.h4Left}>-Started solving on CodeForces everyday instead of DMOJ </h4>
 
             <h3 className = {classes.h3Left}>June</h3>
@@ -92,7 +92,7 @@ const Timeline = () => {
 
 
             <h3 className = {classes.h3Left}>April</h3>
-            <h4 className = {classes.h4Left}>-Eighth <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c5/ranking/#!stevenbai0724">DMOJ contest</a>, became candidate master (purple, Elo&ge;1600)</h4>
+            <h4 className = {classes.h4Left}>-Eighth <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c5/ranking/#!stevenbai0724">DMOJ contest</a>, became a candidate master (purple, Elo&ge;1600)</h4>
             <h4 className = {classes.h4Left}>-Created first pull request</h4>
 
             <h3 className = {classes.h3Left}>March</h3>
