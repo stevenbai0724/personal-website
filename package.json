@@ -2,7 +2,7 @@
   "name": "multi-page-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://stevenbai0724.github.io/personal-website",
+  "homepage": "https://stevenbai.ca",
   "dependencies": {
     "@material-ui/core": "^4.12.1",
     "@testing-library/jest-dom": "^5.12.0",
