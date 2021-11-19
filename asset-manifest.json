@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eb31fc24.chunk.css",
-    "main.js": "/static/js/main.40932173.chunk.js",
-    "main.js.map": "/static/js/main.40932173.chunk.js.map",
+    "main.js": "/static/js/main.9be6141f.chunk.js",
+    "main.js.map": "/static/js/main.9be6141f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7d22f931.js",
     "runtime-main.js.map": "/static/js/runtime-main.7d22f931.js.map",
     "static/js/2.091ef427.chunk.js": "/static/js/2.091ef427.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/YT.c9248bd4.png": "/static/media/YT.c9248bd4.png",
     "static/media/circlein.ad44dd2e.png": "/static/media/circlein.ad44dd2e.png",
     "static/media/devpost.ec9aebe0.png": "/static/media/devpost.ec9aebe0.png",
-    "static/media/dmojstats.18565638.png": "/static/media/dmojstats.18565638.png",
+    "static/media/dmojstats.330fa22e.png": "/static/media/dmojstats.330fa22e.png",
     "static/media/easyPeacy.94cf38e7.png": "/static/media/easyPeacy.94cf38e7.png",
     "static/media/exLink.084506b6.png": "/static/media/exLink.084506b6.png",
     "static/media/figma.bb7bd206.png": "/static/media/figma.bb7bd206.png",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.7d22f931.js",
     "static/js/2.091ef427.chunk.js",
     "static/css/main.eb31fc24.chunk.css",
-    "static/js/main.40932173.chunk.js"
+    "static/js/main.9be6141f.chunk.js"
   ]
 }
