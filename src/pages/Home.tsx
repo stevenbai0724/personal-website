@@ -83,29 +83,25 @@ const Home = () =>{
             <div className = {classes.divFlex}>
             
             <div>
-            <h1 className = {classes.h1}>Steven Bai</h1>
+                <h1 className = {classes.h1}>Steven Bai</h1>
 
 
-            <h2 className = {classes.h2}>Developer | Competitive Programmer </h2>
+                <h2 className = {classes.h2}>Developer | Competitive Programmer </h2>
 
 
-            </div>
+                </div>
+                    <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
+                </div>
 
-            <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
-            </div>
+                <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute </a> and I am currently open to internship opportunities. I am a full stack developer with experience in React and NodeJS web applications. </h3>
+                
+                <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming and math contests and solved 1000+ problems using algorithms and data structures in C++. </h3>
 
-            
-            
-            
-            <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I am currently open to internship opportunities for web developement. I am highly motivated and I'm currently working on full stack web app projects. I love problem solving and I compete in math and programming contests. </h3>
-            
-            <h3 className = {classes.h3}>Some of my hobbies include swimming, online poker and playing the piano. I'm also the worst at every video game that I play. </h3>
-
-            <h3 className = {classes.h3}>I created this website to organize my projects and experiences. This site is still under early stages of development and I am constantly making updates to it.</h3>
-            <br></br>
-            
-            <div className = {classes.divFill}>
-            <br></br>
+                <h3 className = {classes.h3}>Here on my personal site you can find some of my favourite coding projects as well as blogs which I sometimes write for fun. Thanks for taking the time to stalk me!</h3>
+                <br></br>
+                
+                <div className = {classes.divFill}>
+                <br></br>
 
             </div>
 
