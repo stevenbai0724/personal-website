@@ -86,14 +86,14 @@ const Home = () =>{
                 <h1 className = {classes.h1}>Steven Bai</h1>
 
 
-                <h2 className = {classes.h2}>Developer | Competitive Programmer </h2>
+                <h2 className = {classes.h2}>Full Stack Developer | Competitive Programmer </h2>
 
 
                 </div>
                     <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
                 </div>
 
-                <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute </a> and I am currently open to internship opportunities. I am a full stack developer with experience in React and NodeJS web applications. </h3>
+                <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I love creating applications in React and NodeJS. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I am currently doing freelance work with discord.js and I'm also open to internship opportunities in development. </h3>
                 
                 <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming and math contests and solved 1000+ problems using algorithms and data structures in C++. </h3>
 

@@ -15,6 +15,8 @@ import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
 import Troki from '../images/troki.png'
 import DMOJSTATS from '../images/dmojstats.png'
+
+//window dimensions 
 function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
     return {
@@ -22,9 +24,8 @@ function getWindowDimensions() {
       height
     };
 
-  }
-  
-  function useWindowDimensions() {
+}
+function useWindowDimensions() {
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
   
     useEffect(() => {
@@ -37,8 +38,8 @@ function getWindowDimensions() {
     }, []);
   
     return windowDimensions;
-  }
-  
+}
+//style
 const useStyles = makeStyles((theme) =>  ({
 
     paper: {
@@ -64,6 +65,7 @@ const useStyles = makeStyles((theme) =>  ({
     hyperlink : {
         color : '#38fc94',
         fontSize: '15px',
+        textDecoration: "none",
 
     },
     text: {
@@ -242,7 +244,7 @@ const Projects = () =>{
                     <ButtonBase className = {classes.image}><img src = {IC} alt = "IC" className = {classes.image}></img></ButtonBase>
 
                     <div className = {classes.textBox}>
-                    <h3 className = {classes.text}>I converted mockups of pages and components into the frontend of a web app for organizations to recruit high school volunteers. The iContribute mobile app currently has 500+ users!</h3>
+                    <h3 className = {classes.text}>I converted mockups of pages and components into the frontend of a <a className = {classes.hyperlink} href = "https://icontribute-dev.web.app/" target = "_blank">web app</a> for organizations to recruit high school volunteers. There are currently 800+ iContribute users across mobile platforms!</h3>
                     </div>
                     <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> Typescript React</ButtonBase>, <ButtonBase className = {classes.btnBase}> CSS</ButtonBase> </Paper>    
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>

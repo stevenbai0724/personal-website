@@ -104,10 +104,9 @@ const ProgrammingJourney = () =>{
         
         <h2 className = {classes.h2Title}>Anyone can start today!</h2>
         <h3 className = {classes.h3}>In the end, programming is a very practical skill that opens a myriad of job opportunities in today’s technologically advanced society. Anyone can learn how to code to a certain extent and it can be done at the comfort of your home with a plethora of free online resources. Coding can also be a very healthy pass time/hobby which sharply improves problem solving skills and creativity. Coding is used to solve modern real world problems and it is very fun and intriguing to explore.</h3>
-
-        <div className = {classes.divFill}>
-            <br></br>
-        </div>
+        
+        <br></br>
+        
 
     </div>
 
