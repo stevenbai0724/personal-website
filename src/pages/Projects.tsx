@@ -15,6 +15,7 @@ import YT from '../images/YT.png'
 import IN from '../images/circlein.png'
 import Troki from '../images/troki.png'
 import DMOJSTATS from '../images/dmojstats.png'
+import Unlock from '../images/unlockhacks.png'
 
 //window dimensions 
 function getWindowDimensions() {
@@ -196,6 +197,29 @@ const Projects = () =>{
 
                 <Grid item >
                     <Paper className = {classes.paper}>
+                        <h2 className = {classes.subTitle}>Unlock Hacks</h2>
+
+                        <ButtonBase className = {classes.image}><img src = {Unlock} alt = "unlock" className = {classes.image}></img></ButtonBase>
+                        <div className = {classes.textBox}>
+                        <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://unlockhacks.carrd.co/">Unlock Hacks</a> is a hackathon planned for Jan 7-9. We made this a beginner event for new students to get the ball rolling by having this valuable first experience. We even managed to get sponsors for workshops and prizes!</h3>
+                        </div>
+                        <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}>HTML/CSS</ButtonBase></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://unlock-hacks.devpost.com/"><ButtonBase className = {classes.view}><img src = {devpost} alt = "devpost" className = {classes.icon}></img>View on Devpost</ButtonBase></a></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://unlockhacks.github.io/UnlockHacksSite/"><ButtonBase className = {classes.view}> <img src = {Unlock} alt = "Unlock" className = {classes.icon}></img>View Website</ButtonBase></a></Paper>
+                        <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://unlockhacks.carrd.co/"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "ex" className = {classes.icon}></img>Other Links</ButtonBase></a></Paper>
+
+                    </Paper>
+
+                </Grid>
+
+
+            </Grid>
+            <br></br>   
+
+            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
+
+            <Grid item >
+                    <Paper className = {classes.paper}>
                         <h2 className = {classes.subTitle}>dmojstats</h2>
 
                         <ButtonBase className = {classes.image}><img src = {DMOJSTATS} alt = "dmoj stats" className = {classes.image}></img></ButtonBase>
@@ -212,12 +236,6 @@ const Projects = () =>{
                     </Paper>
 
                 </Grid>
-
-
-            </Grid>
-            <br></br>   
-
-            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
 
                 <Grid item >
                     <Paper className = {classes.paper}>
@@ -237,6 +255,13 @@ const Projects = () =>{
 
                 </Grid>
 
+
+
+            </Grid>
+            <br/>
+
+            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
+
                 <Grid item>
                     <Paper className = {classes.paper}>
                     <h2 className = {classes.subTitle}>iContribute Webapp</h2>
@@ -250,21 +275,11 @@ const Projects = () =>{
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/icontribute-founder/icontribute-webapp"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://icontribute.community/#/"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Official Website</ButtonBase></a></Paper>
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.linkedin.com/company/icontribute/"><ButtonBase className = {classes.view}> <img src = {IN} alt = "in" className = {classes.icon}></img>LinkedIn</ButtonBase></a></Paper>
-                                        
-                                        
-                                        
-                                    
-
+                                                  
+                
                     </Paper>
 
                 </Grid>
-
-
-
-            </Grid>
-            <br/>
-
-            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
 
                 <Grid item>
                     <Paper className = {classes.paper}>
@@ -279,14 +294,15 @@ const Projects = () =>{
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/personal-website"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View Repository</ButtonBase></a> </Paper>
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://stevenbai.ca/"><ButtonBase className = {classes.view}> <img src = {exLink} alt = "in" className = {classes.icon}></img>Home Page</ButtonBase></a></Paper>
                     <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://www.youtube.com/watch?v=xMNhDf5-hvk"><ButtonBase className = {classes.view}><img src = {YT} alt = "yt" className = {classes.icon}></img> Get started!</ButtonBase></a></Paper>
-                                        
-                                        
-                                        
-                                    
-
+       
                     </Paper>
 
                 </Grid>
+
+
+            </Grid>
+            <br/>
+            <Grid container direction = {width<=900 ? "column" : "row"} spacing={2}>
 
                 <Grid item >
                     <Paper className = {classes.paper}>
@@ -305,8 +321,6 @@ const Projects = () =>{
                     </Paper>
 
                 </Grid>
-
-                
 
 
             </Grid>
