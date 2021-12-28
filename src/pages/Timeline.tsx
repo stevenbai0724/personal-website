@@ -62,7 +62,7 @@ const Timeline = () => {
 
             <h3 className = {classes.h3Left}>December</h3>
             <h4 className = {classes.h4Left}>-Began freelance work in <a className = {classes.a} target="_blank" href = "https://discord.js.org/#/">DiscordJS</a> bots</h4>
-            
+            <h4 className = {classes.h4Left}>-600 DMOJ problems solved</h4>
             
             <h3 className = {classes.h3Left}>November</h3>
             <h4 className = {classes.h4Left}>-Finished and deployed my first full stack web application, <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">dmojstats</a></h4>
