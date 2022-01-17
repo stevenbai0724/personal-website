@@ -181,7 +181,7 @@ const Projects = () =>{
                         <ButtonBase className = {classes.image}><img src = {CP} alt = "CP" className = {classes.image}></img></ButtonBase>
 
                         <div className = {classes.textBox}>
-                        <h3 className = {classes.text}> I implement data structures and algorithms in C++ to solve problems with math and logic. I particpated in 30+ contests and solved 1000+ algorithmic problems on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" className = {classes.hyperlink}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/stevenbai0724" className = {classes.hyperlink}>CodeForces</a>.</h3>
+                        <h3 className = {classes.text}> I implement data structures and algorithms in C++ to solve problems with math and logic. I particpated in 40+ contests and solved 1000+ algorithmic problems on various platforms such as <a target="_blank" href = "https://dmoj.ca/user/stevenbai0724" className = {classes.hyperlink}>DMOJ</a> and <a target="_blank" href = "https://codeforces.com/profile/stevenbai0724" className = {classes.hyperlink}>CodeForces</a>.</h3>
                         </div>      
                         <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> C++</ButtonBase>, <ButtonBase className = {classes.btnBase}>Java</ButtonBase></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://github.com/stevenbai0724/competitive-programming"><ButtonBase className = {classes.view} > <FaGithub className = {classes.icon} />View on GitHub</ButtonBase></a> </Paper>
@@ -201,7 +201,7 @@ const Projects = () =>{
 
                         <ButtonBase className = {classes.image}><img src = {Unlock} alt = "unlock" className = {classes.image}></img></ButtonBase>
                         <div className = {classes.textBox}>
-                        <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://unlockhacks.carrd.co/">Unlock Hacks</a> is a hackathon planned for Jan 7-9. We made this a beginner event for new students to get the ball rolling by having this valuable first experience. We even managed to get sponsors for workshops and prizes!</h3>
+                        <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://unlockhacks.carrd.co/">Unlock Hacks</a> was a beginner hackathon from Jan 7 to Jan 9 2022. My team and I organized this virtual event and gathered 173 participants and sponsored prizes from 5 companies. I also hosted beginner workshops on Java and competitive programming.</h3>
                         </div>
                         <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}>HTML/CSS</ButtonBase></Paper>
                         <Paper className = {classes.tab}><a target="_blank" className = {classes.link} href = "https://unlock-hacks.devpost.com/"><ButtonBase className = {classes.view}><img src = {devpost} alt = "devpost" className = {classes.icon}></img>View on Devpost</ButtonBase></a></Paper>
