@@ -93,11 +93,11 @@ const Home = () =>{
                     <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
                 </div>
 
-                <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. I love creating applications in React and NodeJS. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I am currently doing freelance work with discord.js and I'm also open to internship opportunities in development. </h3>
+                <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. My online names are stevenbai0724 and BLEACHUGGR. I love creating applications in ReactJS and NodeJS. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I also did freelance work with discord.js and I'm also open to internship opportunities in development. </h3>
                 
-                <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming and math contests and solved 1000+ problems using algorithms and data structures in C++. </h3>
+                <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. </h3>
 
-                <h3 className = {classes.h3}>Here on my personal site you can find some of my favourite coding projects as well as blogs which I sometimes write for fun. Thanks for taking the time to stalk me!</h3>
+                <h3 className = {classes.h3}>Here on my personal site you can find some of my favourite coding projects as well as blogs which I sometimes write for fun.</h3>
                 <br></br>
                 
                 <div className = {classes.divFill}>

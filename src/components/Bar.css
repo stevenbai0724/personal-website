@@ -12,6 +12,7 @@ ul.nav {
     overflow: hidden;
     background-color: #333;
     margin-bottom: 20px;
+    margin-top: 20px;
   }
   
   li {

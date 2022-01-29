@@ -58,14 +58,21 @@ const Timeline = () => {
             <h2 className = {classes.h2}>2019 - Present</h2>
             <img className = {classes.img} src={line} alt="line"></img>
 
+            <h2 className = {classes.h2Left}>2022</h2>
+            <h3 className = {classes.h3Left}>January</h3>
+            <h4 className = {classes.h4Left}>-1700 rating on DMOJ</h4>
+
+
             <h2 className = {classes.h2Left}>2021</h2>
 
             <h3 className = {classes.h3Left}>December</h3>
-            <h4 className = {classes.h4Left}>-Began freelance work in <a className = {classes.a} target="_blank" href = "https://discord.js.org/#/">DiscordJS</a> bots</h4>
+            
             <h4 className = {classes.h4Left}>-600 DMOJ problems solved</h4>
+            <h4 className = {classes.h4Left}>-Almost qualified for USACO Gold Division (1 subtask away!)</h4>
             
             <h3 className = {classes.h3Left}>November</h3>
-            <h4 className = {classes.h4Left}>-Finished and deployed my first full stack web application, <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">dmojstats</a></h4>
+            <h4 className = {classes.h4Left}>-Finished and deployed my first full stack web application, <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/dmojstats">dmojstats</a></h4>
+            <h4 className = {classes.h4Left}>-Freelance work in <a className = {classes.a} target="_blank" href = "https://github.com/LemonFace0309/productify-beta">DiscordJS bot</a> </h4>
 
             <h3 className = {classes.h3Left}>October</h3>
             <h4 className = {classes.h4Left}>-Began work on a solo full stack project</h4>
