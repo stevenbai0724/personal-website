@@ -36,7 +36,7 @@ const App = () =>{
       </header>
       
 
-        <LinkBar></LinkBar>
+      <LinkBar></LinkBar>
     </div>
   </Router>
   )

@@ -2,7 +2,7 @@
  
   background-color: #282c34;
   display: flex;
-  align-items: center;
+  align-Items: center;
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
@@ -21,16 +21,13 @@
   width: 1000px;
   height: 100%;
     
-
-
-
 }
 
 @media only screen and (max-width: 1300px) {
   .App-header {
     margin-left: 20px;
     margin-right: 20px;
-
+    width: auto;  
   }
 }
 
