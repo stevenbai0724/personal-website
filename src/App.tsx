@@ -13,31 +13,31 @@ import Timeline from './pages/Timeline';
 const App = () =>{
   return (
   <Router>
-  <div className="App"> 
-    
-    <header className = "App-header"> 
-    <br></br>  
-    <Navbar></Navbar>
-    
+    <div className="App"> 
+      
+      <header className = "App-header"> 
+        <br></br>  
+        <Navbar></Navbar>
+        
 
-    <Switch>
-    <Route exact path="/" ><Home />  </Route>
-    <Route exact path="/Projects"component={Projects}></Route>  
-    <Route exact path="/Blogs" component={Blogs}><Blogs /></Route>
-    <Route exact path="/FirstHackathon"component={FirstHackathon}></Route>
-    <Route exact path="/ProgrammingJourney" component={ProgrammingJourney}></Route>
-    <Route exact path="/Timeline" component={Timeline}></Route>
-    </Switch>
-  
-
-    <LinkBar></LinkBar>
-
-
-    
-    </header>
+        <Switch>
+          <Route exact path="/" ><Home />  </Route>
+          <Route exact path="/Projects"component={Projects}></Route>  
+          <Route exact path="/Blogs" component={Blogs}><Blogs /></Route>
+          <Route exact path="/FirstHackathon"component={FirstHackathon}></Route>
+          <Route exact path="/ProgrammingJourney" component={ProgrammingJourney}></Route>
+          <Route exact path="/Timeline" component={Timeline}></Route>
+        </Switch>
+      
+        <br></br>
+        
 
 
-  </div>
+      </header>
+      
+
+        <LinkBar></LinkBar>
+    </div>
   </Router>
   )
 

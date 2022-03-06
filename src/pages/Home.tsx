@@ -78,36 +78,28 @@ const useStyles = makeStyles((theme) =>  ({
 const Home = () =>{
     const classes = useStyles();
     return(
-        <div >
+        <div style = {{minHeight: "100vh"}}>
             
             <div className = {classes.divFlex}>
             
-            <div>
-                <h1 className = {classes.h1}>Steven Bai</h1>
+                <div>
+                    <h1 className = {classes.h1}>Steven Bai</h1>
 
 
-                <h2 className = {classes.h2}>Full Stack Developer | Competitive Programmer </h2>
+                    <h2 className = {classes.h2}>Full Stack Developer | Competitive Programmer </h2>
 
 
                 </div>
                     <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
-                </div>
-
-                <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. My online names are stevenbai0724 and BLEACHUGGR. I love creating applications in ReactJS and NodeJS. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I also did freelance work with discord.js and I'm also open to internship opportunities in development. </h3>
-                
-                <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. </h3>
-
-                <h3 className = {classes.h3}>Here on my personal site you can find some of my favourite coding projects as well as blogs which I sometimes write for fun.</h3>
-                <br></br>
-                
-                <div className = {classes.divFill}>
-                <br></br>
-
             </div>
 
-        
-            <br></br>
+            <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. My online names are stevenbai0724 and BLEACHUGGR. I love creating applications in ReactJS and NodeJS. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I also did freelance work with discord.js and I'm also open to internship opportunities in development. </h3>
+            
+            <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. </h3>
 
+            <h3 className = {classes.h3}>Here on my personal site you can find some of my favourite coding projects as well as blogs which I sometimes write for fun.</h3>
+                
+            
         </div>
     )
 }
