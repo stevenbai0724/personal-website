@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) =>  ({
         paddingTop: "20px",
         backgroundColor: "#141b2d",
         marginTop: "100px",
-        height: "160px",
+        height: "120px",
         width: "100%",
     },
     icon:{
@@ -80,7 +80,7 @@ const LinkBar = () =>{
 
             </div>
 
-            <h4 style = {{color: "white"}}>&copy; 2021-2022 Steven Bai</h4>
+            <h5 style = {{color: "white"}}>&copy; 2021-2022 Steven Bai</h5>
 
         </div>
    

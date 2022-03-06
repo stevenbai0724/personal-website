@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) =>  ({
         flexDirection: "column",
         display: "flex",
         padding: 5,
-
+        width: 'calc(100% - 182px)',
  
     },
     divFill: {
@@ -99,32 +99,32 @@ const useStyles = makeStyles((theme) =>  ({
         },
 
         btnBase: {
-            width: "125px",
-            height: "125px",
+            width: "120px",
+            height: "120px",
         },
         div: {
         
-           width: "150px",
+            width: 'calc(100% - 152px)',
     
      
         },
     },
 
-    //Small phone
+    //Very small phone, who even has these anyways????
     '@media only screen and (max-width: 350px)': {
         div: {
         
-            width: "120px",
-         },
+            width: 'calc(100% - 112px)',
+        },
          btnBase: {
-            width: "100px",
-            height: "100px",
+            width: "80px",
+            height: "80px",
         },
         h2: {
-            fontSize: '15px',
+            fontSize: '14px',
         },
         h2Right: {
-            fontSize: '15px',
+            fontSize: '14px',
           
         },
         h3: {
@@ -149,73 +149,67 @@ const Blogs = () =>{
 
 
             <Link to="/Timeline#top" style = {linkStyle}>
-            <Grid container direction = "row" className = {classes.grid} spacing = {2}>
-               
-                <Grid item>
-                    
-                    <ButtonBase className = {classes.btnBase}><img src = {timeline} alt = "line" className = {classes.img}></img></ButtonBase>
+                <Grid container direction = "row" className = {classes.grid} spacing = {2}>
+                
+                    <Grid item>
+                        
+                        <ButtonBase className = {classes.btnBase}><img src = {timeline} alt = "line" className = {classes.img}></img></ButtonBase>
+
+                    </Grid>
+                
+                        
+                    <div className = {classes.div}>
+
+                        <h2 className = {classes.h2}>Programming Timeline</h2>
+                        <h3 className = {classes.h3}>2019 - present</h3>
+
+                    </div>
 
                 </Grid>
-              
-                    
-                <div className = {classes.div}>
+            </Link>
 
-                <h2 className = {classes.h2}>Programming Timeline</h2>
-                <h3 className = {classes.h3}>2019 - present</h3>
+            <Link to="/ProgrammingJourney#top" style = {linkStyle}>
+                <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2} >
+                
+                    <Grid item>
+                        
+                        <ButtonBase className = {classes.btnBase}><img src = {python} alt = "img" className = {classes.img}></img></ButtonBase>
 
-                </div>
+                    </Grid>
 
-            </Grid>
+                    <div className = {classes.div}>
+                        <h2 className = {classes.h2Right}>How I Got Started With Coding</h2>
+                        <h3 className = {classes.h3Right}>August 2021 | 5 min read</h3>
+                    </div>
+
+
+                </Grid>
             </Link>
 
             <Link to="/FirstHackathon#top" style = {linkStyle}>
-            <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2} >
-               
-                <Grid item>
-                    
-                    <ButtonBase className = {classes.btnBase}><img src = {mental} alt = "MLH" className = {classes.img}></img></ButtonBase>
+                <Grid container direction = "row"  className = {classes.grid} spacing = {2} >
+                
+                    <Grid  item>
+                        
+                        <ButtonBase className = {classes.btnBase}><img src = {mental} alt = "MLH" className = {classes.img}></img></ButtonBase>
 
-                </Grid>
+                    </Grid>
 
-                    
-                    <div className = {classes.div}>
-                        <h2 className = {classes.h2Right}>First hackathon experience</h2>
-
-                        <h3 className = {classes.h3Right}>July 2021 | 4 min read</h3>
+                        
+                    <div  className = {classes.div}>
+                        <h2 className = {classes.h2}>First Hackathon Experience</h2>
+                        <h3 className = {classes.h3}>July 2021 | 3 min read</h3>
                     </div>
 
-            
-                
-
-            </Grid>
-            </Link>
-            
-            <Link to="/ProgrammingJourney#top" style = {linkStyle}>
-            <Grid container direction = "row" className = {classes.grid} spacing = {2} >
-               
-                <Grid item>
-                    
-                    <ButtonBase className = {classes.btnBase}><img src = {python} alt = "img" className = {classes.img}></img></ButtonBase>
-
+        
                 </Grid>
-
-                    
-                    <div className = {classes.div}>
-                        <h2 className = {classes.h2}>How I got started with coding</h2>
-
-                        <h3 className = {classes.h3}>August 2021 | 10 min read</h3>
-                    </div>
-
-            
-                
-
-            </Grid>
             </Link>
             
-            <div className = {classes.divFill}>
-                <br></br>
-            </div>
 
+            
+            <br></br>
+            <br></br>
+            <br></br>
 
 
         </div>
@@ -224,7 +218,7 @@ const Blogs = () =>{
 }
 
 const linkStyle: React.CSSProperties = {
-    color : '#38FC94',
+    textDecoration: "none",
 }
 
 export default Blogs;

@@ -7,9 +7,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 const FirstHackathon = () =>{
     return(
         <div>
-            <h1 style = {h1Style}>First hackathon experience</h1>
+            <h1 style = {h1Style}>First Hackathon Experience</h1>
             
-            <h2 style = {h2Style}>July 2021 | 4 min read </h2>
+            <h2 style = {h2Style}>July 2021 | 3 min read </h2>
             
             <img style = {imgStyle} src={line} alt="line"></img>
             <a target="_blank" href="https://mentalhealthhacks.devpost.com/"><img style = {imgStyle} src={mental} alt="mental"></img></a>

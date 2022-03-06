@@ -97,7 +97,7 @@ const Home = () =>{
             
             <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. </h3>
 
-            <h3 className = {classes.h3}>Here on my personal site you can find some of my favourite coding projects as well as blogs which I sometimes write for fun.</h3>
+            <h3 className = {classes.h3}>Here on my personal website you can find some of my favourite coding projects as well as blogs which I sometimes write for fun.</h3>
                 
             
         </div>
