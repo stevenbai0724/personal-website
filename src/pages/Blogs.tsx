@@ -178,7 +178,7 @@ const Blogs = () =>{
                     </Grid>
 
                     <div className = {classes.div}>
-                        <h2 className = {classes.h2Right}>How I Got Started With Coding</h2>
+                        <h2 className = {classes.h2Right}>How I Started Coding</h2>
                         <h3 className = {classes.h3Right}>August 2021 | 5 min read</h3>
                     </div>
 

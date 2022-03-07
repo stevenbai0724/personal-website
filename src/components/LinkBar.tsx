@@ -74,7 +74,7 @@ const LinkBar = () =>{
 
 
             <div className = {classes.bar}>
-                <ButtonBase href = "https://github.com/stevenbai0724" target = "_blank" className = {classes.btnBase}><FaGithub className = {classes.icon} /></ButtonBase>
+                <ButtonBase href = "https://github.com/stevenbai0724/personal-website" target = "_blank" className = {classes.btnBase}><FaGithub className = {classes.icon} /></ButtonBase>
                 <ButtonBase href = "https://www.linkedin.com/in/steven-bai-787515210" target = "_blank" className = {classes.btnBase}><FaLinkedin className = {classes.icon} /></ButtonBase>
                 <ButtonBase href = "mailto:stevenbai0724@gmail.com" target = "_blank" className = {classes.btnBase}><FaEnvelope className = {classes.icon} /></ButtonBase>
 
