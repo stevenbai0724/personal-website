@@ -140,7 +140,7 @@ const Blogs = () =>{
     const classes = useStyles();
     return(
 
-        <div>
+        <div style = {{display: "flex", flexDirection: "column", alignItems:"center", width : "100%"}}>
             <h1 className = {classes.h1}>Blogs</h1>
             
             <h2 className = {classes.h2Title}>Interesting stories and experiences worth sharing </h2>
@@ -167,9 +167,27 @@ const Blogs = () =>{
 
                 </Grid>
             </Link>
+            
+            <Link to="/BadGrades#top" style = {linkStyle}>
+                <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2} >
+                
+                    <Grid item>
+                        
+                        <ButtonBase className = {classes.btnBase}></ButtonBase>
+
+                    </Grid>
+
+                    <div className = {classes.div}>
+                        <h2 className = {classes.h2Right}>Getting Over Bad Grades</h2>
+                        <h3 className = {classes.h3Right}>March 2022 </h3>
+                    </div>
+
+
+                </Grid>
+            </Link>
 
             <Link to="/ProgrammingJourney#top" style = {linkStyle}>
-                <Grid container direction = "row-reverse" className = {classes.grid} spacing = {2} >
+                <Grid container direction = "row" className = {classes.grid} spacing = {2} >
                 
                     <Grid item>
                         
@@ -178,8 +196,8 @@ const Blogs = () =>{
                     </Grid>
 
                     <div className = {classes.div}>
-                        <h2 className = {classes.h2Right}>How I Started Coding</h2>
-                        <h3 className = {classes.h3Right}>August 2021 | 5 min read</h3>
+                        <h2 className = {classes.h2}>How I Started Coding</h2>
+                        <h3 className = {classes.h3}>August 2021 | 5 min read</h3>
                     </div>
 
 
@@ -187,7 +205,7 @@ const Blogs = () =>{
             </Link>
 
             <Link to="/FirstHackathon#top" style = {linkStyle}>
-                <Grid container direction = "row"  className = {classes.grid} spacing = {2} >
+                <Grid container direction = "row-reverse"  className = {classes.grid} spacing = {2} >
                 
                     <Grid  item>
                         
@@ -197,13 +215,14 @@ const Blogs = () =>{
 
                         
                     <div  className = {classes.div}>
-                        <h2 className = {classes.h2}>First Hackathon Experience</h2>
-                        <h3 className = {classes.h3}>July 2021 | 3 min read</h3>
+                        <h2 className = {classes.h2Right}>First Hackathon Experience</h2>
+                        <h3 className = {classes.h3Right}>July 2021 | 3 min read</h3>
                     </div>
 
         
                 </Grid>
             </Link>
+
             
 
             
@@ -219,6 +238,7 @@ const Blogs = () =>{
 
 const linkStyle: React.CSSProperties = {
     textDecoration: "none",
+    width : "100%",
 }
 
 export default Blogs;

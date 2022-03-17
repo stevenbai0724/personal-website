@@ -9,7 +9,7 @@ import {HashRouter as Router, Route, Switch, Link} from 'react-router-dom'
 import FirstHackathon from './pages/FirstHackathon';
 import ProgrammingJourney from './pages/ProgrammingJourney';
 import Timeline from './pages/Timeline';
-
+import BadGrades from './pages/BadGrades'
 const App = () =>{
   return (
   <Router>
@@ -18,7 +18,6 @@ const App = () =>{
       <header className = "App-header"> 
         <br></br>  
         <Navbar></Navbar>
-        
 
         <Switch>
           <Route exact path="/" ><Home />  </Route>
@@ -27,6 +26,7 @@ const App = () =>{
           <Route exact path="/FirstHackathon"component={FirstHackathon}></Route>
           <Route exact path="/ProgrammingJourney" component={ProgrammingJourney}></Route>
           <Route exact path="/Timeline" component={Timeline}></Route>
+          <Route exact path="/BadGrades" component={BadGrades}></Route>
         </Switch>
       
         <br></br>

@@ -1,7 +1,7 @@
-import React from 'react'
 import line from '../images/line.png'
 import { makeStyles, ButtonBase, Button} from "@material-ui/core";
 import steven from '../images/steven.png'
+import React from 'react';
 
 const useStyles = makeStyles((theme) =>  ({
 
@@ -77,6 +77,7 @@ const useStyles = makeStyles((theme) =>  ({
 
 const Home = () =>{
     const classes = useStyles();
+
     return(
         <div style = {{minHeight: "100vh"}}>
             
