@@ -3,5 +3,5 @@ https://stevenbai.ca/
 
 # features to add: 
 
-- footer
 - modal for projects on click
+- css image loading animation 
