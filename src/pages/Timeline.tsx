@@ -6,11 +6,12 @@ const useStyles = makeStyles((theme) =>  ({
 
     h1: {
         textAlign: 'center',
+        fontSize: "30pt",
     },
     h2: {
         textAlign: 'center',
         fontWeight: 'normal',
-        fontSize: '25px',
+        fontSize: "15pt",
     },
     h3: {
         textAlign: 'left',
@@ -20,18 +21,18 @@ const useStyles = makeStyles((theme) =>  ({
     h2Left: {
         textAlign: 'left',
         fontWeight: 'bold',
-        fontSize: '25px',
+        fontSize: '16pt',
 
     },
     h3Left: {
         textAlign: 'left',
         fontWeight: 'bold',
-        fontSize: '20px',
+        fontSize: '15pt',
     },
     h4Left:{
         textAlign: 'left',
         fontWeight: 'normal',
-        fontSize: '17px',
+        fontSize: '12pt',
     },
     img: {
         display: 'block',
@@ -60,10 +61,16 @@ const Timeline = () => {
 
             <h2 className = {classes.h2Left}>2022</h2>
 
+            <h3 className = {classes.h3Left}>March</h3>
+            <h4 className = {classes.h4Left}>&#183; Missed CCC honor roll by 1 point</h4>
+            <h4 className = {classes.h4Left}>&#183; Accepted into Computer Engineering at University of Waterloo!</h4>
+            <h4 className = {classes.h4Left}>&#183; Started learning <a className={classes.a} target="_blank" href="https://www.mongodb.com/">MongoDB</a> to maintain databases for future projects</h4>
+
             <h3 className = {classes.h3Left}>February</h3>
             <h4 className = {classes.h4Left}>&#183; 700 DMOJ problems solved</h4>
             <h4 className = {classes.h4Left}>&#183; 400 DMOJ points</h4>
-            <h4 className = {classes.h4Left}>&#183; Severe underperformance on CCC </h4>
+            <h4 className = {classes.h4Left}>&#183; Underperformed on CCC, 39/75 (~94th percentile) </h4>
+            <h4 className = {classes.h4Left}>&#183; Taking break from competitive programming </h4>
  
 
             <h3 className = {classes.h3Left}>January</h3>
@@ -101,7 +108,7 @@ const Timeline = () => {
 
             <h3 className = {classes.h3Left}>June</h3>
             <h4 className = {classes.h4Left}>&#183; Wrote AP Calc and Mechanics. Did terrible on both.</h4>
-            <h4 className = {classes.h4Left}>&#183; Finished grade 11 and took a break from programming</h4>
+            <h4 className = {classes.h4Left}>&#183; Finished Grade 11 and took a break from programming</h4>
 
 
             <h3 className = {classes.h3Left}>May</h3>
@@ -142,7 +149,7 @@ const Timeline = () => {
 
 
             <h3 className = {classes.h3Left}>Septemeber</h3>
-            <h4 className = {classes.h4Left}>&#183; Began doing competitive programming again on DMOJ in Java, learning new algorithms taught by <a className={classes.aRed} target="_blank" href="https://dmoj.ca/user/kevinyang">kevinyang</a></h4>
+            <h4 className = {classes.h4Left}>&#183; Began doing competitive programming again on DMOJ in Java, learning new algorithms taught by <a className={classes.aRed} target="_blank" href="https://dmoj.ca/user/kevinyang">kevinyang</a> (much appreciated)</h4>
             <h4 className = {classes.h4Left}>&#183; Created CodeForces account and began solving more problems</h4>
 
             <h3 className = {classes.h3Left}>February</h3>

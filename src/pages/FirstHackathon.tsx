@@ -10,15 +10,14 @@ const FirstHackathon = () =>{
             <h1 style = {h1Style}>First Hackathon Experience</h1>
             
             <h2 style = {h2Style}>July 2021 | 3 min read </h2>
-            
-            <img style = {imgStyle} src={line} alt="line"></img>
+   
             <a target="_blank" href="https://mentalhealthhacks.devpost.com/"><img style = {imgStyle} src={mental} alt="mental"></img></a>
 
-            <h3 style = {h3Style}>During my grade 11 online school year, I was getting really bored of school and I had some time on my hands so I joined a hackathon which spanned from May 21- May 23, 2021. My friend Luke and I are both looking to apply to Computer Science for university and we were inspired to start building projects to improve our application. As a result, we took the leap of faith and decided to join an online hackathon together (Mental Health Hacks) as complete beginners. </h3>
+            <h3 style = {h3Style}>During my Grade 11 online school year, I was getting really bored of school and I had some time on my hands so I joined a hackathon which spanned from May 21- May 23, 2021. My friend Luke and I are both looking to apply to Computer Science for university and we were inspired to start building projects to improve our application. As a result, we took the leap of faith and decided to join an online hackathon together (Mental Health Hacks) as complete beginners. </h3>
 
             <h2 style = {h2Title}>What is a Hackathon?</h2>
 
-            <h3 style = {h3Style}>In short, a Hackathon is usually a 1-2 day competitive team building event where people get together and create a functioning software product such as an app. Ever since grade 9,  I’ve talked to many university students and graduates in the computer science field and their tips on getting accepted into prestigious programs such as Waterloo CS. Almost all of them agreed that Hackathons look really great on the application and they shared their experiences on making apps, games and websites.</h3>
+            <h3 style = {h3Style}>In short, a Hackathon is usually a 1-2 day competitive team building event where people get together and create a functioning software product such as an app. Ever since Grade 9,  I’ve talked to many university students and graduates in the computer science field and their tips on getting accepted into prestigious programs such as Waterloo CS. Almost all of them agreed that Hackathons look really great on the application and they shared their experiences on making apps, games and websites.</h3>
             
             <br></br>
             <br></br>
@@ -49,16 +48,17 @@ const FirstHackathon = () =>{
 }
 const h1Style: React.CSSProperties = {
     textAlign: 'center',
+    fontSize: '30pt',
 }
 const h2Style: React.CSSProperties = {
     textAlign: 'center',
     fontWeight: 'normal',
-    fontSize: '25px',
+    fontSize: '15pt',
 }
 const h3Style: React.CSSProperties = {
     textAlign: 'left',
     fontWeight: 'normal',
-    fontSize: '19px',
+    fontSize: '12pt',
     lineHeight: '1.75',
     display: "inline",
     
@@ -66,7 +66,7 @@ const h3Style: React.CSSProperties = {
 const h2Title: React.CSSProperties = {
     textAlign: 'left',
     fontWeight: 'bold',
-    fontSize: '25px',
+    fontSize: '15pt',
 }
 const imgStyle: React.CSSProperties = {
     display: 'block',

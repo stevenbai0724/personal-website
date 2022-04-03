@@ -12,17 +12,18 @@ const useStyles = makeStyles((theme) =>  ({
     },
     h1: {
         textAlign: 'left',
+        fontSize: "30pt",
     },
     h2: {
         textAlign: 'left',
         fontWeight: 'normal',
-        fontSize: '25px',
+        fontSize: '15pt',
     },
     h3: {
         textAlign: 'left',
         fontWeight: 'normal',
-        fontSize: '20px',
         lineHeight: '1.75',
+        fontSize: '12pt',
         
     },
     a: {
@@ -31,13 +32,16 @@ const useStyles = makeStyles((theme) =>  ({
     btn: {
         height: '200px',
         width: '200px',
-        borderRadius: "50%",
+      borderRadius: "50%",
        
     },
     divFlex: {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
+        flexDirection: "row",
+        marginTop: "30px",
+        
     },
     divFill: {
         height: 'calc(100vh - 500px)',
@@ -61,10 +65,11 @@ const useStyles = makeStyles((theme) =>  ({
         },
         divFlex: {
             display: "block",
+            
         },
         btn: {
-            height: '150px',
-            width: '150px',
+            height: '170px',
+            width: "170px",
             display: "block",
             margin: "auto",
             borderRadius: "50%",
@@ -79,11 +84,12 @@ const Home = () =>{
     const classes = useStyles();
 
     return(
-        <div style = {{minHeight: "100vh"}}>
+        <div style = {{minHeight: "100vh", width: "100%"}}>
             
             <div className = {classes.divFlex}>
             
                 <div>
+         
                     <h1 className = {classes.h1}>Steven Bai</h1>
 
 
@@ -94,7 +100,8 @@ const Home = () =>{
                     <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
             </div>
 
-            <h3 className = {classes.h3}>Hello! My name is Steven and I am a grade 12 student. My online names are stevenbai0724 and BLEACHUGGR. I love creating applications in ReactJS and NodeJS. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I also did freelance work with discord.js and I'm also open to internship opportunities in development. </h3>
+            <h3 className = {classes.h3}>Hello! My name is Steven and I am a Grade 12 student. My online names are stevenbai0724 and BLEACHUGGR. I was recently accepted into Computer Engineering at the University of Waterloo! I am open to messages on discord at bleachuggr#0733.</h3>
+            <h3 className = {classes.h3}>I am working on web development with ReactJS, NodeJS, ExpressJS and MongoDB. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a> and I have freelance experience with DiscordJS. I am open to internship opportunities in development. </h3>
             
             <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. </h3>
 

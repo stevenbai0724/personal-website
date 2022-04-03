@@ -10,21 +10,22 @@ const useStyles = makeStyles((theme) =>  ({
     
     h1: {
         textAlign: 'center',
+        fontSize: "30pt",
     },
     h2: {
         textAlign: 'center',
         fontWeight: 'normal',
-        fontSize: '25px',
+        fontSize: '15pt',
     },
     h2Title: {
         textAlign: 'left',
         fontWeight: 'bold',
-        fontSize: '25px',
+        fontSize: '15pt',
     },
     h3: {
         textAlign: 'left',
         fontWeight: 'normal',
-        fontSize: '19px',
+        fontSize: '12pt',
         lineHeight: '1.75',
         display: 'inline',
     },
@@ -61,8 +62,6 @@ const ProgrammingJourney = () =>{
 
         <h2 className = {classes.h2}>August 2021 | 5 min read </h2>
 
-        <img className = {classes.img} src={line} alt="line"></img>
-
         <img src = {python} className = {classes.img}></img>
 
         <br></br>
@@ -89,7 +88,7 @@ const ProgrammingJourney = () =>{
         
         <br></br>
         <br></br>
-        <h3 className = {classes.h3}> Even if you do not end up having a decent programming course in Grade 9, I would highly recommend you look at tutorials for Python which is a very beginner friendly language. There are many free videos and courses online and in my opinion it doesn't matter which one you use, but I ended up using <a className = {classes.a} href="https://www.sololearn.com/" target="_blank">Sololearn</a> after setting up Python simply with a youtube video. Sololearn is free, minimalistic and very easy to understand and I learned Java and C++ from it as well. During summer break after grade 9, I did not make any projects or do anything significant with the programming that I learned. Summer break is a very good time to work on programming because there is 2 straight months of free time, and I regret not taking advantage of that. With my basic understanding of programming at the time, I could've easily started competitive programming or web development which I will discuss later.</h3>
+        <h3 className = {classes.h3}> Even if you do not end up having a decent programming course in Grade 9, I would highly recommend you look at tutorials for Python which is a very beginner friendly language. There are many free videos and courses online and in my opinion it doesn't matter which one you use, but I ended up using <a className = {classes.a} href="https://www.sololearn.com/" target="_blank">Sololearn</a> after setting up Python simply with a youtube video. Sololearn is free, minimalistic and very easy to understand and I learned Java and C++ from it as well. During summer break after Grade 9, I did not make any projects or do anything significant with the programming that I learned. Summer break is a very good time to work on programming because there is 2 straight months of free time, and I regret not taking advantage of that. With my basic understanding of programming at the time, I could've easily started competitive programming or web development which I will discuss later.</h3>
         
         <h2 className = {classes.h2Title}>Copying Code</h2>
 
@@ -127,7 +126,7 @@ const ProgrammingJourney = () =>{
         <h3 className = {classes.h3}>A website is the perfect first time project for beginners. Just like Python and other programming languages, there are countless tutorials and courses online for HTML and CSS which are the fundamentals of web development. Of course, you will need to set things up just like Python with the installations and everything but Youtube makes this process very simple these days. I learned HTML and CSS at school and created my <a href = "https://stevenbai0724.github.io/Civics-and-Careers-Project/index.html" target = "_blank" className = {classes.a}>first website </a>in Grade 9, but it isn't anything too fancy and I'm sure that anyone can learn from a “HTML/CSS website from scratch” quick Youtube search.</h3>
         <br></br>
         <br></br>
-        <h3 className = {classes.h3}>I began learning a lot of web development in late grade 11 during my internship at <a className = {classes.a} href="https://icontribute.community/#/" target="_blank">iContribute</a> in March 2021. I actually landed the internship since the founders were impressed with my past experience in CP and my interpersonal skills as a high school student. They used TypeScript React which was a more advanced frontend technology and I did not know any of it. While applying to this position, I showed them all of my DMOJ contests and solves as well as my first HTML website and luckily they were very satisfied with my skills, so I was able to tag along and learn React on the job. I wasn't too aware at the time but projects and past experiences provide tremendous advantages when looking for a job/internship which is why it is good to start early to build these experiences. I was lucky to have all the competitive programming experience under my belt. </h3> 
+        <h3 className = {classes.h3}>I began learning a lot of web development in late Grade 11 during my internship at <a className = {classes.a} href="https://icontribute.community/#/" target="_blank">iContribute</a> in March 2021. I actually landed the internship since the founders were impressed with my past experience in CP and my interpersonal skills as a high school student. They used TypeScript React which was a more advanced frontend technology and I did not know any of it. While applying to this position, I showed them all of my DMOJ contests and solves as well as my first HTML website and luckily they were very satisfied with my skills, so I was able to tag along and learn React on the job. I wasn't too aware at the time but projects and past experiences provide tremendous advantages when looking for a job/internship which is why it is good to start early to build these experiences. I was lucky to have all the competitive programming experience under my belt. </h3> 
         <br></br>
         <br></br>
         <h3 className = {classes.h3}>After 3-4 months as a frontend web development intern, I launched this website as a project with everything I have learned from iContribute. The project was a success and it marked the start of my developer career. </h3>

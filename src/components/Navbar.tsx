@@ -72,6 +72,9 @@ const useStyles = makeStyles((theme) =>  ({
         display: "flex",
         justifyContent: "center",
         width: "100%",
+        backgroundColor: "#333333",
+        position: "fixed",
+        top: "0",
     },
     icon: {
         borderRadius: "10%",
@@ -80,7 +83,7 @@ const useStyles = makeStyles((theme) =>  ({
         width: "100%", 
         display: "flex", 
         flexDirection: "row", 
-        justifyContent: "flex-start"
+        justifyContent: "flex-start",
     },
     menu: {
         "& .MuiMenu-paper": {
@@ -135,7 +138,7 @@ const Navbar = () =>{
 
     return(
 
-        <div className={classes.container}>
+        <div className={classes.container} style = {styles}>
 
             {
                 width > 500 && 
@@ -175,9 +178,9 @@ const Navbar = () =>{
                         onClose={handleClose}
                         className = {classes.menu}
                     >
-                        <MenuItem className = {classes.menuItem} onClick={handleHome}>&nbsp;&nbsp; Home</MenuItem>
-                        <MenuItem className = {classes.menuItem} onClick={handleProjects}>&nbsp;&nbsp; Projects</MenuItem>
-                        <MenuItem className = {classes.menuItem} onClick={handleBlogs}>&nbsp;&nbsp; Blogs</MenuItem>
+                        <MenuItem className = {classes.menuItem} onClick={() => handleHome()}>&nbsp;&nbsp; Home</MenuItem>
+                        <MenuItem className = {classes.menuItem} onClick={() => handleProjects()}>&nbsp;&nbsp; Projects</MenuItem>
+                        <MenuItem className = {classes.menuItem} onClick={() => handleBlogs()}>&nbsp;&nbsp; Blogs</MenuItem>
                         <a style = {{textDecoration: "none", color: "white", width: "120px"}}href = {PDF} target = "_blank"><MenuItem className = {classes.menuItem} onClick={handleClose}>&nbsp;&nbsp; Resume</MenuItem></a>
 
                     </Menu>
@@ -188,8 +191,11 @@ const Navbar = () =>{
     )
 }
 
-
+const styles: React.CSSProperties = {
+    zIndex: 100,
+}
 
 
 
 export default Navbar;
+

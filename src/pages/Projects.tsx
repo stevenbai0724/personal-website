@@ -61,18 +61,18 @@ const useStyles = makeStyles((theme) =>  ({
     textBox: {
         display: "block",
         width: "100%",
-        minHeight: 200,
+        minHeight: "230px",
     },
     hyperlink : {
         color : '#38fc94',
-        fontSize: '15px',
+        fontSize: '12pt',
         textDecoration: "none",
 
     },
     text: {
         textAlign: 'center',
         fontWeight: 'normal',
-        fontSize: '15px',
+        fontSize: '12pt',
         lineHeight: '2',
         color: 'white',
     },
@@ -120,11 +120,12 @@ const useStyles = makeStyles((theme) =>  ({
     title: {
         textAlign: 'center',
         color: 'white',
+        fontSize: "30pt",
     },
     subTitle: {
         textAlign: 'center',
         fontWeight: 'normal',
-        fontSize: '25px',
+        fontSize: '15pt',
         color: 'white',
     },
     image: {
@@ -170,7 +171,7 @@ const Projects = () =>{
     const {height, width} = useWindowDimensions();
 
     return(
-        <div >
+        <div style = {{width: "100%", display: "flex", alignItems: "center", flexDirection: "column"}}>
            
             <h1 className = {classes.title}>Projects</h1>
 
@@ -235,7 +236,7 @@ const Projects = () =>{
 
                         <ButtonBase className = {classes.image}><img src = {DMOJSTATS} alt = "dmoj stats" className = {classes.image}></img></ButtonBase>
                         <div className = {classes.textBox}>
-                            <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://dmojstats.herokuapp.com">dmojstats</a> is a search engine which was my first full stack project. Using the <a target="_blank" className = {classes.hyperlink} href = "https://docs.dmoj.ca/#/site/api">API</a> from dmoj.ca, dmojstats displays detailed user profile information including performance and percentile stats from rated contests for 100 000+ developers.</h3>
+                            <h3 className = {classes.text}><a target="_blank" className = {classes.hyperlink} href = "https://dmojstats.herokuapp.com">dmojstats</a> is a user profile search engine. Using the <a target="_blank" className = {classes.hyperlink} href = "https://docs.dmoj.ca/#/site/api">API</a> from dmoj.ca, dmojstats displays detailed user profile information including performance and percentile stats from rated contests for 100,000+ developers.</h3>
                         </div>
                         <div style = {{width: "100%"}}>
                             <Paper className = {classes.tech}><ButtonBase className = {classes.btnBase}> ReactJS </ButtonBase>&nbsp;<ButtonBase className = {classes.btnBase}> ExpressJS</ButtonBase>&nbsp; <ButtonBase className = {classes.btnBase}> NodeJS</ButtonBase></Paper>
@@ -303,7 +304,7 @@ const Projects = () =>{
                     <ButtonBase className = {classes.image}><img src = {reactLogo} alt = "IC" className = {classes.image}></img></ButtonBase>
 
                     <div className = {classes.textBox}>
-                        <h3 className = {classes.text}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages on a custom domain. Here on my website you can find a short bio of me and some projects and blogs. </h3>
+                        <h3 className = {classes.text}>After learning frontend development at my first internship, I made this website from scratch, hosted with GitHub Pages on a custom domain.You can find a short bio of me, some projects and blogs which I sometimes write for fun. </h3>
                     </div>
 
                     <div style = {{width: "100%"}}>
@@ -347,9 +348,6 @@ const Projects = () =>{
             </div>
      
 
-            <div className = {classes.divFill}>
-                <br></br>
-            </div>
 
         </div>
     )
