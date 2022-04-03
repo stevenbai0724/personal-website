@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3807b79d.chunk.css",
-    "main.js": "/static/js/main.eddcbedc.chunk.js",
-    "main.js.map": "/static/js/main.eddcbedc.chunk.js.map",
+    "main.css": "/static/css/main.528baaed.chunk.css",
+    "main.js": "/static/js/main.79099ac8.chunk.js",
+    "main.js.map": "/static/js/main.79099ac8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.afc82e8a.js",
     "runtime-main.js.map": "/static/js/runtime-main.afc82e8a.js.map",
     "static/js/2.359b5004.chunk.js": "/static/js/2.359b5004.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.91920f36.chunk.js": "/static/js/3.91920f36.chunk.js",
     "static/js/3.91920f36.chunk.js.map": "/static/js/3.91920f36.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3807b79d.chunk.css.map": "/static/css/main.3807b79d.chunk.css.map",
+    "static/css/main.528baaed.chunk.css.map": "/static/css/main.528baaed.chunk.css.map",
     "static/js/2.359b5004.chunk.js.LICENSE.txt": "/static/js/2.359b5004.chunk.js.LICENSE.txt",
     "static/media/CF.e4bbd78b.png": "/static/media/CF.e4bbd78b.png",
     "static/media/CP.5971cbd7.png": "/static/media/CP.5971cbd7.png",
@@ -29,16 +29,17 @@
     "static/media/python.184f4c48.jpg": "/static/media/python.184f4c48.jpg",
     "static/media/reactLogo.21263f76.png": "/static/media/reactLogo.21263f76.png",
     "static/media/steven.87596799.png": "/static/media/steven.87596799.png",
-    "static/media/stevenbairesume.5f09e517.pdf": "/static/media/stevenbairesume.5f09e517.pdf",
+    "static/media/stevenbairesume.c9b7b02f.pdf": "/static/media/stevenbairesume.c9b7b02f.pdf",
     "static/media/timeline.40c69340.png": "/static/media/timeline.40c69340.png",
     "static/media/troki.99fdf870.png": "/static/media/troki.99fdf870.png",
     "static/media/twitch.a7d6b7e5.png": "/static/media/twitch.a7d6b7e5.png",
-    "static/media/unlockhacks.67d1210a.png": "/static/media/unlockhacks.67d1210a.png"
+    "static/media/unlockhacks.67d1210a.png": "/static/media/unlockhacks.67d1210a.png",
+    "static/media/waterloo.51fa06c7.jpg": "/static/media/waterloo.51fa06c7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.afc82e8a.js",
     "static/js/2.359b5004.chunk.js",
-    "static/css/main.3807b79d.chunk.css",
-    "static/js/main.eddcbedc.chunk.js"
+    "static/css/main.528baaed.chunk.css",
+    "static/js/main.79099ac8.chunk.js"
   ]
 }
