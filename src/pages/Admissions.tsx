@@ -53,12 +53,12 @@ const Admissions = () =>{
 
         <h2 className = {classes.h2Title}>Backup Schools</h2>
 
-        <h3 className = {classes.h3}>I applied to 8 programs from 5 schools in total (Waterloo, UofT, McMaster, Carelton and UOttawa), mostly consisting of computer science and engineering programs which are related to the career I hope to pursue in software. As I mentioned in my coding blog back in August 2021, computer science is becoming extremely competitive and most top-tier schools will require a supplementary application with an essay, form and/or interview process. This means that they will take time to process the applicants' submissions and give offers late in March - May. </h3>
+        <h3 className = {classes.h3}>I applied to 8 programs from 5 schools in total (Waterloo, UofT, McMaster, Carleton and UOttawa), mostly consisting of computer science and engineering programs which are related to the career I hope to pursue in software. As I mentioned in my coding blog back in August 2021, computer science is becoming extremely competitive and most top-tier schools will require a supplementary application with an essay, form and/or interview process. This means that they will take time to process the applicants' submissions and give offers late in March - May. </h3>
 
         <br></br>
         <br></br>
 
-        <h3 className = {classes.h3}>I was extremely anxious while waiting for these offers so it is a good idea to secure early offers from schools with easier requirements. As of April 2022, I've only heard back from 3 out of the 8 programs I applied to which goes to show how stressful the waiting would have been if I did not diversify my choices in programs/schools.</h3>
+        <h3 className = {classes.h3}>I was extremely anxious while waiting for these offers so it was a good idea to secure early offers from schools with easier requirements. As of April 2022, I've only heard back from 3 out of the 8 programs I applied to which goes to show how stressful the waiting would have been if I did not diversify my choices in programs/schools.</h3>
 
         <br></br>
         <br></br>

@@ -66,10 +66,6 @@ const ProgrammingJourney = () =>{
 
         <img src = {python} className = {classes.img}></img>
 
-        <br></br>
-
-        <h2 className = {classes.h2Title}> Intro </h2>
-
         <h3 className = {classes.h3}>Computer programming is a massive field of study that is becoming more and more popular in recent years. Many students who are my age (currently 17 years old) are constantly striving and working towards getting into a top computer science undergrad program in hopes of making a lot of money after graduation. Computer science is a highly competitive field! There are certainly younger or inexperienced audiences who merely have aspirations and have never written a single line of code before. That being said, I will share some of the advice from my programming journey that I wish I knew earlier.</h3>
        
         <h2 className = {classes.h2Title}> Stop Comparing Yourself to Others </h2>
