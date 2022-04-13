@@ -34,6 +34,8 @@ const useStyles = makeStyles((theme) =>  ({
         marginLeft: 'auto',
         marginRight: 'auto',
         width: '100%',
+        marginTop: "40px",
+        marginBottom: "40px",
     },
     a: {
         color: '#38fc94',

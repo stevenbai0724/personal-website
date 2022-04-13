@@ -88,7 +88,7 @@ const Blogs = () =>{
                     <div className = {classes.textbox}>
                         <h2 className = {classes.blogName}>Admissions 2022</h2>
 
-                        <h3 className = {classes.date}>March 2022</h3>
+                        <h3 className = {classes.date}>April 2022</h3>
                     </div>
 
               
