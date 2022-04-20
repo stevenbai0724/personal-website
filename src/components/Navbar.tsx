@@ -106,7 +106,13 @@ const useStyles = makeStyles((theme) =>  ({
     }
     
 }));
-const Navbar = () =>{
+interface barContent{
+    first: string;
+    second: string;
+    third: string;
+    fourth: string;
+}
+function Navbar(props:barContent) {
     const classes = useStyles();
     const {height, width} = useWindowDimensions();
     const history = useHistory();
@@ -145,17 +151,17 @@ const Navbar = () =>{
                 <ul className = {classes.nav}>
             
                 <li className = {classes.li}>
-                    <Link className = {classes.link} to="/#top">Home</Link>
+                    <Link className = {classes.link} to="/#top">{props.first}</Link>
                     
                 </li>
                 <li className = {classes.li}>
-                    <Link className = {classes.link} to="/Projects#top">Projects</Link>
+                    <Link className = {classes.link} to="/Projects#top">{props.second}</Link>
                 </li>
                 <li className = {classes.li}>
-                    <Link className = {classes.link} to="/Blogs#top">Blogs</Link>
+                    <Link className = {classes.link} to="/Blogs#top">{props.third}</Link>
                 </li>
                 <li className = {classes.li}>
-                    <a className = {classes.link} href = {PDF} target = "_blank">Resume</a>
+                    <a className = {classes.link} href = {PDF} target = "_blank">{props.fourth}</a>
                 </li>
 
             </ul>
