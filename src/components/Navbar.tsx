@@ -198,7 +198,7 @@ function Navbar(props:barContent) {
 }
 
 const styles: React.CSSProperties = {
-    zIndex: 100,
+    zIndex: 99,
 }
 
 
