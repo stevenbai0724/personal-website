@@ -3,5 +3,6 @@ https://stevenbai.ca/
 
 # features to add: 
 
-- modal for projects on click
+- modal for projects on click ✅
 - css loading/rendering animation for images and text 
+- blog for each significant project
