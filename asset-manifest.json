@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b3fd75.chunk.css",
-    "main.js": "/static/js/main.d12c8e63.chunk.js",
-    "main.js.map": "/static/js/main.d12c8e63.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.47b2bce4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.47b2bce4.js.map",
-    "static/js/2.3b604ebb.chunk.js": "/static/js/2.3b604ebb.chunk.js",
-    "static/js/2.3b604ebb.chunk.js.map": "/static/js/2.3b604ebb.chunk.js.map",
-    "static/js/3.2f02ab6a.chunk.js": "/static/js/3.2f02ab6a.chunk.js",
-    "static/js/3.2f02ab6a.chunk.js.map": "/static/js/3.2f02ab6a.chunk.js.map",
+    "main.js": "/static/js/main.6fd41851.chunk.js",
+    "main.js.map": "/static/js/main.6fd41851.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.84e2ab02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.84e2ab02.js.map",
+    "static/js/2.4cc42477.chunk.js": "/static/js/2.4cc42477.chunk.js",
+    "static/js/2.4cc42477.chunk.js.map": "/static/js/2.4cc42477.chunk.js.map",
+    "static/js/3.3954588a.chunk.js": "/static/js/3.3954588a.chunk.js",
+    "static/js/3.3954588a.chunk.js.map": "/static/js/3.3954588a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.a2b3fd75.chunk.css.map": "/static/css/main.a2b3fd75.chunk.css.map",
-    "static/js/2.3b604ebb.chunk.js.LICENSE.txt": "/static/js/2.3b604ebb.chunk.js.LICENSE.txt",
+    "static/js/2.4cc42477.chunk.js.LICENSE.txt": "/static/js/2.4cc42477.chunk.js.LICENSE.txt",
     "static/media/CF.e4bbd78b.png": "/static/media/CF.e4bbd78b.png",
     "static/media/CP.5971cbd7.png": "/static/media/CP.5971cbd7.png",
     "static/media/DMOJ.620a2bae.png": "/static/media/DMOJ.620a2bae.png",
-    "static/media/IC.f7754e96.png": "/static/media/IC.f7754e96.png",
+    "static/media/IC.7dc1a57e.png": "/static/media/IC.7dc1a57e.png",
     "static/media/YT.c9248bd4.png": "/static/media/YT.c9248bd4.png",
     "static/media/cpdemo.8f5e73d8.png": "/static/media/cpdemo.8f5e73d8.png",
     "static/media/devpost.05ea6f3a.png": "/static/media/devpost.05ea6f3a.png",
@@ -44,9 +44,9 @@
     "static/media/waterloobig.3641d165.jpg": "/static/media/waterloobig.3641d165.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.47b2bce4.js",
-    "static/js/2.3b604ebb.chunk.js",
+    "static/js/runtime-main.84e2ab02.js",
+    "static/js/2.4cc42477.chunk.js",
     "static/css/main.a2b3fd75.chunk.css",
-    "static/js/main.d12c8e63.chunk.js"
+    "static/js/main.6fd41851.chunk.js"
   ]
 }
