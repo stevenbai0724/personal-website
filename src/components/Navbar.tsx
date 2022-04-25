@@ -102,7 +102,10 @@ const useStyles = makeStyles((theme) =>  ({
     '@media only screen and (max-width: 500px)': {
         container: {
             justifyContent: "flex-start",
-        }
+        },
+        li: {
+            fontSize: "16px",
+        },
     }
     
 }));
@@ -184,10 +187,19 @@ function Navbar(props:barContent) {
                         onClose={handleClose}
                         className = {classes.menu}
                     >
-                        <MenuItem className = {classes.menuItem} onClick={() => handleHome()}>&nbsp;&nbsp; Home</MenuItem>
-                        <MenuItem className = {classes.menuItem} onClick={() => handleProjects()}>&nbsp;&nbsp; Projects</MenuItem>
-                        <MenuItem className = {classes.menuItem} onClick={() => handleBlogs()}>&nbsp;&nbsp; Blogs</MenuItem>
-                        <a style = {{textDecoration: "none", color: "white", width: "120px"}}href = {PDF} target = "_blank"><MenuItem className = {classes.menuItem} onClick={handleClose}>&nbsp;&nbsp; Resume</MenuItem></a>
+                        <li className = {classes.li}>
+                            <Link className = {classes.link} to="/#top">{props.first}</Link>
+                    
+                        </li>
+                        <li className = {classes.li}>
+                            <Link className = {classes.link} to="/Projects#top">{props.second}</Link>
+                        </li>
+                        <li className = {classes.li}>
+                            <Link className = {classes.link} to="/Blogs#top">{props.third}</Link>
+                        </li>
+                        <li className = {classes.li}>
+                            <a className = {classes.link} href = {PDF} target = "_blank">{props.fourth}</a>
+                        </li>
 
                     </Menu>
                 </div>
