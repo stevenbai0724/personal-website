@@ -99,7 +99,7 @@ const useStyles = makeStyles((theme) =>  ({
         maxWidth: "80vw",
         textAlign: "center",
         overflowY: "auto",
-        maxHeight: "calc(100vh - 150px)",
+        maxHeight: "calc(100vh-250px)",
         '&::-webkit-scrollbar' :{
             width: '4px',
 
