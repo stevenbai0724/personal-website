@@ -113,7 +113,7 @@ const Projects = () =>{
             }
         ],
         tech: ["Java", "HTML", "CSS"],
-        description: "Unlock Hacks was a virtual hackathon from Jan 7 - Jan 9 2022. My team organized this beginner event for 173 participants over 48 days, with over $800 in sponsored prizes from 5 companies. I was one of the lead organizers, judges and workshop lecturers for workshops in Java and competitive programming.",
+        description: "Unlock Hacks was a virtual hackathon from Jan 7 - Jan 9 2022. My team organized this beginner event for 173 participants over 48 hours, with over $800 in sponsored prizes from 5 companies. I was one of the lead organizers, judges and workshop lecturers for workshops in Java and competitive programming.",
         demo: uhdemo
     }
     const ds = {
