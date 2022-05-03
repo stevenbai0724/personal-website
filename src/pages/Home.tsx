@@ -101,7 +101,7 @@ const Home = () =>{
             </div>
 
             <h3 className = {classes.h3}>Hello! My name is Steven and I am a Grade 12 student. My online names are stevenbai0724 and BLEACHUGGR. I was recently accepted into Computer Engineering at the University of Waterloo! I am open to messages on discord at bleachuggr#0733.</h3>
-            <h3 className = {classes.h3}>I am working on web development with ReactJS, NodeJS, ExpressJS and MongoDB. I was previously a web development intern at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a> and I have freelance experience with DiscordJS. I am open to internship opportunities in development. </h3>
+            <h3 className = {classes.h3}>I love working with ReactJS, NodeJS, ExpressJS and MongoDB to make web applications. I was previously a web developer at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I am currently open to internship opportunities in software development. </h3>
             
             <h3 className = {classes.h3}>I am also an avid problem solver. I've competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. </h3>
 
