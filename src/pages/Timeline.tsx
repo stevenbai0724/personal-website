@@ -61,6 +61,13 @@ const Timeline = () => {
 
             <h2 className = {classes.h2Left}>2022</h2>
 
+            <h3 className = {classes.h3Left}>May</h3>
+            <h4 className = {classes.h4Left}>&#183; Accepted into Computer Science at University of Waterloo!</h4>
+
+            <h3 className = {classes.h3Left}>April</h3>
+            <h4 className = {classes.h4Left}>&#183; Burnout from school and programming</h4>
+            <h4 className = {classes.h4Left}>&#183; Significant updates made to personal website</h4>
+
             <h3 className = {classes.h3Left}>March</h3>
             <h4 className = {classes.h4Left}>&#183; Missed CCC honor roll by 1 point</h4>
             <h4 className = {classes.h4Left}>&#183; Accepted into Computer Engineering at University of Waterloo!</h4>
@@ -76,7 +83,7 @@ const Timeline = () => {
             <h3 className = {classes.h3Left}>January</h3>
             <h4 className = {classes.h4Left}>&#183; 1700 rating on DMOJ</h4>
             <h4 className = {classes.h4Left}>&#183; Organized and hosted <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">Unlock Hacks</a> with 170+ participants</h4>
-            <h4 className = {classes.h4Left}>&#183; Consistently hitting 1900+ performance on DMOJ</h4>
+            <h4 className = {classes.h4Left}>&#183; Consistently hitting 1900+ performance on dmoj!</h4>
 
 
             <h2 className = {classes.h2Left}>2021</h2>
@@ -103,7 +110,7 @@ const Timeline = () => {
             <h4 className = {classes.h4Left}>&#183; Became a CodeForces specialist (aqua, Elo&ge;1400)  </h4>
 
             <h3 className = {classes.h3Left}>July</h3>
-            <h4 className = {classes.h4Left}>&#183; Launched <a className={classes.a} target="_blank" href="https://stevenbai.ca/">personal website</a>, made with a Typescript react app which I learned at my internship</h4>
+            <h4 className = {classes.h4Left}>&#183; Launched <a className={classes.a} target="_blank" href="https://stevenbai.ca/">personal website</a>, made with a Typescript React app</h4>
             <h4 className = {classes.h4Left}>&#183; Started solving on CodeForces everyday instead of DMOJ </h4>
 
             <h3 className = {classes.h3Left}>June</h3>
