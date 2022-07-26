@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b3fd75.chunk.css",
-    "main.js": "/static/js/main.b962cc06.chunk.js",
-    "main.js.map": "/static/js/main.b962cc06.chunk.js.map",
+    "main.js": "/static/js/main.f9a05ea9.chunk.js",
+    "main.js.map": "/static/js/main.f9a05ea9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.84e2ab02.js",
     "runtime-main.js.map": "/static/js/runtime-main.84e2ab02.js.map",
-    "static/js/2.4cc42477.chunk.js": "/static/js/2.4cc42477.chunk.js",
-    "static/js/2.4cc42477.chunk.js.map": "/static/js/2.4cc42477.chunk.js.map",
+    "static/js/2.4f9ba317.chunk.js": "/static/js/2.4f9ba317.chunk.js",
+    "static/js/2.4f9ba317.chunk.js.map": "/static/js/2.4f9ba317.chunk.js.map",
     "static/js/3.3954588a.chunk.js": "/static/js/3.3954588a.chunk.js",
     "static/js/3.3954588a.chunk.js.map": "/static/js/3.3954588a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.a2b3fd75.chunk.css.map": "/static/css/main.a2b3fd75.chunk.css.map",
-    "static/js/2.4cc42477.chunk.js.LICENSE.txt": "/static/js/2.4cc42477.chunk.js.LICENSE.txt",
+    "static/js/2.4f9ba317.chunk.js.LICENSE.txt": "/static/js/2.4f9ba317.chunk.js.LICENSE.txt",
     "static/media/CF.e4bbd78b.png": "/static/media/CF.e4bbd78b.png",
     "static/media/CP.5971cbd7.png": "/static/media/CP.5971cbd7.png",
     "static/media/DMOJ.620a2bae.png": "/static/media/DMOJ.620a2bae.png",
@@ -33,7 +33,7 @@
     "static/media/reactLogo.21263f76.png": "/static/media/reactLogo.21263f76.png",
     "static/media/sbdemo.872f1d81.png": "/static/media/sbdemo.872f1d81.png",
     "static/media/steven.87596799.png": "/static/media/steven.87596799.png",
-    "static/media/stevenbairesume.b9f51e93.pdf": "/static/media/stevenbairesume.b9f51e93.pdf",
+    "static/media/stevenbairesume.34029a77.pdf": "/static/media/stevenbairesume.34029a77.pdf",
     "static/media/timeline.40c69340.png": "/static/media/timeline.40c69340.png",
     "static/media/troki.99fdf870.png": "/static/media/troki.99fdf870.png",
     "static/media/trokidemo.7af10487.png": "/static/media/trokidemo.7af10487.png",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.84e2ab02.js",
-    "static/js/2.4cc42477.chunk.js",
+    "static/js/2.4f9ba317.chunk.js",
     "static/css/main.a2b3fd75.chunk.css",
-    "static/js/main.b962cc06.chunk.js"
+    "static/js/main.f9a05ea9.chunk.js"
   ]
 }
