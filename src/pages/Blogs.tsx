@@ -6,6 +6,7 @@ import python from '../images/python sqr.jpg'
 import waterloo from '../images/waterloo.jpg'
 import BlogThumbnail from '../components/BlogThumbnail';
 
+
 const useStyles = makeStyles((theme) =>  ({
     title: {
         textAlign: "center",
@@ -27,6 +28,7 @@ const Blogs = () =>{
             <h1 className = {classes.title}>Blogs</h1>
             <h2 className = {classes.subTitle}>Stories and experiences which I write about for fun</h2>
 
+            
             <BlogThumbnail 
             
                 thumbnail = {timeline}

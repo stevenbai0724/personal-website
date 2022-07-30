@@ -6,6 +6,8 @@ import Box from "@mui/material/Box";
 import ButtonBase from '@mui/material/ButtonBase';
 import CloseIcon from '@mui/icons-material/Close';
 import { HashLink as Link } from 'react-router-hash-link';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 //style
 const useStyles = makeStyles((theme) =>  ({
 
@@ -165,6 +167,7 @@ function ProjectCard(props:card) {
 
     return (
         <div>
+        <AnimationOnScroll duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
         <ButtonBase onClick={handleOpen}>
             <div className = {classes.card}>
 
@@ -179,6 +182,7 @@ function ProjectCard(props:card) {
             </div>
         
         </ButtonBase>
+        </AnimationOnScroll>
         <Modal open={open} onClose={handleClose} >
             <div className = {classes.modal}>
                 

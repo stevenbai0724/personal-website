@@ -2,6 +2,8 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import { makeStyles} from "@material-ui/core";
 import {ButtonBase} from '@material-ui/core/';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 const useStyles = makeStyles((theme) =>  ({
     title: {
         textAlign: "center",
@@ -64,17 +66,18 @@ function BlogThumbnail(props:BlogDetails) {
 
     const classes = useStyles();
     return (
+    <AnimationOnScroll duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp" style = {{width: "100%"}}>
+        <Link to={props.linkTo} className = {classes.blogBox}>
+            <ButtonBase className = {classes.img}><img src = {props.thumbnail} alt = "line" className = {classes.img}></img></ButtonBase>
 
-    <Link to={props.linkTo} className = {classes.blogBox}>
-        <ButtonBase className = {classes.img}><img src = {props.thumbnail} alt = "line" className = {classes.img}></img></ButtonBase>
+            <div className = {classes.textbox}>
+                <h2 className = {classes.blogName}>{props.title}</h2>
 
-        <div className = {classes.textbox}>
-            <h2 className = {classes.blogName}>{props.title}</h2>
+                <h3 className = {classes.date}>{props.date}</h3>
+            </div>
 
-            <h3 className = {classes.date}>{props.date}</h3>
-        </div>
-
-    </Link>
+        </Link>
+    </AnimationOnScroll>
     
   )
 }
