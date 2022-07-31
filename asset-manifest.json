@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b3fd75.chunk.css",
-    "main.js": "/static/js/main.d9279d30.chunk.js",
-    "main.js.map": "/static/js/main.d9279d30.chunk.js.map",
+    "main.js": "/static/js/main.36483046.chunk.js",
+    "main.js.map": "/static/js/main.36483046.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.da01de0f.js",
     "runtime-main.js.map": "/static/js/runtime-main.da01de0f.js.map",
     "static/css/2.cc77c331.chunk.css": "/static/css/2.cc77c331.chunk.css",
-    "static/js/2.0ced9fab.chunk.js": "/static/js/2.0ced9fab.chunk.js",
-    "static/js/2.0ced9fab.chunk.js.map": "/static/js/2.0ced9fab.chunk.js.map",
+    "static/js/2.3e374741.chunk.js": "/static/js/2.3e374741.chunk.js",
+    "static/js/2.3e374741.chunk.js.map": "/static/js/2.3e374741.chunk.js.map",
     "static/js/3.3e40e32b.chunk.js": "/static/js/3.3e40e32b.chunk.js",
     "static/js/3.3e40e32b.chunk.js.map": "/static/js/3.3e40e32b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cc77c331.chunk.css.map": "/static/css/2.cc77c331.chunk.css.map",
     "static/css/main.a2b3fd75.chunk.css.map": "/static/css/main.a2b3fd75.chunk.css.map",
-    "static/js/2.0ced9fab.chunk.js.LICENSE.txt": "/static/js/2.0ced9fab.chunk.js.LICENSE.txt",
+    "static/js/2.3e374741.chunk.js.LICENSE.txt": "/static/js/2.3e374741.chunk.js.LICENSE.txt",
     "static/media/CF.e4bbd78b.png": "/static/media/CF.e4bbd78b.png",
     "static/media/CP.5971cbd7.png": "/static/media/CP.5971cbd7.png",
     "static/media/DMOJ.620a2bae.png": "/static/media/DMOJ.620a2bae.png",
@@ -23,9 +23,7 @@
     "static/media/devpost.05ea6f3a.png": "/static/media/devpost.05ea6f3a.png",
     "static/media/dmojstats.330fa22e.png": "/static/media/dmojstats.330fa22e.png",
     "static/media/dsdemo.e7ff935a.gif": "/static/media/dsdemo.e7ff935a.gif",
-    "static/media/easyPeacy.94cf38e7.png": "/static/media/easyPeacy.94cf38e7.png",
     "static/media/exLink.084506b6.png": "/static/media/exLink.084506b6.png",
-    "static/media/figma.bb7bd206.png": "/static/media/figma.bb7bd206.png",
     "static/media/github.1b11e9cd.png": "/static/media/github.1b11e9cd.png",
     "static/media/icdemo.6f2a70dd.png": "/static/media/icdemo.6f2a70dd.png",
     "static/media/mhh.5125348d.png": "/static/media/mhh.5125348d.png",
@@ -48,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.da01de0f.js",
     "static/css/2.cc77c331.chunk.css",
-    "static/js/2.0ced9fab.chunk.js",
+    "static/js/2.3e374741.chunk.js",
     "static/css/main.a2b3fd75.chunk.css",
-    "static/js/main.d9279d30.chunk.js"
+    "static/js/main.36483046.chunk.js"
   ]
 }
