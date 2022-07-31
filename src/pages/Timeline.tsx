@@ -1,6 +1,9 @@
 import react from 'react'
 import line from '../images/line.png'
 import { makeStyles} from "@material-ui/core";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
+
 
 const useStyles = makeStyles((theme) =>  ({
 
@@ -55,143 +58,193 @@ const Timeline = () => {
     return (
 
         <div>
+            
             <h1 className = {classes.h1}>Programming timeline</h1>
             <h2 className = {classes.h2}>2019 - Present</h2>
             <img className = {classes.img} src={line} alt="line"></img>
-
-            <h2 className = {classes.h2Left}>2022</h2>
-
-            <h3 className = {classes.h3Left}>May</h3>
-            <h4 className = {classes.h4Left}>&#183; Accepted into Computer Science at University of Waterloo!</h4>
-
-            <h3 className = {classes.h3Left}>April</h3>
-            <h4 className = {classes.h4Left}>&#183; Burnout from school and programming</h4>
-            <h4 className = {classes.h4Left}>&#183; Significant updates made to personal website</h4>
-
-            <h3 className = {classes.h3Left}>March</h3>
-            <h4 className = {classes.h4Left}>&#183; Missed CCC honor roll by 1 point</h4>
-            <h4 className = {classes.h4Left}>&#183; Accepted into Computer Engineering at University of Waterloo!</h4>
-            <h4 className = {classes.h4Left}>&#183; Started learning <a className={classes.a} target="_blank" href="https://www.mongodb.com/">MongoDB</a> to maintain databases for future projects</h4>
-
-            <h3 className = {classes.h3Left}>February</h3>
-            <h4 className = {classes.h4Left}>&#183; 700 DMOJ problems solved</h4>
-            <h4 className = {classes.h4Left}>&#183; 400 DMOJ points</h4>
-            <h4 className = {classes.h4Left}>&#183; Underperformed on CCC, 39/75 (~94th percentile) </h4>
-            <h4 className = {classes.h4Left}>&#183; Taking break from competitive programming </h4>
- 
-
-            <h3 className = {classes.h3Left}>January</h3>
-            <h4 className = {classes.h4Left}>&#183; 1700 rating on DMOJ</h4>
-            <h4 className = {classes.h4Left}>&#183; Organized and hosted <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">Unlock Hacks</a> with 170+ participants</h4>
-            <h4 className = {classes.h4Left}>&#183; Consistently hitting 1900+ performance on dmoj!</h4>
-
-
-            <h2 className = {classes.h2Left}>2021</h2>
-
-            <h3 className = {classes.h3Left}>December</h3>
             
-            <h4 className = {classes.h4Left}>&#183; 600 DMOJ problems solved</h4>
-            <h4 className = {classes.h4Left}>&#183; Almost qualified for USACO Gold Division (1 subtask away!)</h4>
             
-            <h3 className = {classes.h3Left}>November</h3>
-            <h4 className = {classes.h4Left}>&#183; Finished and deployed my first full stack web application, <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">dmojstats</a></h4>
-            <h4 className = {classes.h4Left}>&#183; Did freelance work for a <a className = {classes.a} target="_blank" href = "https://github.com/LemonFace0309/productify-beta">DiscordJS bot</a> </h4>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h2 className = {classes.h2Left}>2022</h2>
 
-            <h3 className = {classes.h3Left}>October</h3>
-            <h4 className = {classes.h4Left}>&#183; Began work on a solo full stack project</h4>
-            <h4 className = {classes.h4Left}>&#183; 500 DMOJ problems solved</h4>
-
-            <h3 className = {classes.h3Left}>September</h3>
-            <h4 className = {classes.h4Left}>&#183; Started learning <a className={classes.a} target="_blank" href="https://expressjs.com/">Express</a> for backend development  </h4>
-            <h4 className = {classes.h4Left}>&#183; Built<a className={classes.a} target="_blank" href="https://devpost.com/software/troki"> Troki</a>, my first React Native mobile app, for Hack the North 2021</h4>
-
-            <h3 className = {classes.h3Left}>August</h3>
-            <h4 className = {classes.h4Left}>&#183; Solved 5 problems on a <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1560/standings/participant/118837552#p118837552">Div. 3 CodeForces Round</a>, (#271st place out of 27251 contestants)</h4>
-            <h4 className = {classes.h4Left}>&#183; Became a CodeForces specialist (aqua, Elo&ge;1400)  </h4>
-
-            <h3 className = {classes.h3Left}>July</h3>
-            <h4 className = {classes.h4Left}>&#183; Launched <a className={classes.a} target="_blank" href="https://stevenbai.ca/">personal website</a>, made with a Typescript React app</h4>
-            <h4 className = {classes.h4Left}>&#183; Started solving on CodeForces everyday instead of DMOJ </h4>
-
-            <h3 className = {classes.h3Left}>June</h3>
-            <h4 className = {classes.h4Left}>&#183; Wrote AP Calc and Mechanics. Did terrible on both.</h4>
-            <h4 className = {classes.h4Left}>&#183; Finished Grade 11 and took a break from programming</h4>
-
-
-            <h3 className = {classes.h3Left}>May</h3>
-            <h4 className = {classes.h4Left}>&#183; Became CodeForces pupil (green, Elo&ge;1200)</h4>
-            <h4 className = {classes.h4Left}>&#183; 400 DMOJ problems solved</h4>
-            <h4 className = {classes.h4Left}>&#183; Attended first hackathon online <a className={classes.a} target="_blank" href="https://mentalhealthhacks.devpost.com/">(Mental Health Hacks)</a></h4> 
-
-
-
-            <h3 className = {classes.h3Left}>April</h3>
-            <h4 className = {classes.h4Left}>&#183; Eighth <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c5/ranking/#!stevenbai0724">DMOJ contest</a>, became a candidate master (purple, Elo&ge;1600)</h4>
-            <h4 className = {classes.h4Left}>&#183; Created first pull request</h4>
-
-            <h3 className = {classes.h3Left}>March</h3>
-            <h4 className = {classes.h4Left}>&#183; Landed first <a className={classes.a} target="_blank" href="https://icontribute.community/#/">internship</a> until end of August</h4>
-            <h4 className = {classes.h4Left}>&#183; Started learning TypeScript React for frontend web development</h4>
-
-            <h3 className = {classes.h3Left}>February</h3>
-            <h4 className = {classes.h4Left}>&#183; First Senior CCC, 34/75 (88th percentile, wasn't very happy)</h4>
-            <h4 className = {classes.h4Left}>&#183; 300 DMOJ problems solved</h4>
-
-            <h3 className = {classes.h3Left}>January</h3>
-            <h4 className = {classes.h4Left}>&#183; Third <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/wac6/ranking/#!stevenbai0724">DMOJ contest</a>, became expert (blue, Elo&ge;1300)</h4>
-            <h4 className = {classes.h4Left}>&#183; 200 DMOJ problems solved</h4>
+                <h3 className = {classes.h3Left}>May</h3>
+                <h4 className = {classes.h4Left}>&#183; Accepted into Computer Science at University of Waterloo!</h4>
+            </AnimationOnScroll>
             
-            <br></br>
-            <h2 className = {classes.h2Left}>2020</h2>
-            <h3 className = {classes.h3Left}>December</h3>
-            <h4 className = {classes.h4Left}>&#183; Second <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c2/ranking/#!stevenbai0724">DMOJ contest</a>, became amateur (green, Elo&ge;1000)</h4>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>April</h3>
+                <h4 className = {classes.h4Left}>&#183; Burnout from school and programming</h4>
+                <h4 className = {classes.h4Left}>&#183; Significant updates made to personal website</h4>
+            </AnimationOnScroll>
 
-            <h3 className = {classes.h3Left}>November</h3>
-            <h4 className = {classes.h4Left}>&#183; First <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1454/standings/participant/105905493#p105905493">Div. 3 CodeForces Round</a>, solved only 2 problems (#8457th place out of 21093 contestants)</h4>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>March</h3>
+                <h4 className = {classes.h4Left}>&#183; Missed CCC honor roll by 1 point</h4>
+                <h4 className = {classes.h4Left}>&#183; Accepted into Computer Engineering at University of Waterloo!</h4>
+                <h4 className = {classes.h4Left}>&#183; Started learning <a className={classes.a} target="_blank" href="https://www.mongodb.com/">MongoDB</a> to maintain databases for future projects</h4>
+            </AnimationOnScroll>
 
-            <h3 className = {classes.h3Left}>October</h3>
-            <h4 className = {classes.h4Left}>&#183; Switched to C++ from Java</h4>
-            <h4 className = {classes.h4Left}>&#183; 100 DMOJ problems solved</h4>
-            <h4 className = {classes.h4Left}>&#183; First<a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c1/ranking/#!stevenbai0724"> DMOJ contest</a> , became newbie (gray, Elo&lt;1000)</h4>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>February</h3>
+                <h4 className = {classes.h4Left}>&#183; 700 DMOJ problems solved</h4>
+                <h4 className = {classes.h4Left}>&#183; 400 DMOJ points</h4>
+                <h4 className = {classes.h4Left}>&#183; Underperformed on CCC, 39/75 (~94th percentile) </h4>
+                <h4 className = {classes.h4Left}>&#183; Taking break from competitive programming </h4>
+            </AnimationOnScroll>
 
-
-            <h3 className = {classes.h3Left}>Septemeber</h3>
-            <h4 className = {classes.h4Left}>&#183; Began doing competitive programming again on DMOJ in Java, learning new algorithms taught by <a className={classes.aRed} target="_blank" href="https://dmoj.ca/user/kevinyang">kevinyang</a> (much appreciated)</h4>
-            <h4 className = {classes.h4Left}>&#183; Created CodeForces account and began solving more problems</h4>
-
-            <h3 className = {classes.h3Left}>February</h3>
-            <h4 className = {classes.h4Left}>&#183; Wrote first junior CCC, 37/75 (worse than 50th percentile)</h4>
-            <h4 className = {classes.h4Left}>&#183; Took a long break from programming</h4>
-
-            <h3 className = {classes.h3Left}>January</h3>
-            <h4 className = {classes.h4Left}>&#183; Created first <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/Java-GUI-Project">Java Application</a> (a huge disaster)</h4> 
-
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>January</h3>
+                <h4 className = {classes.h4Left}>&#183; 1700 rating on DMOJ</h4>
+                <h4 className = {classes.h4Left}>&#183; Organized and hosted <a className={classes.a} target="_blank" href="https://unlock-hacks.devpost.com/">Unlock Hacks</a> with 170+ participants</h4>
+                <h4 className = {classes.h4Left}>&#183; Consistently hitting 1900+ performance on dmoj!</h4>
+            </AnimationOnScroll>
 
             <br></br>
-            <h2 className = {classes.h2Left}>2019</h2>
 
-            <h3 className = {classes.h3Left}>September</h3>
-            <h4 className = {classes.h4Left}>&#183; Introduced to <a className={classes.a} target="_blank" href="https://dmoj.ca/">DMOJ</a> and competitve programming</h4>
-            <h4 className = {classes.h4Left}>&#183; Began solving on DMOJ in Java</h4>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h2 className = {classes.h2Left}>2021</h2>
 
-            <h3 className = {classes.h3Left}>August</h3>
-            <h4 className = {classes.h4Left}>&#183; Began learning C++ and Java on <a className={classes.a} target="_blank" href="https://www.sololearn.com/">Sololearn</a> </h4>
+                <h3 className = {classes.h3Left}>December</h3>
+                
+                <h4 className = {classes.h4Left}>&#183; 600 DMOJ problems solved</h4>
+                <h4 className = {classes.h4Left}>&#183; Almost qualified for USACO Gold Division (1 subtask away!)</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>November</h3>
+                <h4 className = {classes.h4Left}>&#183; Finished and deployed my first full stack web application, <a className={classes.a} target="_blank" href="https://dmojstats.herokuapp.com/">dmojstats</a></h4>
+                <h4 className = {classes.h4Left}>&#183; Did freelance work for a <a className = {classes.a} target="_blank" href = "https://github.com/LemonFace0309/productify-beta">DiscordJS bot</a> </h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>October</h3>
+                <h4 className = {classes.h4Left}>&#183; Began work on a solo full stack project</h4>
+                <h4 className = {classes.h4Left}>&#183; 500 DMOJ problems solved</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>September</h3>
+                <h4 className = {classes.h4Left}>&#183; Started learning <a className={classes.a} target="_blank" href="https://expressjs.com/">Express</a> for backend development  </h4>
+                <h4 className = {classes.h4Left}>&#183; Built<a className={classes.a} target="_blank" href="https://devpost.com/software/troki"> Troki</a>, my first React Native mobile app, for Hack the North 2021</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>August</h3>
+                <h4 className = {classes.h4Left}>&#183; Solved 5 problems on a <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1560/standings/participant/118837552#p118837552">Div. 3 CodeForces Round</a>, (#271st place out of 27251 contestants)</h4>
+                <h4 className = {classes.h4Left}>&#183; Became a CodeForces specialist (aqua, Elo&ge;1400)  </h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>July</h3>
+                <h4 className = {classes.h4Left}>&#183; Launched <a className={classes.a} target="_blank" href="https://stevenbai.ca/">personal website</a>, made with a Typescript React app</h4>
+                <h4 className = {classes.h4Left}>&#183; Started solving on CodeForces everyday instead of DMOJ </h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>June</h3>
+                <h4 className = {classes.h4Left}>&#183; Wrote AP Calc and Mechanics. Did terrible on both.</h4>
+                <h4 className = {classes.h4Left}>&#183; Finished Grade 11 and took a break from programming</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>May</h3>
+                <h4 className = {classes.h4Left}>&#183; Became CodeForces pupil (green, Elo&ge;1200)</h4>
+                <h4 className = {classes.h4Left}>&#183; 400 DMOJ problems solved</h4>
+                <h4 className = {classes.h4Left}>&#183; Attended first hackathon online <a className={classes.a} target="_blank" href="https://mentalhealthhacks.devpost.com/">(Mental Health Hacks)</a></h4> 
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>April</h3>
+                <h4 className = {classes.h4Left}>&#183; Eighth <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c5/ranking/#!stevenbai0724">DMOJ contest</a>, became a candidate master (purple, Elo&ge;1600)</h4>
+                <h4 className = {classes.h4Left}>&#183; Created first pull request</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>March</h3>
+                <h4 className = {classes.h4Left}>&#183; Landed first <a className={classes.a} target="_blank" href="https://icontribute.community/#/">internship</a> until end of August</h4>
+                <h4 className = {classes.h4Left}>&#183; Started learning TypeScript React for frontend web development</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>February</h3>
+                <h4 className = {classes.h4Left}>&#183; First Senior CCC, 34/75 (88th percentile, wasn't very happy)</h4>
+                <h4 className = {classes.h4Left}>&#183; 300 DMOJ problems solved</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>January</h3>
+                <h4 className = {classes.h4Left}>&#183; Third <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/wac6/ranking/#!stevenbai0724">DMOJ contest</a>, became expert (blue, Elo&ge;1300)</h4>
+                <h4 className = {classes.h4Left}>&#183; 200 DMOJ problems solved</h4>
+            </AnimationOnScroll>
+
+            <br></br>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h2 className = {classes.h2Left}>2020</h2>
+                <h3 className = {classes.h3Left}>December</h3>
+                <h4 className = {classes.h4Left}>&#183; Second <a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c2/ranking/#!stevenbai0724">DMOJ contest</a>, became amateur (green, Elo&ge;1000)</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>November</h3>
+                <h4 className = {classes.h4Left}>&#183; First <a className={classes.a} target="_blank" href="https://codeforces.com/contest/1454/standings/participant/105905493#p105905493">Div. 3 CodeForces Round</a>, solved only 2 problems (#8457th place out of 21093 contestants)</h4>
+            </AnimationOnScroll>
             
-            <h3 className = {classes.h3Left}>July</h3>
-            <h4 className = {classes.h4Left}>&#183; Created first <a className={classes.a} target="_blank" href="https://stevenbai0724.github.io/Civics-and-Careers-Project/">HTML website</a> for careers class. The <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/Civics-and-Careers-Project">repository</a> was hosted on GitHub Pages </h4> 
-        
-            <h3 className = {classes.h3Left}>May</h3>
-            <h4 className = {classes.h4Left}>&#183; Created first project: a <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/Python-Pygame-Project">pong game</a> in Python</h4>
-            <h4 className = {classes.h4Left}>&#183; Began learning HTML and CSS at school</h4> 
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>October</h3>
+                <h4 className = {classes.h4Left}>&#183; Switched to C++ from Java</h4>
+                <h4 className = {classes.h4Left}>&#183; 100 DMOJ problems solved</h4>
+                <h4 className = {classes.h4Left}>&#183; First<a className={classes.a} target="_blank" href="https://dmoj.ca/contest/dmopc20c1/ranking/#!stevenbai0724"> DMOJ contest</a> , became newbie (gray, Elo&lt;1000)</h4>
+            </AnimationOnScroll>
 
-            <h3 className = {classes.h3Left}>February</h3>
-            <h4 className = {classes.h4Left}>&#183; Began learning fundamentals of Python at school</h4>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>Septemeber</h3>
+                <h4 className = {classes.h4Left}>&#183; Began doing competitive programming again on DMOJ in Java, learning new algorithms taught by <a className={classes.aRed} target="_blank" href="https://dmoj.ca/user/kevinyang">kevinyang</a> (much appreciated)</h4>
+                <h4 className = {classes.h4Left}>&#183; Created CodeForces account and began solving more problems</h4>
+            </AnimationOnScroll>
 
-            {/*  */}
-            {/* <h4 className = {classes.h4Left}></h4>  
-            <h4 className = {classes.h4Left}> <a className={classes.a} target="_blank" href=""></a> </h4> 
-            <h3 className = {classes.h3Left}>May</h3>*/}
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>February</h3>
+                <h4 className = {classes.h4Left}>&#183; Wrote first junior CCC, 37/75 (worse than 50th percentile)</h4>
+                <h4 className = {classes.h4Left}>&#183; Took a long break from programming</h4>
+            </AnimationOnScroll>
 
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>January</h3>
+                <h4 className = {classes.h4Left}>&#183; Created first <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/Java-GUI-Project">Java Application</a> (a huge disaster)</h4> 
+            </AnimationOnScroll>
+
+            <br></br>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h2 className = {classes.h2Left}>2019</h2>
+
+                <h3 className = {classes.h3Left}>September</h3>
+                <h4 className = {classes.h4Left}>&#183; Introduced to <a className={classes.a} target="_blank" href="https://dmoj.ca/">DMOJ</a> and competitve programming</h4>
+                <h4 className = {classes.h4Left}>&#183; Began solving on DMOJ in Java</h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>August</h3>
+                <h4 className = {classes.h4Left}>&#183; Began learning C++ and Java on <a className={classes.a} target="_blank" href="https://www.sololearn.com/">Sololearn</a> </h4>
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>July</h3>
+                <h4 className = {classes.h4Left}>&#183; Created first <a className={classes.a} target="_blank" href="https://stevenbai0724.github.io/Civics-and-Careers-Project/">HTML website</a> for careers class. The <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/Civics-and-Careers-Project">repository</a> was hosted on GitHub Pages </h4> 
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>May</h3>
+                <h4 className = {classes.h4Left}>&#183; Created first project: a <a className={classes.a} target="_blank" href="https://github.com/stevenbai0724/Python-Pygame-Project">pong game</a> in Python</h4>
+                <h4 className = {classes.h4Left}>&#183; Began learning HTML and CSS at school</h4> 
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h3 className = {classes.h3Left}>February</h3>
+                <h4 className = {classes.h4Left}>&#183; Began learning fundamentals of Python at school</h4>
+            </AnimationOnScroll>
+            
         </div>
     )
 }

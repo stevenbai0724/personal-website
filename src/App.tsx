@@ -1,4 +1,3 @@
-
 import './App.css';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -10,6 +9,10 @@ import FirstHackathon from './pages/FirstHackathon';
 import ProgrammingJourney from './pages/ProgrammingJourney';
 import Timeline from './pages/Timeline';
 import Admissions from './pages/Admissions'
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
 const App = () =>{
   return (
   <Router>

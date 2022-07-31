@@ -90,7 +90,7 @@ const Projects = () =>{
             }
         ],
         tech: ["C++", "Java"],
-        description: "I learn data structures and algorithms in C++. I participate in many programming contests on online platforms such as Atcoder, DMOJ and CodeForces as well as open national contests such as the CCC, USACO and COCI. I accumulated a GitHub repository for my competitive programming solutions to over 1000 algorithmic problems.",
+        description: "I learn data structures and algorithms in C++. I participate in many programming contests on online platforms such as Atcoder, DMOJ and CodeForces as well as open national contests such as the CCC, USACO and COCI. I accumulated a GitHub repository for my competitive programming solutions to over 1100 algorithmic problems.",
         demo: cpdemo
     }
     const uh = {
@@ -195,28 +195,6 @@ const Projects = () =>{
         description: "My personal portfolio website features projects, blogs and my resume. I built this website in July 2021 when I first started web development and it is constantly updating. Currently hosted with GitHub Pages on a custom domain.",
         demo: sbdemo
     }
-    const ep = {
-        links: [
-            {
-                key: 1,
-                icon: githubIcon,
-                url: "https://github.com/stevenbai0724/mental_health_hacks",
-            },
-            {
-                key: 2,
-                icon: devpost,
-                url: "https://devpost.com/software/easy-peacy",
-            },
-            {
-                key: 3,
-                icon: figma,
-                url: "https://www.figma.com/proto/eHzgNia0aeGLfMtP8Zgd08/Mental-Health-Hacks-Project?node-id=14%3A14&scaling=scale-down&page-id=0%3A1",
-            }
-        ],
-        tech: ["Java", "Figma"],
-        description: "At my first hackathon, we made a mobile app which had a dashboard with features to monitor mental health. I created a PC compatible version with Java GUI. The app can be demoed with the Figma link.",
-        demo: epdemo
-    }
 
     return(
         <div style = {{width: "100%", display: "flex", alignItems: "center", flexDirection: "column"}}>
@@ -233,7 +211,7 @@ const Projects = () =>{
                 <ProjectCard thumbnail = {Troki} demo = {tr.demo} tech = {tr.tech} links = {tr.links} title = "Troki" description= {tr.description}></ProjectCard>
                 <ProjectCard thumbnail = {IC} demo = {ic.demo} tech = {ic.tech} links = {ic.links} title = "iContribute Webapp" description= {ic.description}></ProjectCard>
                 <ProjectCard thumbnail = {reactLogo} demo = {sb.demo} tech = {sb.tech} links = {sb.links} title = "Personal Website" description= {sb.description}></ProjectCard>
-                <ProjectCard thumbnail = {easyPeacy} demo = {ep.demo} tech = {ep.tech} links = {ep.links} title = "Easy Peacy" description= {ep.description}></ProjectCard>
+                
             </div>
 
         </div>

@@ -66,7 +66,7 @@ function BlogThumbnail(props:BlogDetails) {
 
     const classes = useStyles();
     return (
-    <AnimationOnScroll duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp" style = {{width: "100%"}}>
+    <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp" style = {{width: "100%"}}>
         <Link to={props.linkTo} className = {classes.blogBox}>
             <ButtonBase className = {classes.img}><img src = {props.thumbnail} alt = "line" className = {classes.img}></img></ButtonBase>
 
