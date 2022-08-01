@@ -187,7 +187,7 @@ function ProjectCard(props:card) {
         <Modal open={open} onClose={handleClose} >
             
             <div className = {classes.modal}>
-                <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                
                 
                 <ButtonBase onClick = {handleClose} style = {close}>
                     <CloseIcon style = {{width: "100%", height: "100%", color: "white"}}></CloseIcon>
@@ -221,7 +221,7 @@ function ProjectCard(props:card) {
 
                 </div>
 
-                </AnimationOnScroll>
+            
             </div>
             
             

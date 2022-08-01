@@ -188,17 +188,17 @@ function Navbar(props:barContent) {
                         className = {classes.menu}
                     >
                         <li className = {classes.li}>
-                            <Link className = {classes.link} to="/#top">{props.first}</Link>
+                            <Link onClick = {handleClose} className = {classes.link} to="/#top">{props.first}</Link>
                     
                         </li>
                         <li className = {classes.li}>
-                            <Link className = {classes.link} to="/Projects#top">{props.second}</Link>
+                            <Link onClick = {handleClose} className = {classes.link} to="/Projects#top">{props.second}</Link>
                         </li>
                         <li className = {classes.li}>
-                            <Link className = {classes.link} to="/Blogs#top">{props.third}</Link>
+                            <Link onClick = {handleClose} className = {classes.link} to="/Blogs#top">{props.third}</Link>
                         </li>
                         <li className = {classes.li}>
-                            <a className = {classes.link} href = {PDF} target = "_blank">{props.fourth}</a>
+                            <a onClick = {handleClose} className = {classes.link} href = {PDF} target = "_blank">{props.fourth}</a>
                         </li>
 
                     </Menu>
