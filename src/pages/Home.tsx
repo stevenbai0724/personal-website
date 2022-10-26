@@ -104,7 +104,7 @@ const Home = () =>{
                 <h3 className = {classes.h3}>I love working with ReactJS, NodeJS, ExpressJS and MongoDB to make web applications. I was previously a web developer at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>iContribute</a>. I am currently open to internship opportunities in software development for summer 2023. </h3>
             </AnimationOnScroll>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h3 className = {classes.h3}>I enjoy problem solving with math and coding. Back in high school, I competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. Some of my hobbies include powerlifting, playing piano and swimming.</h3>
+                <h3 className = {classes.h3}>I enjoy problem solving with math and coding. Since high school, I competed in 50+ programming contests and solved 1100+ problems using algorithms and data structures in C++. In particular, I enjoy using <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a>. Some of my hobbies include powerlifting, playing piano and swimming.</h3>
 
                 <h3 className = {classes.h3}>Here on my personal website you can find some of my best coding projects as well as blogs which I sometimes write for fun.</h3>
             </AnimationOnScroll>
