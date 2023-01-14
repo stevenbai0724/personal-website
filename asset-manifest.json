@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b3fd75.chunk.css",
-    "main.js": "/static/js/main.c3c8553e.chunk.js",
-    "main.js.map": "/static/js/main.c3c8553e.chunk.js.map",
+    "main.js": "/static/js/main.adf8d6e5.chunk.js",
+    "main.js.map": "/static/js/main.adf8d6e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.da01de0f.js",
     "runtime-main.js.map": "/static/js/runtime-main.da01de0f.js.map",
     "static/css/2.cc77c331.chunk.css": "/static/css/2.cc77c331.chunk.css",
@@ -33,7 +33,7 @@
     "static/media/reactLogo.21263f76.png": "/static/media/reactLogo.21263f76.png",
     "static/media/sbdemo.872f1d81.png": "/static/media/sbdemo.872f1d81.png",
     "static/media/steven.87596799.png": "/static/media/steven.87596799.png",
-    "static/media/stevenbairesume.270b8972.pdf": "/static/media/stevenbairesume.270b8972.pdf",
+    "static/media/stevenbairesume.e8484d4e.pdf": "/static/media/stevenbairesume.e8484d4e.pdf",
     "static/media/timeline.40c69340.png": "/static/media/timeline.40c69340.png",
     "static/media/troki.99fdf870.png": "/static/media/troki.99fdf870.png",
     "static/media/trokidemo.7af10487.png": "/static/media/trokidemo.7af10487.png",
@@ -48,6 +48,6 @@
     "static/css/2.cc77c331.chunk.css",
     "static/js/2.3e374741.chunk.js",
     "static/css/main.a2b3fd75.chunk.css",
-    "static/js/main.c3c8553e.chunk.js"
+    "static/js/main.adf8d6e5.chunk.js"
   ]
 }
