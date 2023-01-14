@@ -5,7 +5,7 @@ import timeline from '../images/timeline.png'
 import python from '../images/python sqr.jpg'
 import waterloo from '../images/waterloo.jpg'
 import BlogThumbnail from '../components/BlogThumbnail';
-
+import {HashRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
 const useStyles = makeStyles((theme) =>  ({
     title: {
@@ -32,15 +32,15 @@ const Blogs = () =>{
             <BlogThumbnail 
             
                 thumbnail = {timeline}
-                linkTo = "/Timeline#top"
+                linkTo = "/Blogs/Timeline#top"
                 title = "Programming Timeline"
-                date = "2019 - Present"
+                date = "February 2019 - May 2022"
             ></BlogThumbnail>
 
             <BlogThumbnail 
             
                 thumbnail = {waterloo}
-                linkTo = "/Admissions#top"
+                linkTo = "/Blogs/Admissions#top"
                 title = "Admissions 2022"
                 date = "April 2022"
             ></BlogThumbnail>
@@ -48,7 +48,7 @@ const Blogs = () =>{
             <BlogThumbnail 
             
                 thumbnail = {python}
-                linkTo = "/ProgrammingJourney#top"
+                linkTo = "/Blogs/ProgrammingJourney#top"
                 title = "How I Started Coding"
                 date = "August 2021"
             ></BlogThumbnail>
@@ -56,7 +56,7 @@ const Blogs = () =>{
             <BlogThumbnail 
             
                 thumbnail = {mental}
-                linkTo = "/FirstHackathon#top"
+                linkTo = "/Blogs/FirstHackathon#top"
                 title = "First Hackathon Experience"
                 date = "July 2021"
             ></BlogThumbnail>

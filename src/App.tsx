@@ -10,7 +10,7 @@ import ProgrammingJourney from './pages/ProgrammingJourney';
 import Timeline from './pages/Timeline';
 import Admissions from './pages/Admissions'
 
-window.onbeforeunload = function () {
+window.onbeforeunload = function () { //scroll to the top of page after refresh
   window.scrollTo(0, 0);
 }
 const App = () =>{
@@ -32,10 +32,10 @@ const App = () =>{
           <Route exact path="/" ><Home />  </Route>
           <Route exact path="/Projects"component={Projects}></Route>  
           <Route exact path="/Blogs" component={Blogs}></Route>
-          <Route exact path="/FirstHackathon" component={FirstHackathon}></Route>
-          <Route exact path="/ProgrammingJourney" component={ProgrammingJourney}></Route>
-          <Route exact path="/Timeline" component={Timeline}></Route>
-          <Route exact path="/Admissions" component={Admissions}></Route>
+          <Route exact path="/Blogs/FirstHackathon" component={FirstHackathon}></Route>
+          <Route exact path="/Blogs/ProgrammingJourney" component={ProgrammingJourney}></Route>
+          <Route exact path="/Blogs/Timeline" component={Timeline}></Route>
+          <Route exact path="/Blogs/Admissions" component={Admissions}></Route>
         </Switch>
       
         <br></br>
