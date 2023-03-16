@@ -90,7 +90,7 @@ const ProgrammingJourney = () =>{
         <br></br>  
         
         <AnimationOnScroll offset = {100} duration = {0.5} animateOnce={true} animateIn="animate__fadeInUp">
-            <h3 className = {classes.h3}>I could ramble on about this for days so let's just dive straight into how I started this whole journey, but you can also see a more concise and complete list of my programming journey <Link style = {{color: "#38fc94", textDecoration: "none"}} to="/Timeline#top">here.</Link> </h3>
+            <h3 className = {classes.h3}>I could ramble on about this for days so let's just dive straight into how I started this whole journey, but you can also see a more concise and complete list of my programming journey <Link style = {{color: "#38fc94", textDecoration: "none"}} to="/Blogs/Timeline#top">here.</Link> </h3>
         </AnimationOnScroll>
 
         <br></br>

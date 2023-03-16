@@ -59,8 +59,8 @@ const Timeline = () => {
 
         <div>
             
-            <h1 className = {classes.h1}>Programming timeline</h1>
-            <h2 className = {classes.h2}>February 2019 - May 2022</h2>
+            <h1 className = {classes.h1}>Programming Timeline</h1>
+            <h2 className = {classes.h2}>From start of programming to acceptance at Waterloo (February 2019 - May 2022)</h2>
             <img className = {classes.img} src={line} alt="line"></img>
         
             
@@ -74,7 +74,7 @@ const Timeline = () => {
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
                 <h3 className = {classes.h3Left}>April</h3>
                 <h4 className = {classes.h4Left}>&#183; Burnout from school and programming</h4>
-                <h4 className = {classes.h4Left}>&#183; Significant updates made to personal website</h4>
+                <h4 className = {classes.h4Left}>&#183; Significant updates made to personal website, mostly cleaned up code</h4>
             </AnimationOnScroll>
 
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
@@ -89,7 +89,7 @@ const Timeline = () => {
                 <h4 className = {classes.h4Left}>&#183; 700 DMOJ problems solved</h4>
                 <h4 className = {classes.h4Left}>&#183; 400 DMOJ points</h4>
                 <h4 className = {classes.h4Left}>&#183; Underperformed on CCC, 39/75 (~94th percentile) </h4>
-                <h4 className = {classes.h4Left}>&#183; Taking break from competitive programming </h4>
+                <h4 className = {classes.h4Left}>&#183; "Retired" from competitive programming </h4>
             </AnimationOnScroll>
 
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">

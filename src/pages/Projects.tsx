@@ -3,9 +3,7 @@ import { makeStyles} from "@material-ui/core";
 import CP from '../images/CP.png';
 import DMOJ from '../images/DMOJ.png'
 import CF from '../images/CF.png'
-import easyPeacy from '../images/easyPeacy.png'
 import devpost from '../images/devpost.png'
-import figma from '../images/figma.png'
 import IC from '../images/IC.png'
 import exLink from '../images/exLink.png'
 import reactLogo from '../images/reactLogo.png'
@@ -22,6 +20,7 @@ import icdemo from "../images/icdemo.png"
 import sbdemo from "../images/sbdemo.png"
 import epdemo from "../images/twitch.png"
 import cpdemo from "../images/cpdemo.png"
+
 //style
 const useStyles = makeStyles((theme) =>  ({
 
@@ -64,9 +63,7 @@ const useStyles = makeStyles((theme) =>  ({
             width: "80vw",
             height: "80vw",
         }
-
     },
-
 }));
 const Projects = () =>{ 
     const classes = useStyles();
@@ -135,7 +132,7 @@ const Projects = () =>{
             }
         ],
         tech: ["ExpressJS", "NodeJS", "ReactJS", "DMOJ API"],
-        description: "dmojstats is a user profile search engine built on a full stack ExpressJS, NodeJS and ReactJS application. By entering a username and hitting enter, dmojstats displays basic user info as well a list of rated contest participations with percentile and performance data. dmojstats currently does not support mobile devices. My username can be used for testing, 'stevenbai0724'.",
+        description: "dmojstats is a user stats tracker built on a full stack application using Node, Express and React. By entering a username and hitting enter, dmojstats uses the dmoj API and displays user info as well a list of rated contest participations with percentile and performance data. My username can be used for testing, 'stevenbai0724'.",
         demo: dsdemo
     }
     const tr = {
