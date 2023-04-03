@@ -102,7 +102,7 @@ const Home = () =>{
                     <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
             </div>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h3 className = {classes.h3}>Hello! My name is Steven. I am currently in my 1B term studying Computer Science at the University of Waterloo and an incoming Web Programmer Intern at <a href = "https://www.richmedia.com/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>Rich Media</a>. </h3>
+                <h3 className = {classes.h3}>Hello! My name is Steven. I am currently in my 1B term studying Computer Science at the University of Waterloo and an incoming Web Development Intern at <a href = "https://www.richmedia.com/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>Rich Media</a>. </h3>
                 <h3 className = {classes.h3}>I love networking and collaborating working with teammates to deliver complex and high quality software. In particular, I enjoy working with the MERN stack to build web applications. Some of my best work can be found under the <Link style = {{textDecoration:"none", color:"#38fc94"}} to ="/Projects#top">Projects</Link> tab!</h3>
             </AnimationOnScroll> 
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
