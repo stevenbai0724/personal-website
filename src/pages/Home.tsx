@@ -6,6 +6,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 import axios from 'axios'
 import { HashLink as Link } from 'react-router-hash-link';
+import { text1, text2, text3, text4} from "./text.js"
 
 const useStyles = makeStyles((theme) =>  ({
 
@@ -102,13 +103,13 @@ const Home = () =>{
                     <ButtonBase className = {classes.btn}><img className = {classes.img} src = {steven}></img></ButtonBase>
             </div>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h3 className = {classes.h3}>Hello! My name is Steven. I am currently in my 1B term studying Computer Science at the University of Waterloo and an incoming Web Development Intern at <a href = "https://www.richmedia.com/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>Rich Media</a>. </h3>
-                <h3 className = {classes.h3}>I love networking and collaborating working with teammates to deliver complex and high quality software. In particular, I enjoy working with the MERN stack to build web applications. Some of my best work can be found under the <Link style = {{textDecoration:"none", color:"#38fc94"}} to ="/Projects#top">Projects</Link> tab!</h3>
-            </AnimationOnScroll> 
+                <h3 className = {classes.h3}> {text1()} <a href = "https://www.richmedia.com/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>Rich Media</a>. </h3>
+                <h3 className = {classes.h3}> {text2()} <Link style = {{textDecoration:"none", color:"#38fc94"}} to ="/Projects#top">Projects</Link> tab!</h3>
+            </AnimationOnScroll>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h3 className = {classes.h3}>In high school, I did competitve programming as a hobby and also to sharpen my critical thinking and problem solving skills with coding challenges. Ever since the start of the pandemic, I competed in online programming contests and solved DSA problems using C++ on platforms such as CodeForces, AtCoder, CSES, dmoj and LeetCode. I mainly used <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a> for contests.</h3>
+                <h3 className = {classes.h3}> {text3()} <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a> for contests.</h3>
 
-                <h3 className = {classes.h3}>My favourite hobby is playing sports. I used to be a competitive swimmer in high school! I have been doing powerlifting for a year and I recently began training for mixed marital arts, mainly BJJ and kickboxing.</h3>
+                <h3 className = {classes.h3}> {text4()}</h3>
                 <h3 className = {classes.h3}>Here on my personal website you can find my resume and some of my best coding projects as well as blogs which I sometimes write for fun.</h3>
             </AnimationOnScroll>
 
@@ -116,7 +117,6 @@ const Home = () =>{
         </div>
     )
 }
-
 
 
 export default Home;
