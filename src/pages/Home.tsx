@@ -108,7 +108,7 @@ const Home = () =>{
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
                 <h3 className = {classes.h3}>In high school, I did competitve programming as a hobby and also to sharpen my critical thinking and problem solving skills with coding challenges. Ever since the start of the pandemic, I competed in online programming contests and solved DSA problems using C++ on platforms such as CodeForces, AtCoder, CSES, dmoj and LeetCode. I mainly used <a href = "https://dmoj.ca/user/stevenbai0724" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}}>dmoj.ca</a> for contests.</h3>
 
-                <h3 className = {classes.h3}>Some hobbies I recently started include powerlifting and bodybuildling, current SBD split is 315/255/405 (975lb) @ 170lb bodyweight. I also used to be a competitive swimmer in high school! In the upcoming summer, I plan to start training in either MMA or a striking martial art.</h3>
+                <h3 className = {classes.h3}>My favourite hobby is playing sports. I used to be a competitive swimmer in high school! I have been doing powerlifting for a year and I recently began training for mixed marital arts, mainly BJJ and kickboxing.</h3>
                 <h3 className = {classes.h3}>Here on my personal website you can find my resume and some of my best coding projects as well as blogs which I sometimes write for fun.</h3>
             </AnimationOnScroll>
 
