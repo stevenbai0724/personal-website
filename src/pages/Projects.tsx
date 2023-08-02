@@ -20,6 +20,8 @@ import icdemo from "../images/icdemo.png"
 import sbdemo from "../images/sbdemo.png"
 import epdemo from "../images/twitch.png"
 import cpdemo from "../images/cpdemo.png"
+import productify from "../images/productify.png"
+import richmedia from "../images/richmedia.png"
 
 //style
 const useStyles = makeStyles((theme) =>  ({
@@ -35,6 +37,38 @@ const useStyles = makeStyles((theme) =>  ({
         fontSize: '15pt',
         color: 'white',
     },
+    subTitleLeft: {
+        textAlign: 'left',
+        fontWeight: 'normal',
+        fontSize: '18pt',
+        color: 'white',
+        textDecoration: 'underline',
+        marginBottom: '5px'
+    },
+    projectName: {
+        textAlign: 'left',
+        fontWeight: 'bold',
+        fontSize: '15pt',
+        color: 'white',
+        backgroundColor: '#2E8B57',
+        display: "inline",
+        marginRight: "5px",
+    },
+    experienceName: {
+        textAlign: 'left',
+        fontWeight: 'bold',
+        fontSize: '15pt',
+        color: 'white',
+        backgroundColor: '#9966CC',
+        display: "inline",
+    },
+    projectDescription: {
+        textAlign: 'left',
+        fontWeight: 'normal',
+        fontSize: '15pt',
+        color: 'white',
+        display: "inline",
+    },
     cardContainer: {    
         width: "100%",
         display: "grid",
@@ -42,6 +76,15 @@ const useStyles = makeStyles((theme) =>  ({
         gridGap: "10px",
         justifyContent: "center",
 
+    },
+    icon: {
+        height: "30px",
+        width: "30px",
+        display: "inline",
+        verticalAlign: "middle",
+        marginLeft: "5px",
+        marginRight: "5px",
+        borderRadius: "50%"
     },
     card: {
         width: "325px",
@@ -194,13 +237,58 @@ const Projects = () =>{
     }
 
     return(
-        <div style = {{width: "100%", display: "flex", alignItems: "center", flexDirection: "column"}}>
+        <div style = {{width: "100%"}}>
            
             <h1 className = {classes.title}>Projects</h1>
 
-            <h2 className = {classes.subTitle}>Click/tap for more info</h2>
+            <h2 className = {classes.subTitle}>Summary of work experience and personal projects</h2>
 
+            <br></br>
+
+            <h2 className = {classes.subTitleLeft}>Experience</h2>
+
+            <p>
+                <h2 className = {classes.experienceName}>Rich Media</h2>
+                <img src={richmedia} className = {classes.icon} alt="richmedia"></img>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
+
+            <p>
+                <h2 className = {classes.experienceName}>Productify</h2>
+                <img src={productify} className = {classes.icon} alt="productify"></img>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
+
+            <p>
+                <h2 className = {classes.experienceName}>iContribute</h2>
+                <img src={IC} style={{borderRadius: "50%"}} className = {classes.icon} alt="icontribute"></img>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
             
+
+            <h2 className = {classes.subTitleLeft}>Projects</h2>
+
+            <p>
+                <h2 className = {classes.projectName}>Competitive Programming</h2>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
+
+            <p>
+                <h2 className = {classes.projectName}>Unlock Hacks</h2>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
+
+            <p>
+                <h2 className = {classes.projectName}>dmojstats</h2>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
+
+            <p>
+                <h2 className = {classes.projectName}>Troki</h2>
+                <h2 className = {classes.projectDescription}>&#8212;</h2>
+            </p>
+
+{/*             
             <div className = {classes.cardContainer}>
                 <ProjectCard thumbnail = {CP} demo = {cp.demo} tech = {cp.tech} links = {cp.links} title = "Competitive Programming" description= {cp.description}></ProjectCard>
                 <ProjectCard thumbnail = {Unlock} demo = {uh.demo} tech = {uh.tech} links = {uh.links} title = "Unlock Hacks" description= {uh.description}></ProjectCard>
@@ -209,7 +297,7 @@ const Projects = () =>{
                 <ProjectCard thumbnail = {IC} demo = {ic.demo} tech = {ic.tech} links = {ic.links} title = "iContribute Webapp" description= {ic.description}></ProjectCard>
                 <ProjectCard thumbnail = {reactLogo} demo = {sb.demo} tech = {sb.tech} links = {sb.links} title = "Personal Website" description= {sb.description}></ProjectCard>
                 
-            </div>
+            </div> */}
 
         </div>
     )

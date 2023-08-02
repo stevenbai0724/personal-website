@@ -4,7 +4,7 @@ import './Bar.css';
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaEnvelope} from 'react-icons/fa'
-import { makeStyles, ButtonBase, Button} from "@material-ui/core";
+import { makeStyles, ButtonBase} from "@material-ui/core";
 const useStyles = makeStyles((theme) =>  ({
 
     nav: {
@@ -80,7 +80,7 @@ const LinkBar = () =>{
 
             </div>
 
-            <h5 style = {{color: "white"}}>&copy; 2021-2022 Steven Bai</h5>
+            <h5 style = {{color: "white"}}>&copy; 2021-2023 Steven Bai</h5>
 
         </div>
    
