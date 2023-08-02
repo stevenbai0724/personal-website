@@ -250,7 +250,7 @@ const Projects = () =>{
             <p>
                 <h2 className = {classes.experienceName}>Rich Media</h2>
                 <img src={richmedia} className = {classes.icon} alt="richmedia"></img>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
+                <h2 className = {classes.projectDescription}>&#8212; </h2>
             </p>
 
             <p>
