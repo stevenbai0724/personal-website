@@ -65,9 +65,9 @@ const useStyles = makeStyles((theme) =>  ({
     projectDescription: {
         textAlign: 'left',
         fontWeight: 'normal',
-        fontSize: '15pt',
+        fontSize: '12pt',
         color: 'white',
-        display: "inline",
+        display: "inline",  
     },
     cardContainer: {    
         width: "100%",
@@ -243,26 +243,18 @@ const Projects = () =>{
 
             <h2 className = {classes.subTitle}>Summary of work experience and personal projects</h2>
 
-            <br></br>
-
             <h2 className = {classes.subTitleLeft}>Experience</h2>
 
             <p>
                 <h2 className = {classes.experienceName}>Rich Media</h2>
                 <img src={richmedia} className = {classes.icon} alt="richmedia"></img>
-                <h2 className = {classes.projectDescription}>&#8212; </h2>
-            </p>
-
-            <p>
-                <h2 className = {classes.experienceName}>Productify</h2>
-                <img src={productify} className = {classes.icon} alt="productify"></img>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
+                <h2 className = {classes.projectDescription}>&#8212; Digital agency for banking and insurance companies. Developed software for clients such as TD and Scotiabank with Angular. Built internal tools with TS to download and host web frames and assets.</h2>
             </p>
 
             <p>
                 <h2 className = {classes.experienceName}>iContribute</h2>
                 <img src={IC} style={{borderRadius: "50%"}} className = {classes.icon} alt="icontribute"></img>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
+                <h2 className = {classes.projectDescription}>&#8212; Volunteering platform for organizations and students. Worked on frontend development with React for volunteering web portal for visibility into remote and in-person opportunities.</h2>
             </p>
             
 
