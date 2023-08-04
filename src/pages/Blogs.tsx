@@ -9,14 +9,16 @@ import {HashRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
 const useStyles = makeStyles((theme) =>  ({
     title: {
-        textAlign: "center",
+        textAlign: "left",
         fontSize: "30pt",
+        marginTop: "80px",
     },
     subTitle: {
         fontSize: "15pt",
-        textAlign: "center",
+        textAlign: "left",
         fontWeight: "normal",
         color: "white",
+        marginBottom: "30px",
     },
       
 }));
@@ -24,7 +26,7 @@ const Blogs = () =>{
     const classes = useStyles();
     return(
 
-        <div style = {{width: "100%", display: "flex", alignItems: "center", flexDirection: "column"}}>
+        <div style = {{width: "100%"}}>
             <h1 className = {classes.title}>Blogs</h1>
             <h2 className = {classes.subTitle}>Stories and experiences which I write about for fun</h2>
 
@@ -34,7 +36,7 @@ const Blogs = () =>{
                 thumbnail = {timeline}
                 linkTo = "/Blogs/Timeline#top"
                 title = "Programming Timeline"
-                date = "February 2019 - May 2022"
+                date = "May 2022"
             ></BlogThumbnail>
 
             <BlogThumbnail 

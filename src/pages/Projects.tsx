@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) =>  ({
         fontWeight: 'normal',
         fontSize: '15pt',
         color: 'white',
+        marginBottom: "30px",
     },
     subTitleLeft: {
         textAlign: 'left',
@@ -244,8 +245,6 @@ const Projects = () =>{
             <h1 className = {classes.title}>Projects</h1>
 
             <h2 className = {classes.subTitle}>Summary of work experience and personal projects</h2>
-
-            <br></br>
 
             <h2 className = {classes.subTitleLeft}>Experience</h2>
 
