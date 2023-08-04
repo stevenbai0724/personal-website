@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { makeStyles} from "@material-ui/core";
+import ExperiencePoint from '../components/ExperiencePoint';
 import CP from '../images/CP.png';
 import DMOJ from '../images/DMOJ.png'
 import CF from '../images/CF.png'
@@ -27,23 +28,24 @@ import richmedia from "../images/richmedia.png"
 const useStyles = makeStyles((theme) =>  ({
 
     title: {
-        textAlign: 'center',
+        textAlign: 'left',
         color: 'white',
         fontSize: "30pt",
+        marginTop: "80px",
     },
     subTitle: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontWeight: 'normal',
         fontSize: '15pt',
         color: 'white',
     },
     subTitleLeft: {
         textAlign: 'left',
-        fontWeight: 'normal',
+        fontWeight: 'bold',
         fontSize: '18pt',
         color: 'white',
         textDecoration: 'underline',
-        marginBottom: '5px'
+        marginBottom: '20px'
     },
     projectName: {
         textAlign: 'left',
@@ -243,42 +245,64 @@ const Projects = () =>{
 
             <h2 className = {classes.subTitle}>Summary of work experience and personal projects</h2>
 
+            <br></br>
+
             <h2 className = {classes.subTitleLeft}>Experience</h2>
 
-            <p>
-                <h2 className = {classes.experienceName}>Rich Media</h2>
-                <img src={richmedia} className = {classes.icon} alt="richmedia"></img>
-                <h2 className = {classes.projectDescription}>&#8212; Digital agency for banking and insurance companies. Developed software for clients such as TD and Scotiabank with Angular. Built internal tools with TS to download and host web frames and assets.</h2>
-            </p>
+            <ExperiencePoint 
+                title="Rich Media"
+                hasImg={true}
+                img={richmedia}
+                imgAlt="richmedia"
+                description="Digital agency for banking and insurance. Developed software for clients such as TD and Scotiabank using Angular. Built internal tools with TS to scrape web frames and assets."
+                link="https://www.richmedia.com/"
+            />
 
-            <p>
-                <h2 className = {classes.experienceName}>iContribute</h2>
-                <img src={IC} style={{borderRadius: "50%"}} className = {classes.icon} alt="icontribute"></img>
-                <h2 className = {classes.projectDescription}>&#8212; Volunteering platform for organizations and students. Worked on frontend development with React for volunteering web portal for visibility into remote and in-person opportunities.</h2>
-            </p>
-            
+            <ExperiencePoint 
+                title="iContribute"
+                hasImg={true}
+                img={IC}
+                imgAlt="iContribute"
+                description="Volunteering platform for organizations and students. Developed a React web portal for visibility into remote and in-person opportunities."
+                link="https://icontribute.community"
+            />
+
+            <ExperiencePoint 
+                title="Productify"
+                hasImg={true}
+                img={productify}
+                imgAlt="productify"
+                description="Freelance software development for DiscordJS bot features in an active public study space server."
+                link="https://github.com/LemonFace0309/productify-beta"
+            />
 
             <h2 className = {classes.subTitleLeft}>Projects</h2>
 
-            <p>
-                <h2 className = {classes.projectName}>Competitive Programming</h2>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
-            </p>
+            <ExperiencePoint 
+                title="Competitive Programming"
+                hasImg={false}
+                description="CP"
+                link="https://github.com/stevenbai0724/competitive-programming"
+            />
 
-            <p>
-                <h2 className = {classes.projectName}>Unlock Hacks</h2>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
-            </p>
-
-            <p>
-                <h2 className = {classes.projectName}>dmojstats</h2>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
-            </p>
-
-            <p>
-                <h2 className = {classes.projectName}>Troki</h2>
-                <h2 className = {classes.projectDescription}>&#8212;</h2>
-            </p>
+            <ExperiencePoint 
+                title="Unlock Hacks"
+                hasImg={false}
+                description="unlock hacks"
+                link="https://github.com/stevenbai0724/competitive-programming"
+            />
+            <ExperiencePoint 
+                title="dmojstats"
+                hasImg={false}
+                description="dmojstats"
+                link="https://github.com/stevenbai0724/competitive-programming"
+            />
+            <ExperiencePoint 
+                title="troki"
+                hasImg={false}
+                description="troki"
+                link="https://github.com/stevenbai0724/competitive-programming"
+            />
 
 {/*             
             <div className = {classes.cardContainer}>
