@@ -276,30 +276,36 @@ const Projects = () =>{
             />
 
             <h2 className = {classes.subTitleLeft}>Projects</h2>
-
+            <ExperiencePoint 
+                title="CVScrape"
+                hasImg={false}
+                description="Cover letter & email generating tool. Utilizes the openai API and webscraping with Puppeteer to assist with mass writing tailored cover letters, resumes and cold emails."
+                link="https://github.com/stevenbai0724/cvscrape"
+            />
+            <ExperiencePoint 
+                title="dmojstats"
+                hasImg={false}
+                description="Web app built with React & Express. Serves performance data on dmoj.ca, a competitive programming platform popular among Canadian high school students. SQL database of contest result lists under progress."
+                link="https://github.com/stevenbai0724/competitive-programming"
+            />
             <ExperiencePoint 
                 title="Competitive Programming"
                 hasImg={false}
-                description="CP"
+                description="Self-learned data structures and algorithms in C++ and Java. Accumulated 1000+ solutions, competed in public online contests and open national Olympiads."
                 link="https://github.com/stevenbai0724/competitive-programming"
             />
 
             <ExperiencePoint 
                 title="Unlock Hacks"
                 hasImg={false}
-                description="unlock hacks"
+                description="Organized, hosted and lectured at an online hackathon targeted towards beginners. Coordinated with organizations for sponsorship."
                 link="https://github.com/stevenbai0724/competitive-programming"
             />
-            <ExperiencePoint 
-                title="dmojstats"
-                hasImg={false}
-                description="dmojstats"
-                link="https://github.com/stevenbai0724/competitive-programming"
-            />
+
             <ExperiencePoint 
                 title="troki"
                 hasImg={false}
-                description="troki"
+                description=""
                 link="https://github.com/stevenbai0724/competitive-programming"
             />
 

@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) =>  ({
         color: 'white',
         backgroundColor: '#9966CC',
         display: "inline",
+        lineHeight: "1.75",
     },
     projectDescription: {
         textAlign: 'left',
@@ -44,18 +45,19 @@ const useStyles = makeStyles((theme) =>  ({
         borderRadius: "50%"
     },
     container: {
-        display: "flex",
         width: "100%",
-        flexDirection: "row",
-        alignItems: "top",
-    },
-    nameContainer: {
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        minWidth: "150px",
+        minHeight: "100px",
+    },
+    nameContainer: {
+        display: "flex",
+        width: "150px",
+        flexDirection: "row",
+        alignItems: "center",
         textDecoration: "none",
-        height: "57.5px",
+        height: "100%",
         marginRight: "15px",
 
         '&:hover' : {
@@ -63,16 +65,21 @@ const useStyles = makeStyles((theme) =>  ({
         }
     },
     textContainer: {
-
+        display: "flex",
+        flex: 1,
     },
 
     '@media only screen and (max-width: 1100px)': {
         container:{
-            flexDirection: "column"
+            flexDirection: "column",
+            alignItems: "left",
         },
         nameContainer: {
-            height: "40px",
+            width: "97%",
         },
+        textContainer: {
+            width: "100%",
+        }
     },
 }));
 interface card {
@@ -90,22 +97,13 @@ function ExperiencePoint(props:card) {
     return (    
         <div className={classes.container}>
 
-
-
-                <a className={classes.nameContainer} href={props.link} target="_blank" rel="noreferrer">
-                    
-                    {
-                        props.hasImg && <img src={props.img} className = {classes.icon} alt={props.imgAlt}></img>
-                    }
-
-                    <div className = {classes.experienceName}> {props.title} </div>
-                </a>
-                
-
- 
-                
-       
-
+            <a className={classes.nameContainer} href={props.link} target="_blank" rel="noreferrer">
+                {
+                    props.hasImg && <img src={props.img} className = {classes.icon} alt={props.imgAlt}></img>
+                }        
+                <div className = {classes.experienceName}> {props.title} </div>
+            </a>
+        
             <div className={classes.textContainer}>
                 <p className={classes.projectDescription}>
                     {props.description}
