@@ -1,9 +1,10 @@
 
 import './Bar.css';
-
+import PDF from '../pdf/stevenbairesume.pdf'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaEnvelope} from 'react-icons/fa'
+import { FaPaperclip } from 'react-icons/fa';
 import { makeStyles, ButtonBase} from "@material-ui/core";
 const useStyles = makeStyles((theme) =>  ({
 
@@ -42,6 +43,7 @@ const useStyles = makeStyles((theme) =>  ({
         color: "white",
         height: "35px",
         width: "auto",
+
         '&:hover' :{
             color : "#111",
         },
@@ -55,7 +57,9 @@ const useStyles = makeStyles((theme) =>  ({
     btnBase: {
         borderRadius: "50%",
         width: "35px",
-        height: "35px",
+        height: "35px",        
+        marginLeft: "3px",
+        marginRight: "3px",
     }
 
 
@@ -67,16 +71,13 @@ const LinkBar = () =>{
     return(
 
         <div className = {classes.box}>
-            
-                {/* "https://github.com/stevenbai0724"
-               https://www.linkedin.com/in/steven-bai-787515210/" 
-               mailto:stevenbai0724@gmail.com" */}
 
 
             <div className = {classes.bar}>
                 <ButtonBase href = "https://github.com/stevenbai0724/personal-website" target = "_blank" className = {classes.btnBase}><FaGithub className = {classes.icon} /></ButtonBase>
                 <ButtonBase href = "https://www.linkedin.com/in/steven-bai-787515210" target = "_blank" className = {classes.btnBase}><FaLinkedin className = {classes.icon} /></ButtonBase>
                 <ButtonBase href = "mailto:stevenbai0724@gmail.com" target = "_blank" className = {classes.btnBase}><FaEnvelope className = {classes.icon} /></ButtonBase>
+                <ButtonBase href = {PDF} target = "_blank" className = {classes.btnBase}><FaPaperclip className = {classes.icon} /></ButtonBase>
 
             </div>
 

@@ -23,6 +23,8 @@ import epdemo from "../images/twitch.png"
 import cpdemo from "../images/cpdemo.png"
 import productify from "../images/productify.png"
 import richmedia from "../images/richmedia.png"
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 //style
 const useStyles = makeStyles((theme) =>  ({
@@ -241,84 +243,100 @@ const Projects = () =>{
 
     return(
         <div style = {{width: "100%"}}>
-           
-            <h1 className = {classes.title}>Projects</h1>
+            
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h1 className = {classes.title}>Projects</h1>
 
-            <h2 className = {classes.subTitle}>Summary of work experience and personal projects</h2>
+                <h2 className = {classes.subTitle}>Summary of work experience and personal projects</h2>
+            </AnimationOnScroll>
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
 
-            <h2 className = {classes.subTitleLeft}>Experience</h2>
+                <h2 className = {classes.subTitleLeft}>Experience</h2>
 
-            <ExperiencePoint 
-                title="Rich Media"
-                hasImg={true}
-                img={richmedia}
-                imgAlt="richmedia"
-                description="Digital agency for banking and insurance. Developed software for clients such as TD and Scotiabank using Angular. Built internal tools with TS to scrape web frames and assets."
-                link="https://www.richmedia.com/"
-            />
+                <ExperiencePoint 
+                    title="Rich Media"
+                    hasImg={true}
+                    img={richmedia}
+                    imgAlt="richmedia"
+                    description="Digital agency for banking and insurance. Developed software for clients such as TD and Scotiabank using Angular. Built internal tools with TS to scrape web frames and assets."
+                    link="https://www.richmedia.com/"
+                />
 
-            <ExperiencePoint 
-                title="iContribute"
-                hasImg={true}
-                img={IC}
-                imgAlt="iContribute"
-                description="Volunteering platform for organizations and students. Developed a React web portal for visibility into remote and in-person opportunities."
-                link="https://icontribute.community"
-            />
+            </AnimationOnScroll>
 
-            <ExperiencePoint 
-                title="Productify"
-                hasImg={true}
-                img={productify}
-                imgAlt="productify"
-                description="Freelance software development for DiscordJS bot features in an active public study space server."
-                link="https://github.com/LemonFace0309/productify-beta"
-            />
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <ExperiencePoint 
+                    title="iContribute"
+                    hasImg={true}
+                    img={IC}
+                    imgAlt="iContribute"
+                    description="Volunteering platform for organizations and students. Developed a React web portal for visibility into remote and in-person opportunities."
+                    link="https://icontribute.community"
+                />
+            </AnimationOnScroll>
+            
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <ExperiencePoint 
+                    title="Productify"
+                    hasImg={true}
+                    img={productify}
+                    imgAlt="productify"
+                    description="Freelance software development for Discord bot features in an active public study space server."
+                    link="https://github.com/LemonFace0309/productify-beta"
+                />
+            </AnimationOnScroll>
 
-            <h2 className = {classes.subTitleLeft}>Projects</h2>
-            <ExperiencePoint 
-                title="CVScrape"
-                hasImg={false}
-                description="Cover letter & email generating tool. Utilizes the openai API and webscraping with Puppeteer to assist with mass writing tailored cover letters, resumes and cold emails."
-                link="https://github.com/stevenbai0724/cvscrape"
-            />
-            <ExperiencePoint 
-                title="dmojstats"
-                hasImg={false}
-                description="Web app built with React & Express. Serves performance data on dmoj.ca, a competitive programming platform popular among Canadian high school students. SQL database of contest result lists under progress."
-                link="https://github.com/stevenbai0724/competitive-programming"
-            />
-            <ExperiencePoint 
-                title="Competitive Programming"
-                hasImg={false}
-                description="Self-learned data structures and algorithms in C++ and Java. Accumulated 1000+ solutions, competed in public online contests and open national Olympiads."
-                link="https://github.com/stevenbai0724/competitive-programming"
-            />
 
-            <ExperiencePoint 
-                title="Unlock Hacks"
-                hasImg={false}
-                description="Organized, hosted and lectured at an online hackathon targeted towards beginners. Coordinated with organizations for sponsorship."
-                link="https://github.com/stevenbai0724/competitive-programming"
-            />
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h2 className = {classes.subTitleLeft}>Projects</h2>
+                <ExperiencePoint 
+                    title="CVScrape"
+                    hasImg={false}
+                    description="Cover letter & email generating tool. Utilizes the openai API and webscraping with Puppeteer to assist with writing tailored cover letters, resumes and cold emails."
+                    link="https://github.com/stevenbai0724/cvscrape"
+                />
+            </AnimationOnScroll>
 
-            <ExperiencePoint 
-                title="troki"
-                hasImg={false}
-                description=""
-                link="https://github.com/stevenbai0724/competitive-programming"
-            />
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <ExperiencePoint 
+                    title="dmojstats"
+                    hasImg={false}
+                    description="Web app built with React & Express. Serves performance data on dmoj.ca, a well-known competitive programming platform for Canadian high school students. Database of contest result lists and problems under progress."
+                    link="https://github.com/stevenbai0724/dmojstats"
+                />
+            </AnimationOnScroll>
 
-{/*             
-            <div className = {classes.cardContainer}>
-                <ProjectCard thumbnail = {CP} demo = {cp.demo} tech = {cp.tech} links = {cp.links} title = "Competitive Programming" description= {cp.description}></ProjectCard>
-                <ProjectCard thumbnail = {Unlock} demo = {uh.demo} tech = {uh.tech} links = {uh.links} title = "Unlock Hacks" description= {uh.description}></ProjectCard>
-                <ProjectCard thumbnail = {DMOJSTATS} demo = {ds.demo} tech = {ds.tech} links = {ds.links} title = "dmojstats" description= {ds.description}></ProjectCard>
-                <ProjectCard thumbnail = {Troki} demo = {tr.demo} tech = {tr.tech} links = {tr.links} title = "Troki" description= {tr.description}></ProjectCard>
-                <ProjectCard thumbnail = {IC} demo = {ic.demo} tech = {ic.tech} links = {ic.links} title = "iContribute Webapp" description= {ic.description}></ProjectCard>
-                <ProjectCard thumbnail = {reactLogo} demo = {sb.demo} tech = {sb.tech} links = {sb.links} title = "Personal Website" description= {sb.description}></ProjectCard>
-                
-            </div> */}
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <ExperiencePoint 
+                    title="Competitive Programming"
+                    hasImg={false}
+                    description="Self-learned data structures and algorithms in C++ and Java. Accumulated 1000+ solutions, competed in public online contests and open national Olympiads."
+                    link="https://github.com/stevenbai0724/competitive-programming"
+                />
+            </AnimationOnScroll>
+            
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <ExperiencePoint 
+                    title="Unlock Hacks"
+                    hasImg={false}
+                    description="Organized, hosted and lectured at an online hackathon targeted towards beginners. Coordinated with organizations for sponsorship opportunities."
+                    link="https://github.com/stevenbai0724/competitive-programming"
+                />
+            </AnimationOnScroll>
+
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <ExperiencePoint 
+                    title="troki"
+                    hasImg={false}
+                    description="MERN based app linking teens with neighbors for quick yard jobs. Developed user-friendly mobile interface for effortless job listings with React Native and Figma."
+                    link="https://unlock-hacks.devpost.com/"
+                />
+            </AnimationOnScroll>
+
+
+            
+
+            
 
         </div>
     )

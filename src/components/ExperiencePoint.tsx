@@ -4,21 +4,14 @@ import richmedia from "../images/richmedia.png"
 //style
 const useStyles = makeStyles((theme) =>  ({
 
-    projectName: {
-        textAlign: 'left',
-        fontSize: '15pt',
-        color: 'white',
-        backgroundColor: '#2E8B57',
-        display: "inline",
-        marginRight: "5px",
-    },
     experienceName: {
         textAlign: 'left',
         fontSize: '15pt',
         color: 'white',
-        backgroundColor: '#9966CC',
         display: "inline",
         lineHeight: "1.75",
+        paddingLeft: "5px",
+        paddingRight: "5px",
     },
     projectDescription: {
         textAlign: 'left',
@@ -26,6 +19,7 @@ const useStyles = makeStyles((theme) =>  ({
         fontSize: '12pt',
         color: 'white', 
         lineHeight: "1.65",
+
     },
     cardContainer: {    
         width: "100%",
@@ -59,6 +53,7 @@ const useStyles = makeStyles((theme) =>  ({
         textDecoration: "none",
         height: "100%",
         marginRight: "15px",
+        backgroundColor: '#9966CC',
 
         '&:hover' : {
             transform: "scale(1.01)",
@@ -75,7 +70,12 @@ const useStyles = makeStyles((theme) =>  ({
             alignItems: "left",
         },
         nameContainer: {
-            width: "97%",
+            width: "100%",
+            marginRight: "0px",
+            backgroundColor: "#282c34",
+        },
+        experienceName: {
+            backgroundColor: "#9966CC",
         },
         textContainer: {
             width: "100%",

@@ -5,7 +5,8 @@ import timeline from '../images/timeline.png'
 import python from '../images/python sqr.jpg'
 import waterloo from '../images/waterloo.jpg'
 import BlogThumbnail from '../components/BlogThumbnail';
-import {HashRouter as Router, Route, Switch, Link} from 'react-router-dom'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 const useStyles = makeStyles((theme) =>  ({
     title: {
@@ -27,10 +28,12 @@ const Blogs = () =>{
     return(
 
         <div style = {{width: "100%"}}>
-            <h1 className = {classes.title}>Blogs</h1>
-            <h2 className = {classes.subTitle}>Stories and experiences which I write about for fun</h2>
 
-            
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
+                <h1 className = {classes.title}>Blogs</h1>
+                <h2 className = {classes.subTitle}>Stories and experiences which I write about for fun</h2>
+
+            </AnimationOnScroll>
             <BlogThumbnail 
             
                 thumbnail = {timeline}

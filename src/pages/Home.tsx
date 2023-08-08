@@ -1,5 +1,5 @@
 import { makeStyles, ButtonBase} from "@material-ui/core";
-import steven from '../images/steven.png'
+import steven from '../images/steven.jpg'
 import React, {useState, useEffect} from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
@@ -92,20 +92,21 @@ const Home = () =>{
 
     return(
         <div style = {{minHeight: "100vh", width: "100%"}}>
-            
+            <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
             <div className = {classes.divFlex}>
             
                 <div>
          
                     <h1 className = {classes.h1}>Steven Bai</h1>
 
-                    <h2 className = {classes.h2}>Intern @ Rich Media | UWaterloo CS '27</h2>
+                    <h2 className = {classes.h2}>University of Waterloo CS '27 | Seeking 2024 internships</h2>
 
                 </div>
                     <ButtonBase onClick = {() => setStep(step + 1)} className = {classes.btn}><img className = {classes.img} src = {steven} alt="steven_profile_pic"></img></ButtonBase>
             </div>
+            </AnimationOnScroll>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h3 className = {classes.h3}> {text1()} <a href = "https://www.richmedia.com/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}} rel="noreferrer">Rich Media</a>. </h3>
+                <h3 className = {classes.h3}> {text1()} <a href = "https://www.richmedia.com/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}} rel="noreferrer">Rich Media.</a> </h3>
                 <h3 className = {classes.h3}> {text2()} <Link style = {{textDecoration:"none", color:"#38fc94"}} to ="/Projects#top">Projects</Link> tab!</h3>
             </AnimationOnScroll>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">

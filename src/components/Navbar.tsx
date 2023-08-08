@@ -163,9 +163,6 @@ function Navbar(props:barContent) {
                 <li className = {classes.li}>
                     <Link className = {classes.link} to="/Blogs#top">{props.third}</Link>
                 </li>
-                <li className = {classes.li}>
-                    <a className = {classes.link} href = {PDF} target = "_blank">{props.fourth}</a>
-                </li>
 
             </ul>
             }
@@ -197,10 +194,6 @@ function Navbar(props:barContent) {
                         <li className = {classes.li}>
                             <Link onClick = {handleClose} className = {classes.link} to="/Blogs#top">{props.third}</Link>
                         </li>
-                        <li className = {classes.li}>
-                            <a onClick = {handleClose} className = {classes.link} href = {PDF} target = "_blank">{props.fourth}</a>
-                        </li>
-
                     </Menu>
                 </div>
             }
