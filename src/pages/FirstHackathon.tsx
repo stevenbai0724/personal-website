@@ -70,11 +70,12 @@ const FirstHackathon = () =>{
     )
 }
 const h1Style: React.CSSProperties = {
-    textAlign: 'center',
+    textAlign: 'left',
     fontSize: '30pt',
+    marginTop: "80px",
 }
 const h2Style: React.CSSProperties = {
-    textAlign: 'center',
+    textAlign: 'left',
     fontWeight: 'normal',
     fontSize: '15pt',
 }
@@ -98,6 +99,7 @@ const imgStyle: React.CSSProperties = {
     marginTop: "40px",
     marginBottom: "40px",
     width: '100%',
+    borderRadius: "15px",
 }
 const mainContainer: React.CSSProperties = {
  

@@ -9,6 +9,7 @@ import FirstHackathon from './pages/FirstHackathon';
 import ProgrammingJourney from './pages/ProgrammingJourney';
 import Timeline from './pages/Timeline';
 import Admissions from './pages/Admissions'
+import Waterloo1A from './pages/Waterloo1A';
 
 window.onbeforeunload = function () { //scroll to the top of page after refresh
   window.scrollTo(0, 0);
@@ -36,6 +37,7 @@ const App = () =>{
           <Route exact path="/Blog/ProgrammingJourney" component={ProgrammingJourney}></Route>
           <Route exact path="/Blog/Timeline" component={Timeline}></Route>
           <Route exact path="/Blog/Admissions" component={Admissions}></Route>
+          <Route exact path="/Blog/Waterloo1A" component={Waterloo1A}></Route>
         </Switch>
       
         <br></br>

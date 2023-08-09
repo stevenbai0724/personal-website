@@ -1,17 +1,19 @@
 import React, {useEffect} from 'react'
 import { makeStyles} from "@material-ui/core";
 import waterloo from "../images/waterloobig.jpg"
+import laptop from "../images/laptop_coffee.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
 const useStyles = makeStyles((theme) =>  ({
 
     h1: {
-      textAlign: "center",
+      textAlign: "left",
       fontSize: "30pt",
+      marginTop: "80px",
     },
     h2: {
-      textAlign: "center",
+      textAlign: "left",
       fontSize: "15pt",
       fontWeight: "normal",
     },
@@ -28,9 +30,10 @@ const useStyles = makeStyles((theme) =>  ({
       fontSize: "12pt",
     },
     img: {
-      width: "100%",
+      width: "40%",
       marginTop: "40px",
       marginBottom: "40px",
+      borderRadius: "15px",
       display: "block",
     },
     link : {
@@ -56,7 +59,7 @@ const Admissions = () =>{
         
         <AnimationOnScroll offset = {100} duration = {0.5} animateOnce={true} animateIn="animate__fadeInUp">
           
-          <img className = {classes.img} src = {waterloo}></img>
+          <img className = {classes.img} src = {laptop}></img>
           
           <h3 className = {classes.h3}>University admissions are highly anticipated for most high school students in their senior year. As of writing this blog, I am still waiting on most of my offers but I still think it is fun to document and reflect on the past few months of senior year so far. </h3>
         </AnimationOnScroll>

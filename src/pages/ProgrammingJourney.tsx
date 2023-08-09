@@ -11,11 +11,12 @@ const useStyles = makeStyles((theme) =>  ({
 
     
     h1: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontSize: "30pt",
+        marginTop: "80px",
     },
     h2: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontWeight: 'normal',
         fontSize: '15pt',
     },
@@ -38,6 +39,7 @@ const useStyles = makeStyles((theme) =>  ({
         width: '100%',
         marginTop: "40px",
         marginBottom: "40px",
+        borderRadius: "15px",
     },
     a: {
         color: '#38fc94',

@@ -3,8 +3,9 @@ import { makeStyles} from "@material-ui/core";
 import mental from '../images/mhh2.png'
 import timeline from '../images/timeline.png'
 import python from '../images/python sqr.jpg'
-import waterloo from '../images/waterloo.jpg'
+import laptop from "../images/laptop_coffee.png"
 import BlogThumbnail from '../components/BlogThumbnail';
+import E7 from "../images/E7 sqr.png"
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
@@ -34,10 +35,19 @@ const Blog = () =>{
         <div className={classes.mainContainer}>
 
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h1 className = {classes.title}>Blogs</h1>
+                <h1 className = {classes.title}>Blog</h1>
                 <h2 className = {classes.subTitle}>Stories and experiences which I write about for fun</h2>
 
             </AnimationOnScroll>
+
+            <BlogThumbnail 
+            
+                thumbnail = {E7}
+                linkTo = "/Blog/Waterloo1A#top"
+                title = "1A at Waterloo"
+                date = "Dec 2022"
+            ></BlogThumbnail>
+
             <BlogThumbnail 
             
                 thumbnail = {timeline}
@@ -48,7 +58,7 @@ const Blog = () =>{
 
             <BlogThumbnail 
             
-                thumbnail = {waterloo}
+                thumbnail = {laptop}
                 linkTo = "/Blog/Admissions#top"
                 title = "Admissions 2022"
                 date = "April 2022"
