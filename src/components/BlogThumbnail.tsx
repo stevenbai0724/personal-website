@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) =>  ({
         alignItems: "center",
         justifyContent: "flex-start",
         width: "100%",
-        height: "200px",
+        height: "175px",
         boxShadow: "0px 18px 53px 0px rgba(0,0,0,0.3)",
         marginBottom: "20px",
         textDecoration: "none",

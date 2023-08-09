@@ -49,6 +49,10 @@ const useStyles = makeStyles((theme) =>  ({
         height: 'calc(100vh - 500px)',
         
     },
+    mainContainer: {
+        minHeight: "100vh", 
+        width: "calc(100% - 50px)"
+    },
 
 
     '@media only screen and (max-width: 500px)': {
@@ -91,7 +95,7 @@ const Home = () =>{
     }, [step])
 
     return(
-        <div style = {{minHeight: "100vh", width: "100%"}}>
+        <div className={classes.mainContainer}>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
             <div className = {classes.divFlex}>
             

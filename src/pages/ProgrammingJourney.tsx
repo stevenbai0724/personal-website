@@ -53,6 +53,10 @@ const useStyles = makeStyles((theme) =>  ({
         backgroundColor: "red",
         paddingTop: "56.25%",
     },
+    mainContainer: {
+        minHeight: "100vh", 
+        width: "calc(100% - 50px)"
+    },
 
 
 }));
@@ -61,7 +65,7 @@ const ProgrammingJourney = () =>{
 
     return (
 
-    <div>
+    <div className={classes.mainContainer}>
         <h1 className = {classes.h1}>How I Started Coding</h1>
 
         <h2 className = {classes.h2}>August 2021 | 5 min read </h2>
@@ -90,7 +94,7 @@ const ProgrammingJourney = () =>{
         <br></br>  
         
         <AnimationOnScroll offset = {100} duration = {0.5} animateOnce={true} animateIn="animate__fadeInUp">
-            <h3 className = {classes.h3}>I could ramble on about this for days so let's just dive straight into how I started this whole journey, but you can also see a more concise and complete list of my programming journey <Link style = {{color: "#38fc94", textDecoration: "none"}} to="/Blogs/Timeline#top">here.</Link> </h3>
+            <h3 className = {classes.h3}>I could ramble on about this for days so let's just dive straight into how I started this whole journey, but you can also see a more concise and complete list of my programming journey <Link style = {{color: "#38fc94", textDecoration: "none"}} to="/Blog/Timeline#top">here.</Link> </h3>
         </AnimationOnScroll>
 
         <br></br>

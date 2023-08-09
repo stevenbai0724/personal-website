@@ -8,7 +8,7 @@ import "animate.css/animate.min.css";
 
 const FirstHackathon = () =>{
     return(
-        <div>
+        <div style={mainContainer}>
             
             <h1 style = {h1Style}>First Hackathon Experience</h1>
             
@@ -98,5 +98,11 @@ const imgStyle: React.CSSProperties = {
     marginTop: "40px",
     marginBottom: "40px",
     width: '100%',
+}
+const mainContainer: React.CSSProperties = {
+ 
+    minHeight: "100vh", 
+    width: "calc(100% - 50px)"
+
 }
 export default FirstHackathon;

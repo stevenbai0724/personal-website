@@ -8,11 +8,12 @@ import "animate.css/animate.min.css";
 const useStyles = makeStyles((theme) =>  ({
 
     h1: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontSize: "30pt",
+        marginTop: "80px",
     },
     h2: {
-        textAlign: 'center',
+        textAlign: 'left',
         fontWeight: 'normal',
         fontSize: "15pt",
     },
@@ -51,18 +52,21 @@ const useStyles = makeStyles((theme) =>  ({
         color: '#EE0000',
         textDecoration: 'none',
     },
+    mainContainer: {
+        minHeight: "100vh", 
+        width: "calc(100% - 50px)"
+    },
       
 }));
 const Timeline = () => {
     const classes = useStyles();
     return (
 
-        <div>
+        <div className={classes.mainContainer}>
             
             <h1 className = {classes.h1}>Programming Timeline</h1>
             <h2 className = {classes.h2}>From start of programming to acceptance at Waterloo (February 2019 - May 2022)</h2>
-            <img className = {classes.img} src={line} alt="line"></img>
-        
+            <br></br>
             
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
                 <h2 className = {classes.h2Left}>2022</h2>

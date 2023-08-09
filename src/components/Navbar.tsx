@@ -121,7 +121,7 @@ function Navbar(props:barContent) {
     const history = useHistory();
     const navHome = useCallback(() => history.push("/#top"), [history]);
     const navProjects = useCallback(() => history.push("/Projects#top"), [history]);
-    const navBlogs= useCallback(() => history.push("/Blogs#top"), [history]);
+    const navBlogs= useCallback(() => history.push("/Blog#top"), [history]);
 
 
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -161,7 +161,7 @@ function Navbar(props:barContent) {
                     <Link className = {classes.link} to="/Projects#top">{props.second}</Link>
                 </li>
                 <li className = {classes.li}>
-                    <Link className = {classes.link} to="/Blogs#top">{props.third}</Link>
+                    <Link className = {classes.link} to="/Blog#top">{props.third}</Link>
                 </li>
 
             </ul>
@@ -192,7 +192,7 @@ function Navbar(props:barContent) {
                             <Link onClick = {handleClose} className = {classes.link} to="/Projects#top">{props.second}</Link>
                         </li>
                         <li className = {classes.li}>
-                            <Link onClick = {handleClose} className = {classes.link} to="/Blogs#top">{props.third}</Link>
+                            <Link onClick = {handleClose} className = {classes.link} to="/Blog#top">{props.third}</Link>
                         </li>
                     </Menu>
                 </div>

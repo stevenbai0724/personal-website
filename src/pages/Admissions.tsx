@@ -37,7 +37,11 @@ const useStyles = makeStyles((theme) =>  ({
       textDecoration: "none",
       color: "#38fc94",
       fontSize: "12pt",
-    }
+    },
+    mainContainer: {
+      minHeight: "100vh", 
+      width: "calc(100% - 50px)"
+    },
 
 }))
 const Admissions = () =>{ 
@@ -45,7 +49,7 @@ const Admissions = () =>{
   const classes = useStyles();
 
   return (
-    <div style={{width: "100%"}}>
+    <div className={classes.mainContainer}>
       
         <h1 className = {classes.h1}>Admissions 2022</h1>
         <h2 className = {classes.h2}>April 2022 | 5 min read</h2>
