@@ -180,7 +180,7 @@ const Projects = () =>{
                     title="Unlock Hacks"
                     hasImg={false}
                     description="Organized, hosted and lectured at an online hackathon targeted towards beginners. Coordinated with organizations for sponsorship opportunities."
-                    link="https://github.com/stevenbai0724/competitive-programming"
+                    link="https://unlock-hacks.devpost.com/"
                 />
             </AnimationOnScroll>
 
@@ -189,7 +189,7 @@ const Projects = () =>{
                     title="troki"
                     hasImg={false}
                     description="MERN based app linking teens with neighbors for quick yard jobs. Developed user-friendly mobile interface for effortless job listings with React Native and Figma."
-                    link="https://unlock-hacks.devpost.com/"
+                    link="https://devpost.com/software/troki"
                 />
             </AnimationOnScroll>
 
