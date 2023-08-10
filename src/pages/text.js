@@ -19,7 +19,7 @@ export const text5 = () => {
 }
 
 export const text6 = () => {
-    return "which offers 3 single bedrooms, a kitchen and a bathroom. Most of my friends were unlucky and got assigned a traditional room with shared bedrooms, communal washrooms and no kitchen. I paid $4K for the suite and another $2K in meal plan dollars for the 4 months of 1A term. I was very fortunate to have been able to eat "
+    return "Most of my friends were unlucky and got assigned a traditional room with shared bedrooms, communal washrooms and no kitchen. I paid $4K for the suite and another $2K in meal plan dollars for the 4 months of 1A term. I was very fortunate to have been able to eat "
 
 }
 
@@ -28,7 +28,31 @@ export const text7 = () => {
 }
 
 export const text8 = () => {
-    return "It’s a common belief that Waterloo life is boring, antisocial, stressful and everyone here is an absolute nerd. After my 1A term I can say that there is a lot of truth to that but it also depends on how you make the most out of the Waterloo experience. I sometimes talk to new people in lectures, school clubs or the gym. I quit competitive swimming during the pandemic and I started powerlifting at the gym which I find is a very fun and important hobby to balance stress from school and coop searching. I go to the main gym (PAC) or the smaller residence gym (CMH) at least 5 times a week even when I am busy with school, and it has helped a lot with my physical and mental health. Living on campus makes eating very convenient, I can eat wherever, whenever and whatever the hell I want! I gained more than 5 lbs during the 4 months, but hopefully in lean muscle mass since I consistently hit the gym. I also joined the poker club but only went for a few meetings because the games ran very late. I noticed that my friend group is much smaller than it was in high school but I still find it very enjoyable to study, eat food and go to the gym with my fellow math faculty nerds who all share very similar interests. Waterloo students are also very lucky to have a bus terminal on campus as well as the FedBus (literally a bunch of school buses) which leaves on Friday and returns on Sunday. The FedBus can take me home to Toronto or even to Western University where I can see my girlfriend for the weekend, and return on Sunday for a very affordable price. Overall, I managed my time well and found lots of time to relax, socialize and enjoy myself at University, and I feel very lucky and grateful to have had an amazing first semester experience."
+    return "It’s a common belief that Waterloo life is boring, antisocial, stressful and everyone here is an absolute nerd. After my 1A term I can say that there is a lot of truth to that but it also depends on how you make the most out of the Waterloo experience. I sometimes talk to new people in lectures, school clubs or the gym. I quit competitive swimming during the pandemic and I started powerlifting at the gym which I find is a very fun and important hobby to balance stress from school and coop searching. I go to the main gym (PAC) or the smaller residence gym (CMH) at least 5 times a week even when I am busy with school, and it has helped a lot with my physical and mental health. Living on campus makes eating very convenient, I can eat wherever, whenever and whatever the hell I want! I gained more than 5 lbs during the 4 months, but hopefully in lean muscle mass since I consistently hit the gym. "
 }
+
+export const text9 = () => {
+    return "I also joined the poker club but only went for a few meetings because the games ran very late. I noticed that my friend group is much smaller than it was in high school but I still find it very enjoyable to study, eat food and go to the gym with my fellow math faculty nerds who all share very similar interests. Waterloo students are also very lucky to have a bus terminal on campus as well as the FedBus (literally a bunch of school buses) which leaves on Friday and returns on Sunday. The FedBus can take me home to Toronto or even to Western University where I can see my girlfriend for the weekend, and return on Sunday for a very affordable price. Overall, I managed my time well and found lots of time to relax, socialize and enjoy myself at University, and I feel very lucky and grateful to have had an amazing first semester experience."
+}
+
+export const text10 = () => {
+    return "Now onto the academics, the boring and lame part of University that we have to do to complete our degree. You can probably click off now if you don't want to read about all the courses I took."
+}
+export const text11 = () => {
+    return "I believed I was relatively well-prepared coming into first year calculus; the most I did to prepare was self-studying AP Calculus BC in Grade 11. The first 2 weeks of Calculus were brutal, since they started teaching the hardest topic of the course right away in an attempt to “weed out” students. We learned the formal ε-δ definition of limits and writing basic proofs right away and it was a very different way of looking at math compared to anything I’ve done before. Furthermore, I was assigned a professor who went very quickly and did not do a good job at explaining things. It was very overwhelming at first and I struggled to follow along during lectures. Things were looking very bad early into my 1A term!"
+}
+export const text12 = () => {
+    return "I eventually started going to another professor’s lectures since I liked their notes and teaching style more. We had weekly quizzes each worth around 2% each, a midterm exam worth 30% and a final worth 50%. The weekly quizzes were actually easy because there would be practice questions and mock quizzes very similar (sometimes exactly the same) as the actual quiz, and it would suffice to just finish all of the assigned weekly work. Understanding the content was difficult in the first weeks and I used the course notes and some videos to study, but Math137 gradually became easier and more similar to high school calculus. I eventually stopped going to lectures in November when I realized that it was more effective to read the textbook notes and practice questions on my own time. The quizzes and exams were all very straightforward with a few tricks here and there."
+}
+export const text13 = () => {
+    return "I got low 90’s for the quizzes and my exams were both in the high 80’s. On average I spent 8 hours per week on this course which was a very manageable 1-1.5 hours per day. Difficulty: 6/10 Enjoyment: 8/10  mark: 89%"
+}
+export const text14 = () => {
+    return ""
+}
+export const text15 = () => {
+    return ""
+}
+
 
 export default text1;

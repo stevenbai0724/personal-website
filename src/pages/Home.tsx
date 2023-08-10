@@ -43,7 +43,6 @@ const useStyles = makeStyles((theme) =>  ({
         justifyContent: "space-between",
         flexDirection: "row",
         marginTop: "30px",
-        
     },
     divFill: {
         height: 'calc(100vh - 500px)',
