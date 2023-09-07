@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) =>  ({
     },
     icon:{
         color: "white",
-        height: "35px",
+        height: "27px",
         width: "auto",
 
         '&:hover' :{
@@ -56,10 +56,10 @@ const useStyles = makeStyles((theme) =>  ({
     },
     btnBase: {
         borderRadius: "50%",
-        width: "35px",
-        height: "35px",        
-        marginLeft: "3px",
-        marginRight: "3px",
+        width: "27px",
+        height: "27px",        
+        marginLeft: "5px",
+        marginRight: "5px",
     }
 
 

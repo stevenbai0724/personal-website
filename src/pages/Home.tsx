@@ -90,7 +90,6 @@ const Home = () =>{
     const [step, setStep] = useState(1);
 
     useEffect(() => {
-        console.log("hello");
     }, [step])
 
     return(
