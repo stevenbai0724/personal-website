@@ -202,8 +202,6 @@ function ProjectCard(props:card) {
                             {item}
                         </ButtonBase>
                     ))}
-                    
-                    
                 </div>  
                     
                 <img className = {classes.demo} src = {props.demo}></img>

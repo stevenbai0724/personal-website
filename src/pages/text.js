@@ -11,7 +11,7 @@ export const text3 = () => {
 }
 
 export const text4 = () => {
-    return "I spend a lot of time outside of work to pursue my hobbies. I write personal journals every single day and occasionally write blogs for fun. My favourite hobby is playing sports. I used to be a competitive swimmer in high school and I did powerlifting for a year. I am currently training for kickboxing and mixed martial arts!";
+    return "I spend a lot of time outside of work to pursue my hobbies. Over my first coop term, I started";
 }
 
 export const text5 = () => {

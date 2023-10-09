@@ -22,7 +22,7 @@ const App = () =>{
       first ="Home"
       second = "Projects"
       third = "Blog"
-      fourth = "Resume"
+      fourth = "YouTube"
     ></Navbar>
     <br></br>
     <br></br>

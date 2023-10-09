@@ -63,8 +63,6 @@ const Waterloo1A = () => {
     return(
         <div className = {classes.mainContainer}>
 
-
-            <h1 className = {classes.h1}>1A at Waterloo</h1>
             <div>
                 <h1 className = {classes.h1}>1A at Waterloo</h1>
 
@@ -74,19 +72,9 @@ const Waterloo1A = () => {
 
                 <h3 className = {classes.h3}>Starting University was definitely the biggest change in my life. It was the first time I had to move out and start living on my own and I had no idea what to expect. Luckily, my first semester (1A) at the University of Waterloo went very well in terms of lifestyle and academics. </h3>
 
-
-            <br></br>
             </div>
 
-            
-
-            
-                <h2 className={classes.h2Title}>Residence and Food</h2>
-
-                <h3 className = {classes.h3}> {text5()} <a href="https://uwaterloo.ca/campus-housing/residences/uwp" target="_blank" className={classes.a} rel="noreferrer">UWP Eby Hall</a> which offers 3 single bedrooms, a kitchen and a bathroom.
-                </h3>
-
-
+    
             <br></br>
             <p>
                 <sub className={classes.h2Title}>Residence and Food</sub>
@@ -108,17 +96,6 @@ const Waterloo1A = () => {
                 <BlogText text={text7()} hasUrl={false} />
             </p>
 
-            
-            
-            <h3 className = {classes.h3}> {text6()} 
-                <a href = "https://uwaterloo.ca/campus-housing/residences/claudette-millar-hall"
-                    target="_blank"
-                    className={classes.a}
-                    rel="noreferrer"
-                >CMH </a>
-                {text7()}
-            </h3>
-    
             <p>
                 <sub className={classes.h2Title}>Lifestyle</sub>
             </p>
@@ -127,62 +104,21 @@ const Waterloo1A = () => {
                 <BlogText text={text8()} hasUrl={false} />
             </p>
 
-           
-                <h2 className={classes.h2Title}>Lifestyle</h2>
-
-                <h3 className = {classes.h3}> {text8()} </h3>
-           
-            
-
             <p>
                 <BlogText text={text9()} hasUrl={false} />
             </p>
-
-            <div>
-                <h3 className={classes.h3}> {text9()}</h3>
-            </div>
-
-            <br></br>
-            
-
-            <div>
-                <h3 className={classes.h3}>{text10()}</h3>
-
-            </div>
-            <br></br>
+    
             <p>
                 <BlogText text={text10()} hasUrl={false} />
             </p>
             
 
-            <div>
-                <h2 className={classes.h2Title}>Math 137:  <a href="https://uwflow.com/course/math137" target="_blank" className={classes.a} rel="noreferrer">Calculus 1</a></h2>
+
             <p>
                 <sub className={classes.h2Title}>Math 137:  <a href="https://uwflow.com/course/math137" target="_blank" className={classes.a} rel="noreferrer">Calculus 1</a></sub>
             </p>
 
-            </div>
-
-            <br></br>
-
-            <div>
-                <h3 className={classes.h3}>{text11()}</h3>
-            </div>
-
-            <br></br>
-
-            <div>
-                <h3 className={classes.h3}>{text12()}</h3>
-            </div>
-
-            <br></br>
-
-            <div>
-                <h3 className={classes.h3}>{text13()}</h3>
-            </div>
-
-            
-
+   
             <p>
                 <BlogText text={text11()} hasUrl={false} />
             </p>
@@ -192,8 +128,6 @@ const Waterloo1A = () => {
             <p>
                 <BlogText text={text12()} hasUrl={false} />
             </p>
-
-            
 
             <p>
                 <BlogText text={text13()} hasUrl={false}></BlogText>

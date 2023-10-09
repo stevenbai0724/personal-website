@@ -112,9 +112,7 @@ const Home = () =>{
                 <h3 className = {classes.h3}> {text2()} <Link style = {{textDecoration:"none", color:"#38fc94"}} to ="/Projects#top">Projects</Link> tab!</h3>
             </AnimationOnScroll>
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
-                <h3 className = {classes.h3}> {text3()} In Grade 11, I learned the basics of software development during my first internship at <a href = "https://icontribute.community/#/" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}} rel="noreferrer">iContribute</a>.</h3>
-
-                <h3 className = {classes.h3}> {text4()}</h3>
+                <h3 className = {classes.h3}> {text4()} <a href = "https://www.youtube.com/channel/UCa8mZp1Rn7oyeFKoZvlnG-w" target = "_blank" style = {{textDecoration:"none", color:"#38fc94"}} rel="noreferrer">vlogging</a> and writing journals. My favourite hobby is playing sports. I used to be a competitive swimmer in high school and I did powerlifting for a year. I am currently training at UWaterloo's muay thai club!</h3>
             </AnimationOnScroll>
 
             

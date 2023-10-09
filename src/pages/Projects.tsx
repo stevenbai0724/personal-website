@@ -153,7 +153,7 @@ const Projects = () =>{
                     title="CVScrape"
                     hasImg={false}
                     description="Cover letter & email generating tool. Utilizes the openai API and webscraping with Puppeteer to assist with writing tailored cover letters, resumes and cold emails."
-                    link="https://github.com/stevenbai0724/cvscrape"
+                    link={"https://github.com/stevenbai0724/cvscrape"}
                 />
             </AnimationOnScroll>
 
@@ -162,7 +162,7 @@ const Projects = () =>{
                     title="dmojstats"
                     hasImg={false}
                     description="Web app built with React & Express. Serves performance data on dmoj.ca, a well-known competitive programming platform for Canadian high school students. Database of contest result lists and problems under progress."
-                    link="https://github.com/stevenbai0724/dmojstats"
+                    link={"https://github.com/stevenbai0724/dmojstats"}
                 />
             </AnimationOnScroll>
 
@@ -171,7 +171,7 @@ const Projects = () =>{
                     title="Competitive Programming"
                     hasImg={false}
                     description="Self-learned data structures and algorithms in C++ and Java. Accumulated 1000+ solutions, competed in public online contests and open national Olympiads."
-                    link="https://github.com/stevenbai0724/competitive-programming"
+                    link={"https://github.com/stevenbai0724/competitive-programming"}
                 />
             </AnimationOnScroll>
             
@@ -180,7 +180,7 @@ const Projects = () =>{
                     title="Unlock Hacks"
                     hasImg={false}
                     description="Organized, hosted and lectured at an online hackathon targeted towards beginners. Coordinated with organizations for sponsorship opportunities."
-                    link="https://unlock-hacks.devpost.com/"
+                    link={"https://unlock-hacks.devpost.com/"}
                 />
             </AnimationOnScroll>
 
@@ -189,14 +189,10 @@ const Projects = () =>{
                     title="troki"
                     hasImg={false}
                     description="MERN based app linking teens with neighbors for quick yard jobs. Developed user-friendly mobile interface for effortless job listings with React Native and Figma."
-                    link="https://devpost.com/software/troki"
+                    link={"https://devpost.com/software/troki"}
                 />
             </AnimationOnScroll>
 
-
-            
-
-            
 
         </div>
     )
