@@ -162,7 +162,7 @@ const Timeline = () => {
 
             <p>
                 <h3 className = {classes.h3Left}>March</h3>
-                <h4 className = {classes.h4Left}>&#183; Landed first <a className={classes.a} target="_blank" href="https://icontribute.community/#/">internship</a> until end of August</h4>
+                <h4 className = {classes.h4Left}>&#183; Landed first <a className={classes.a} target="_blank" href="https://ca.linkedin.com/company/icontribute">internship</a> until end of August</h4>
                 <h4 className = {classes.h4Left}>&#183; Started learning TypeScript React for frontend web development</h4>
             </p>
 

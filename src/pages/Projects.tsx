@@ -131,7 +131,7 @@ const Projects = () =>{
                     img={IC}
                     imgAlt="iContribute"
                     description="Volunteering platform for organizations and students. Developed a React web portal for visibility into remote and in-person opportunities."
-                    link="https://icontribute.community"
+                    link="https://ca.linkedin.com/company/icontribute"
                 />
             </AnimationOnScroll>
             
