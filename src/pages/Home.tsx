@@ -101,7 +101,7 @@ const Home = () =>{
          
                     <h1 className = {classes.h1}>Steven Bai</h1>
 
-                    <h2 className = {classes.h2}>University of Waterloo CS '27 | Seeking 2024 internships</h2>
+                    <h2 className = {classes.h2}>University of Waterloo CS '26 | Seeking 2024 internships</h2>
 
                 </div>
                     <ButtonBase onClick = {() => setStep(step + 1)} className = {classes.btn}><img className = {classes.img} src = {steven} alt="steven_profile_pic"></img></ButtonBase>
