@@ -149,7 +149,7 @@ const Projects = () =>{
 
             <AnimationOnScroll offset = {100} duration = {0.3} animateOnce={true} animateIn="animate__fadeInUp">
                 <h2 className = {classes.subTitleLeft}>Projects</h2>
-                <ExperiencePoint 
+                <ExperiencePoint
                     title="YCscrape"
                     hasImg={false}
                     description="Cover letter & email generating tool. Utilizes the openai API and webscraping with Puppeteer to assist with writing tailored cover letters, resumes and cold emails."

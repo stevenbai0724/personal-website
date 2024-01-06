@@ -1,5 +1,5 @@
 export const text1 = () => {
-    return "Hello! My name is Steven. I am a second year Computer Science student at the University of Waterloo, studying in my Fall 2023 2A term. I was previously an intern at ";
+    return "Hello! My name is Steven. I am a second year Computer Science student at the University of Waterloo, studying in my Winter 2024 2B term. I was previously an intern at ";
 }
 
 export const text2 = () => {

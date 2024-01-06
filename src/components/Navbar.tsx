@@ -197,6 +197,9 @@ function Navbar(props:barContent) {
                         <li className = {classes.li}>
                             <Link onClick = {handleClose} className = {classes.link} to="/Blog#top">{props.third}</Link>
                         </li>
+                        <li className = {classes.li}>
+                            <a className = {classes.link} target="_blank" href={"https://www.youtube.com/channel/UCa8mZp1Rn7oyeFKoZvlnG-w"}>{props.fourth}</a>
+                        </li>
                     </Menu>
                 </div>
             }

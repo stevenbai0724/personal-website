@@ -81,7 +81,7 @@ const LinkBar = () =>{
 
             </div>
 
-            <h5 style = {{color: "white"}}>&copy; 2021-2023 Steven Bai</h5>
+            <h5 style = {{color: "white"}}>&copy; 2021-2024 Steven Bai</h5>
 
         </div>
    
